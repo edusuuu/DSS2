@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#488374">
+    android:background="#FFFFFF">
 
     <LinearLayout
 
@@ -12,7 +12,7 @@
         android:layout_width="389dp"
         android:layout_height="85dp"
         android:background="@drawable/customborder"
-        android:backgroundTint="#66000000"
+        android:backgroundTint="#000000"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -28,7 +28,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:text="Main Page"
-            android:textColor="#4D1960"
+            android:textColor="#6AB5A6"
             android:textSize="40dp"
             android:textStyle="bold" />
     </LinearLayout>
@@ -40,7 +40,7 @@
         android:padding="10dp"
         android:background="@drawable/customborder"
         android:scrollbarSize="10dp"
-        android:backgroundTint="#66000000"
+        android:backgroundTint="#D9000000"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -59,14 +59,14 @@
                 android:layout_width="145dp"
                 android:layout_height="111dp"
                 android:layout_weight="1"
-                app:srcCompat="@android:drawable/ic_menu_camera" />
+                app:srcCompat="@drawable/jabilogo" />
 
             <ImageView
                 android:id="@+id/imageView10"
                 android:layout_width="136dp"
                 android:layout_height="111dp"
                 android:layout_weight="1"
-                app:srcCompat="@android:drawable/ic_menu_camera" />
+                app:srcCompat="@drawable/Chowking_logo" />
         </LinearLayout>
 
         <LinearLayout
@@ -158,14 +158,14 @@
                 android:layout_width="145dp"
                 android:layout_height="111dp"
                 android:layout_weight="1"
-                app:srcCompat="@android:drawable/ic_menu_camera" />
+                app:srcCompat="@drawable/mcdologo" />
 
             <ImageView
                 android:id="@+id/imageView1110"
                 android:layout_width="136dp"
                 android:layout_height="111dp"
                 android:layout_weight="1"
-                app:srcCompat="@android:drawable/ic_menu_camera" />
+                app:srcCompat="@drawable/kfclogo" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="359dp"
@@ -255,14 +255,14 @@
                 android:layout_width="145dp"
                 android:layout_height="111dp"
                 android:layout_weight="1"
-                app:srcCompat="@android:drawable/ic_menu_camera" />
+                app:srcCompat="@drawable/starbuckslogo" />
 
             <ImageView
                 android:id="@+id/imageVaasdiew10"
                 android:layout_width="136dp"
                 android:layout_height="111dp"
                 android:layout_weight="1"
-                app:srcCompat="@android:drawable/ic_menu_camera" />
+                app:srcCompat="@drawable/beanerylogo" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="359dp"

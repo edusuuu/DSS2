@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#488374"
+    android:background="#FFFFFF"
     android:outlineProvider="none"
     tools:context=".MainActivity">
 
@@ -17,7 +17,7 @@
         android:layout_marginRight="15dp"
         android:layout_marginBottom="15dp"
         android:background="@drawable/customborder"
-        android:backgroundTint="#66000000"
+        android:backgroundTint="#D9000000"
         android:orientation="vertical"
 
         app:layout_constraintBottom_toBottomOf="parent"
@@ -59,7 +59,7 @@
         android:layout_marginRight="15dp"
         android:layout_marginBottom="15dp"
         android:background="@drawable/customborder"
-        android:backgroundTint="#6F000000"
+        android:backgroundTint="#000000"
         android:orientation="horizontal"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
