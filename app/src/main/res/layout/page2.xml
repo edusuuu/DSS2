@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:background="#E6EA963E"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <RelativeLayout
+            android:layout_width="220dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="54dp"
+                android:layout_marginBottom="176dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:paddingLeft="19dp"
+                android:text="Restaurant"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="30sp"
+                android:typeface="normal" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:paddingLeft="10dp"
+                android:text="A place where food is served fresh, and warm. In this section you are going to see restaurants located in Balanga City, Bataan."
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="116dp"
+                android:layout_marginBottom="64dp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="#E6EA963E"
+            >
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="220dp"
+                android:layout_height="210dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/restaurant" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="5dp"
+                android:text="Button" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_marginTop="4dp"
+        android:background="#F21C1C1C"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout6"
+        app:layout_constraintVertical_bias="0.003">
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="#F21C1C1C"
+            >
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="220dp"
+                android:layout_height="210dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/fastfood" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="33dp"
+                android:layout_marginTop="0dp"
+                android:backgroundTint="#E6EA963E"
+                android:text="Button"
+                android:textColor="#000000" />
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="220dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="80dp"
+                android:layout_marginBottom="21dp"
+                android:layout_weight="1"
+                android:paddingRight="30dp"
+                android:text="Fast Food"
+                android:textAlignment="viewEnd"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#E6EA963E"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:typeface="normal"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_alignParentTop="true"
+                android:paddingLeft="15dp"
+                android:text="Fast food, a place where food is served quickly after you ordered food.In this section you will see fast food places in Balanga City, Bataan"
+                android:textColor="#ABEA9D49"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="136dp"
+                android:layout_marginBottom="44dp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_marginTop="6dp"
+        android:background="#E6EA963E"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout7"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="   About Us"
+            android:layout_gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="normal" />
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="#E6EA963E"
+            >
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="74dp"
+                android:layout_height="74dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="105dp"
+                app:srcCompat="@drawable/aboutus" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="54.5dp"
+                android:layout_marginTop="30dp"
+                android:text="Button" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

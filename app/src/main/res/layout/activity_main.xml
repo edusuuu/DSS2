@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    android:background="@drawable/bg11"
     android:outlineProvider="none"
     tools:context=".MainActivity">
 
@@ -17,7 +17,7 @@
         android:layout_marginRight="15dp"
         android:layout_marginBottom="15dp"
         android:background="@drawable/customborder"
-        android:backgroundTint="#D9000000"
+        android:backgroundTint="#B2000000"
         android:orientation="vertical"
 
         app:layout_constraintBottom_toBottomOf="parent"
@@ -32,7 +32,7 @@
             android:layout_height="350dp"
             android:layout_gravity="center"
             android:layout_marginTop="30dp"
-            app:srcCompat="@drawable/_10199142_871209500704840_4169927257620494258_n_removebg_preview" />
+            app:srcCompat="@drawable/logonew" />
 
         <Button
             android:id="@+id/button"
@@ -43,7 +43,7 @@
             android:background="@drawable/roundedge"
             android:fontFamily="sans-serif-smallcaps"
             android:text="Start"
-            android:textColor="#6AB5A6"
+            android:textColor="#000000"
             android:textSize="30dp"
             android:textStyle="bold" />
 
@@ -55,23 +55,24 @@
         android:layout_width="389dp"
         android:layout_height="85dp"
         android:layout_marginLeft="15dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="16dp"
         android:layout_marginRight="15dp"
-        android:layout_marginBottom="15dp"
         android:background="@drawable/customborder"
-        android:backgroundTint="#000000"
+        android:backgroundTint="#E2000000"
         android:orientation="horizontal"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.727"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
 
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:foregroundGravity="left"
-            app:srcCompat="@drawable/_10199142_871209500704840_4169927257620494258_n_removebg_preview" />
+            app:srcCompat="@drawable/logonew" />
 
         <TextView
             android:id="@+id/textView"
@@ -82,7 +83,7 @@
             android:fontFamily="monospace"
             android:gravity="left"
             android:text="Homepage"
-            android:textColor="#6AB5A6"
+            android:textColor="#E6EA963E"
             android:textSize="40dp"
             android:textStyle="bold" />
     </LinearLayout>
