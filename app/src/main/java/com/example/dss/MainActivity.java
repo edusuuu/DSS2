@@ -2,7 +2,6 @@ package com.example.dss;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -14,12 +13,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button startBtn = findViewById(R.id.btnStart);
+        Button btnStart = findViewById(R.id.btnStart);
 
-        startBtn.setOnClickListener(new View.OnClickListener() {
+        btnStart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                setContentView(R.layout.activity_mainpage);
+                setContentView(R.layout.activity_main_page);
             }
         });
     }
