@@ -12,7 +12,6 @@ public class MainPage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mainpage);
 
-        Intent intent = getIntent();
 
     }
 }
