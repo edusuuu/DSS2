@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
-    >
+    tools:context=".MainPage">
 
     <LinearLayout
         android:id="@+id/linearLayout6"
@@ -73,7 +72,7 @@
                 android:layout_height="50dp"
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="5dp"
-                android:text="Button" />
+                android:text="Open" />
 
 
         </LinearLayout>
@@ -115,7 +114,7 @@
                 android:layout_marginLeft="33dp"
                 android:layout_marginTop="0dp"
                 android:backgroundTint="#E6EA963E"
-                android:text="Button"
+                android:text="Open"
                 android:textColor="#000000" />
 
 
@@ -201,11 +200,11 @@
 
             <Button
                 android:id="@+id/button4"
-                android:layout_width="100dp"
+                android:layout_width="120dp"
                 android:layout_height="50dp"
                 android:layout_marginLeft="54.5dp"
                 android:layout_marginTop="30dp"
-                android:text="Button" />
+                android:text="Click here" />
 
 
         </LinearLayout>
