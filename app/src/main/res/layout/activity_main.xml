@@ -11,7 +11,7 @@
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="389dp"
-        android:layout_height="595dp"
+        android:layout_height="710dp"
         android:layout_marginLeft="15dp"
         android:layout_marginTop="15dp"
         android:layout_marginRight="15dp"
@@ -35,7 +35,7 @@
             app:srcCompat="@drawable/logonew" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btnStart"
             android:layout_width="wrap_content"
             android:layout_height="60dp"
             android:layout_gravity="center"
