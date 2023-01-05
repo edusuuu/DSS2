@@ -67,7 +67,7 @@
                 app:srcCompat="@drawable/restaurant" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/btnResto"
                 android:layout_width="100dp"
                 android:layout_height="50dp"
                 android:layout_marginLeft="40dp"
@@ -116,7 +116,6 @@
                 android:backgroundTint="#E6EA963E"
                 android:text="Open"
                 android:textColor="#000000" />
-
 
         </LinearLayout>
 
@@ -199,7 +198,7 @@
                 app:srcCompat="@drawable/aboutus" />
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/btnAbout"
                 android:layout_width="120dp"
                 android:layout_height="50dp"
                 android:layout_marginLeft="54.5dp"
