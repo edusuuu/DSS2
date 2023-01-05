@@ -1,6 +1,8 @@
 package com.example.dss;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -14,6 +16,7 @@ public class MainPage extends AppCompatActivity {
 
             Button btnFast = findViewById(R.id.btnFast);
             Button btnResto = findViewById(R.id.btnResto);
+            Intent intent =getIntent();
 
             btnFast.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -26,7 +29,7 @@ public class MainPage extends AppCompatActivity {
                 @Override
                 public void onClick(View view) {
 
-                    setContentView(R.layout.activity_main_page);
+                    setContentView(R.layout.activity_restaurant);
                 }
             });
         }

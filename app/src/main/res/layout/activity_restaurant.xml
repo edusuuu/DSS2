@@ -33,6 +33,18 @@
             android:textStyle="bold" />
     </LinearLayout>
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:paddingLeft="15dp"
+        android:paddingRight="5dp"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/linearLayout3">
+
     <LinearLayout
         android:layout_width="376dp"
         android:layout_height="607dp"
@@ -70,7 +82,7 @@
                     android:layout_width="136dp"
                     android:layout_height="111dp"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/pizzahutLogo" />
+                    app:srcCompat="@drawable/pizzahutlogo" />
             </LinearLayout>
 
             <LinearLayout
@@ -169,7 +181,7 @@
                     android:layout_width="136dp"
                     android:layout_height="111dp"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/TGIFridaysLogo" />
+                    app:srcCompat="@drawable/tgifridayslogo" />
             </LinearLayout>
 
             <LinearLayout
@@ -261,14 +273,14 @@
                     android:layout_width="145dp"
                     android:layout_height="111dp"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/TerraceCafeLogo" />
+                    app:srcCompat="@drawable/terracecafelogo" />
 
                 <ImageView
                     android:id="@+id/imageVaasdiew10"
                     android:layout_width="136dp"
                     android:layout_height="111dp"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/ShakeysLogo" />
+                    app:srcCompat="@drawable/shakeyslogo" />
             </LinearLayout>
 
             <LinearLayout
@@ -375,4 +387,17 @@
         </LinearLayout>
 
     </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:fillViewport="true"
+        android:paddingLeft="15dp"
+        android:paddingRight="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
 </androidx.constraintlayout.widget.ConstraintLayout>
