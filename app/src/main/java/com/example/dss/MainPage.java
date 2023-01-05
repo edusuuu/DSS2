@@ -26,7 +26,7 @@ public class MainPage extends AppCompatActivity {
                 @Override
                 public void onClick(View view) {
 
-                    setContentView(R.layout.activity_restaurant);
+                    setContentView(R.layout.activity_main_page);
                 }
             });
         }
