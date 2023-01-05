@@ -70,7 +70,7 @@
                     android:layout_width="136dp"
                     android:layout_height="111dp"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/chowkinglogo" />
+                    app:srcCompat="@drawable/pizzahutLogo" />
             </LinearLayout>
 
             <LinearLayout
@@ -162,14 +162,14 @@
                     android:layout_width="145dp"
                     android:layout_height="111dp"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/mcdologo" />
+                    app:srcCompat="@drawable/max" />
 
                 <ImageView
                     android:id="@+id/kfc"
                     android:layout_width="136dp"
                     android:layout_height="111dp"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/kfclogo" />
+                    app:srcCompat="@drawable/TGIFridaysLogo" />
             </LinearLayout>
 
             <LinearLayout
@@ -261,14 +261,14 @@
                     android:layout_width="145dp"
                     android:layout_height="111dp"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/greenwichlogo" />
+                    app:srcCompat="@drawable/TerraceCafeLogo" />
 
                 <ImageView
                     android:id="@+id/imageVaasdiew10"
                     android:layout_width="136dp"
                     android:layout_height="111dp"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/beanerylogo" />
+                    app:srcCompat="@drawable/ShakeysLogo" />
             </LinearLayout>
 
             <LinearLayout

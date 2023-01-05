@@ -266,11 +266,11 @@
               app:srcCompat="@drawable/greenwichlogo" />
 
           <ImageView
-              android:id="@+id/imageVaasdiew10"
+              android:id="@+id/burgerking"
               android:layout_width="136dp"
               android:layout_height="111dp"
               android:layout_weight="1"
-              app:srcCompat="@drawable/beanerylogo" />
+              app:srcCompat="@drawable/burgerKingLogo" />
         </LinearLayout>
 
         <LinearLayout
@@ -363,14 +363,14 @@
               android:layout_width="136dp"
               android:layout_height="111dp"
               android:layout_weight="1"
-              app:srcCompat="@drawable/dominologo" />
+              app:srcCompat="@drawable/susiesCuisineLogo" />
 
           <ImageView
               android:id="@+id/imageView16"
               android:layout_width="136dp"
               android:layout_height="111dp"
               android:layout_weight="1"
-              app:srcCompat="@drawable/yellowcabpizza" />
+              app:srcCompat="@drawable/Mang_Inasal" />
 
         </LinearLayout>
 
