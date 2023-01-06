@@ -23,7 +23,7 @@ public class MainPage extends AppCompatActivity {
                 @Override
                 public void onClick(View view) {
 
-                    setContentView(R.layout.revpage);
+                    setContentView(R.layout.activity_fast_food);
                 }
             });
             btnResto.setOnClickListener(new View.OnClickListener() {
