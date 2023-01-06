@@ -5,9 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#E6EA963E"
-    tools:context=".JollibeeRevPage">
-
-
+    tools:context=".Pizzahut">
     <LinearLayout
         android:id="@+id/linearLayout5"
         android:layout_width="381dp"
@@ -79,7 +77,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.121"
-        app:srcCompat="@drawable/jabilogo" />
+        app:srcCompat="@drawable/pizzahutlogo" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -146,14 +144,14 @@
                         android:layout_width="145dp"
                         android:layout_height="140dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/jabi1" />
+                        app:srcCompat="@drawable/pzultimatecheesy1" />
 
                     <ImageView
                         android:id="@+id/sb2"
                         android:layout_width="136dp"
                         android:layout_height="140dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/jabi2" />
+                        app:srcCompat="@drawable/pzcarbonarasupreme2" />
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -163,14 +161,14 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="Cheesy Yumburger"
+                        android:text="Ultimate Cheesy"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="Yumburger, Half Jolly Spaghetti and Reg. Fries Super Meal"
+                        android:text="Carbonara Supreme"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
@@ -184,14 +182,14 @@
                         android:layout_width="145dp"
                         android:layout_height="140dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/jab3" />
+                        app:srcCompat="@drawable/pzsupersupreme3" />
 
                     <ImageView
                         android:id="@+id/sb4"
                         android:layout_width="136dp"
                         android:layout_height="140dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/jabi4" />
+                        app:srcCompat="@drawable/pzmeatlovers4" />
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -201,14 +199,14 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="1-pc. Chickenjoy"
+                        android:text="Super Supreme"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="1-pc Chickenjoy w/ Jolly Spaghetti"
+                        android:text="Meat Lovers"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
@@ -222,14 +220,14 @@
                         android:layout_width="145dp"
                         android:layout_height="140dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/jabi5" />
+                        app:srcCompat="@drawable/pzroastedtomatoandsausagebakedpasta5" />
 
                     <ImageView
                         android:id="@+id/sb6"
                         android:layout_width="136dp"
                         android:layout_height="140dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/jabi6" />
+                        app:srcCompat="@drawable/pzbakedcarbonara6" />
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -239,14 +237,14 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="Jolly Spaghetti"
+                        android:text="Roasted Tomatao and Sausage Baked Pasta"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="Chickenjoy Bucket Family Meals"
+                        android:text="Baked Carbonara"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
@@ -260,14 +258,14 @@
                         android:layout_width="145dp"
                         android:layout_height="140dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/jabi7" />
+                        app:srcCompat="@drawable/pzbakedlasagna7" />
 
                     <ImageView
                         android:id="@+id/sb8"
                         android:layout_width="136dp"
                         android:layout_height="140dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/jabi8" />
+                        app:srcCompat="@drawable/pzbakedbolognesewithmeatballs8" />
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -277,14 +275,14 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="1-pc. Chickenjoy w/ Burger Steak and Half Jolly Spaghetti Super Meal"
+                        android:text="Baked Lasagna"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="8-pc. Chickenjoy Solo"
+                        android:text="Baked Bolognese with meatballs"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
@@ -298,14 +296,14 @@
                         android:layout_width="145dp"
                         android:layout_height="140dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/jabi9" />
+                        app:srcCompat="@drawable/pzbakedziti9" />
 
                     <ImageView
                         android:id="@+id/sb10"
                         android:layout_width="136dp"
                         android:layout_height="140dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/jabi10" />
+                        app:srcCompat="@drawable/pzbakedbolognese10" />
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -315,14 +313,14 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="Chickenjoy Bucket Family Meals"
+                        android:text="Baked Ziti"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="Jolly Spaghetti w/ Yumburger"
+                        android:text="Baked Bolognese"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
@@ -336,14 +334,14 @@
                         android:layout_width="145dp"
                         android:layout_height="140dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/jabi11" />
+                        app:srcCompat="@drawable/pztatertos11" />
 
                     <ImageView
                         android:id="@+id/sb12"
                         android:layout_width="136dp"
                         android:layout_height="140dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/jabi12" />
+                        app:srcCompat="@drawable/pzhamandcheeserolls12" />
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -353,14 +351,14 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="Soda Floats"
+                        android:text="Tater Tots"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="Yumburger Kiddie Meal"
+                        android:text="Ham and Chesse Rolls"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
@@ -374,14 +372,14 @@
                         android:layout_width="145dp"
                         android:layout_height="140dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/jabi13" />
+                        app:srcCompat="@drawable/pztatertotsloaded13" />
 
                     <ImageView
                         android:id="@+id/sb14"
                         android:layout_width="136dp"
                         android:layout_height="140dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/jabi14" />
+                        app:srcCompat="@drawable/pztexmexbakedrice14" />
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -391,14 +389,14 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="Jolly Spaghetti Kiddie Meal"
+                        android:text="Tater Tots Loaded"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="Jolly Spaghetti w/ Yumburger w/ Drink"
+                        android:text="Mex-Tex Baked Rice"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
@@ -412,14 +410,14 @@
                         android:layout_width="145dp"
                         android:layout_height="140dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/jabi15" />
+                        app:srcCompat="@drawable/pzmexicanbeefbakedrice15" />
 
                     <ImageView
                         android:id="@+id/sb16"
                         android:layout_width="136dp"
                         android:layout_height="140dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/jabi16" />
+                        app:srcCompat="@drawable/pzcajunsausagebakedrice16" />
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -429,14 +427,14 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="Cheesy Yumburger w/ Fries and Drink"
+                        android:text="Mexican Beef Baked Rice"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="Breakfast Hotdog w/ Drink"
+                        android:text="Cajun Sausage Baked Rice"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
@@ -450,14 +448,14 @@
                         android:layout_width="145dp"
                         android:layout_height="140dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/jabi17" />
+                        app:srcCompat="@drawable/pzcheesyhamandbaconbakedrice17" />
 
                     <ImageView
                         android:id="@+id/sb18"
                         android:layout_width="136dp"
                         android:layout_height="140dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/jabi18" />
+                        app:srcCompat="@drawable/pzfriedchicken18" />
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -467,14 +465,14 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="Longganisa Solo"
+                        android:text="Cheesy Ham and Bacon Baked Rice"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="Chicken Sandwich w/ Fries and Drink"
+                        android:text="Fried Chicken"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
@@ -488,14 +486,14 @@
                         android:layout_width="145dp"
                         android:layout_height="140dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/jabi19" />
+                        app:srcCompat="@drawable/pzonepcfriedchickenwithrice19" />
 
                     <ImageView
                         android:id="@+id/sb20"
                         android:layout_width="136dp"
                         android:layout_height="140dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/jabi20" />
+                        app:srcCompat="@drawable/pzmozzasticks20" />
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -505,14 +503,14 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="Choco Mallow Pie"
+                        android:text="1-pc. Fried Chicken with Rice"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="1-pc. Chickenjoy w/ Half Jolly Spaghetti and Shanghai Super Meal"
+                        android:text="Mozza Sticks"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
@@ -526,14 +524,14 @@
                         android:layout_width="145dp"
                         android:layout_height="140dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/jabi21" />
+                        app:srcCompat="@drawable/pzkitkatpops21" />
 
                     <ImageView
                         android:id="@+id/sb22"
                         android:layout_width="136dp"
                         android:layout_height="140dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/jabi22" />
+                        app:srcCompat="@drawable/pzkitkatrolls22" />
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -543,14 +541,14 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="Double Amazing Aloha Champ Jr. w/o Bacon"
+                        android:text="Kit-Kat pops"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="Choco Crumble Sundae"
+                        android:text="Kit-Kat rolls"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
@@ -564,14 +562,14 @@
                         android:layout_width="145dp"
                         android:layout_height="140dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/jabi23" />
+                        app:srcCompat="@drawable/pzcrispyfries23" />
 
                     <ImageView
                         android:id="@+id/sb24"
                         android:layout_width="136dp"
                         android:layout_height="140dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/jabi24" />
+                        app:srcCompat="@drawable/pzsausageroll24" />
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -581,47 +579,19 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="Hot Chocolate"
+                        android:text="Crispy Fries"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="Coffee"
+                        android:text="Sausage Rolls"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
                 </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-                    <ImageView
-                        android:id="@+id/sb25"
-                        android:layout_width="145dp"
-                        android:layout_height="140dp"
-                        android:layout_weight="1"
-                        app:srcCompat="@drawable/jabi25"
-                        android:layout_gravity="center"/>
 
-
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:layout_width="170dp"
-                        android:layout_height="match_parent"
-                        android:text="Coke Zero"
-                        android:gravity="center"
-                        android:textColor="#E6EA963E"
-                        android:textSize="15dp"
-                        android:layout_gravity="center"/>
-
-                </LinearLayout>
             </LinearLayout>
 
         </LinearLayout>
@@ -686,7 +656,7 @@
         android:layout_width="200dp"
         android:layout_height="57dp"
         android:gravity="center"
-        android:text="Jollibee"
+        android:text="Pizza hut"
         android:textSize="25dp"
         android:textStyle="bold"
         android:textColor="#050505"
