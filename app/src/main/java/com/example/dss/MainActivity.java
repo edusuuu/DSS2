@@ -22,13 +22,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 setContentView(R.layout.activity_main_page);
-
                 Intent intent = new Intent(MainActivity.this, MainPage.class);
 
                 Toast.makeText(MainActivity.this, "asdas", Toast.LENGTH_SHORT).show();
                 startActivity(intent);
-
-
 
             }
         });
