@@ -162,14 +162,14 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="Pepper Mint Mocha Latte"
+                        android:text="Pepper Mint Mocha Latte ₱ 195.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="Jasmine Clementine      Pure Matcha Latte"
+                        android:text="Jasmine Clementine      Pure Matcha Latte "
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
@@ -511,7 +511,7 @@
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="Bucatini Kung Pao Pasta"
+                        android:text="Bucatini Kung Pao Pasta  ₱ 220.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
