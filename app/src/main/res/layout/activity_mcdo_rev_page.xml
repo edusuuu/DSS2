@@ -143,18 +143,18 @@
                     <ImageView
                         android:id="@+id/mc1"
                         android:layout_width="145dp"
-                        android:layout_height="111dp"
+                        android:layout_height="150dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/mcdo1" />
 
                     <ImageView
                         android:id="@+id/mc2"
                         android:layout_width="136dp"
-                        android:layout_height="111dp"
+                        android:layout_height="150dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/mcdo2" />
                 </LinearLayout>
-                </LinearLayout>
+            </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -162,18 +162,17 @@
                     <ImageView
                         android:id="@+id/mc3"
                         android:layout_width="145dp"
-                        android:layout_height="111dp"
+                        android:layout_height="150dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/mcdo3" />
 
                     <ImageView
                         android:id="@+id/mc4"
                         android:layout_width="136dp"
-                        android:layout_height="111dp"
+                        android:layout_height="150dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/mcdo4" />
                 </LinearLayout>
-
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -181,14 +180,14 @@
                     <ImageView
                         android:id="@+id/mc5"
                         android:layout_width="145dp"
-                        android:layout_height="111dp"
+                        android:layout_height="150dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/mcdo5" />
 
                     <ImageView
                         android:id="@+id/mc6"
                         android:layout_width="136dp"
-                        android:layout_height="111dp"
+                        android:layout_height="150dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/mcdo6" />
                 </LinearLayout>
@@ -200,14 +199,14 @@
                     <ImageView
                         android:id="@+id/mc7"
                         android:layout_width="145dp"
-                        android:layout_height="111dp"
+                        android:layout_height="150dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/mcdo7" />
 
                     <ImageView
                         android:id="@+id/mc8"
                         android:layout_width="136dp"
-                        android:layout_height="111dp"
+                        android:layout_height="150dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/mcdo8" />
                 </LinearLayout>
@@ -219,14 +218,14 @@
                     <ImageView
                         android:id="@+id/mc9"
                         android:layout_width="145dp"
-                        android:layout_height="111dp"
+                        android:layout_height="150dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/mcdo9" />
 
                     <ImageView
                         android:id="@+id/mc10"
                         android:layout_width="136dp"
-                        android:layout_height="111dp"
+                        android:layout_height="150dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/mcdo10" />
                 </LinearLayout>
@@ -238,14 +237,14 @@
                     <ImageView
                         android:id="@+id/mc11"
                         android:layout_width="145dp"
-                        android:layout_height="111dp"
+                        android:layout_height="150dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/mcdo11" />
 
                     <ImageView
                         android:id="@+id/mc12"
                         android:layout_width="136dp"
-                        android:layout_height="111dp"
+                        android:layout_height="150dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/mcdo12" />
                 </LinearLayout>
@@ -257,14 +256,14 @@
                     <ImageView
                         android:id="@+id/mc13"
                         android:layout_width="145dp"
-                        android:layout_height="111dp"
+                        android:layout_height="150dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/mcdo13" />
 
                     <ImageView
                         android:id="@+id/mc14"
                         android:layout_width="136dp"
-                        android:layout_height="111dp"
+                        android:layout_height="150dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/mcdo14" />
                 </LinearLayout>
@@ -276,14 +275,14 @@
                     <ImageView
                         android:id="@+id/mc15"
                         android:layout_width="145dp"
-                        android:layout_height="111dp"
+                        android:layout_height="150dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/mcdo15" />
 
                     <ImageView
                         android:id="@+id/mc16"
                         android:layout_width="136dp"
-                        android:layout_height="111dp"
+                        android:layout_height="150dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/mcdo16" />
                 </LinearLayout>
@@ -294,14 +293,14 @@
                     <ImageView
                         android:id="@+id/mc17"
                         android:layout_width="145dp"
-                        android:layout_height="111dp"
+                        android:layout_height="150dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/mcdo17" />
 
                     <ImageView
                         android:id="@+id/mc18"
                         android:layout_width="136dp"
-                        android:layout_height="111dp"
+                        android:layout_height="150dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/mcdo18" />
                 </LinearLayout>
@@ -312,14 +311,14 @@
                     <ImageView
                         android:id="@+id/mc19"
                         android:layout_width="145dp"
-                        android:layout_height="111dp"
+                        android:layout_height="150dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/mcdo19" />
 
                     <ImageView
                         android:id="@+id/mc20"
                         android:layout_width="136dp"
-                        android:layout_height="111dp"
+                        android:layout_height="150dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/mcdo20" />
                 </LinearLayout>
@@ -330,14 +329,14 @@
                     <ImageView
                         android:id="@+id/mcdo21"
                         android:layout_width="145dp"
-                        android:layout_height="111dp"
+                        android:layout_height="150dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/mcdo21" />
 
                     <ImageView
                         android:id="@+id/mc22"
                         android:layout_width="136dp"
-                        android:layout_height="111dp"
+                        android:layout_height="150dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/mcdo22" />
                 </LinearLayout>
@@ -348,14 +347,14 @@
                     <ImageView
                         android:id="@+id/mcdo23"
                         android:layout_width="145dp"
-                        android:layout_height="111dp"
+                        android:layout_height="150dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/mcdo23" />
 
                     <ImageView
                         android:id="@+id/mc24"
                         android:layout_width="136dp"
-                        android:layout_height="111dp"
+                        android:layout_height="150dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/mcdo24" />
                 </LinearLayout>
@@ -366,14 +365,14 @@
                     <ImageView
                         android:id="@+id/mc25"
                         android:layout_width="145dp"
-                        android:layout_height="111dp"
+                        android:layout_height="150dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/mcdo25" />
 
                     <ImageView
                         android:id="@+id/mc26"
                         android:layout_width="136dp"
-                        android:layout_height="111dp"
+                        android:layout_height="150dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/mcdo26" />
                 </LinearLayout>
@@ -384,14 +383,14 @@
                     <ImageView
                         android:id="@+id/mc27"
                         android:layout_width="145dp"
-                        android:layout_height="111dp"
+                        android:layout_height="150dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/mcdo27" />
 
                     <ImageView
                         android:id="@+id/mc28"
                         android:layout_width="136dp"
-                        android:layout_height="111dp"
+                        android:layout_height="150dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/mcdo28" />
                 </LinearLayout>
@@ -402,14 +401,14 @@
                     <ImageView
                         android:id="@+id/mc29"
                         android:layout_width="145dp"
-                        android:layout_height="111dp"
+                        android:layout_height="150dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/mcdo29" />
 
                     <ImageView
                         android:id="@+id/mc30"
                         android:layout_width="136dp"
-                        android:layout_height="111dp"
+                        android:layout_height="150dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/mcdo30" />
                 </LinearLayout>

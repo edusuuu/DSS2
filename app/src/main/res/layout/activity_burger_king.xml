@@ -169,7 +169,7 @@
         <TextView
             android:layout_width="180dp"
             android:layout_height="match_parent"
-            android:text="Spicy Chicken King Meal ₱ 252.00"
+            android:text="Spicy Chicken King Meal   ₱ 252.00"
             android:gravity="center"
             android:textColor="#E6EA963E"
             android:textSize="15dp"/>

@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#E6EA963E"
-    >
-
+    tools:context=".Starbucks">
 
     <LinearLayout
         android:id="@+id/linearLayout5"
@@ -505,7 +504,7 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="No Chicken Caesar Wrap"
+                        android:text="No Chicken Caesar Wrap ₱ 195.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
