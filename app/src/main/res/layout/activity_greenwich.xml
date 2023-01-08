@@ -162,14 +162,14 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="Hawaiian Overload"
+                        android:text="Hawaiian Overload ₱133.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="All-in Orverload"
+                        android:text="All-in Orverload               ₱144"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
@@ -200,14 +200,14 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="Overload Trio Deal"
+                        android:text="Overload Trio Deal             ₱599.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
-                        android:textSize="15dp"/>
+                        android:textSize="15sp"/>
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="Lasagna Supreme Pan"
+                        android:text="Lasagna Supreme Pan               ₱314.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
@@ -238,14 +238,14 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="Lasagna Supreme Solo"
+                        android:text="Lasagna Supreme Solo                ₱128.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="Creamy Bacon Carbonara Solo"
+                        android:text="Creamy Bacon Carbonara Solo               ₱122.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
@@ -276,14 +276,14 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="meaty Spaghetti Solo"
+                        android:text="meaty Spaghetti Solo               ₱77.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="Creamy Bacon Carbonara Pan"
+                        android:text="Creamy Bacon Carbonara Pan               ₱280.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
@@ -314,14 +314,14 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="Meaty Spaghetti Pan"
+                        android:text="Meaty Spaghetti Pan               ₱190.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="Lasagna Chicken Combo"
+                        android:text="Lasagna Chicken Combo                ₱200.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
@@ -352,14 +352,14 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="Creamy Bacon Carbonara Chicken Combo"
+                        android:text="Creamy Bacon Carbonara Chicken Combo               ₱200.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="Pizza Value Meal B"
+                        android:text="Pizza Value Meal B               ₱100.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
@@ -390,14 +390,14 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="Pizza Loaded Combo D"
+                        android:text="Pizza Loaded Combo D               ₱189.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="Pizza Loaded Combo E"
+                        android:text="Pizza Loaded Combo E               ₱245.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
@@ -428,14 +428,14 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="1-pc. Crunchy Chicken w/ Rice"
+                        android:text="1-pc. Crunchy Chicken w/ Rice               ₱122.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="2-pc. Crunchy Chicken w/ Rice"
+                        android:text="2-pc. Crunchy Chicken w/ Rice               ₱223.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
@@ -466,14 +466,14 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="3-pc. Crunchy Chicken"
+                        android:text="3-pc. Crunchy Chicken               ₱199.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="Regular Potato Waves"
+                        android:text="Regular Potato Waves               ₱77.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
@@ -504,14 +504,14 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="3-pc. Garlic Sticks"
+                        android:text="3-pc. Garlic Sticks               ₱39.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="Overload Holiday Bundle"
+                        android:text="Overload Holiday Bundle               ₱899.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
