@@ -13,6 +13,13 @@
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         tools:targetApi="31">
         <activity
+            android:name=".activity_shakeys"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".Greenwich"
             android:exported="false">
             <meta-data
@@ -42,6 +49,13 @@
         </activity>
         <activity
             android:name=".BurgerKing"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MangInasalRevPage"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
