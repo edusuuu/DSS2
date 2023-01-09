@@ -69,14 +69,14 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/jollibee"
+                    android:id="@+id/beanery"
                     android:layout_width="145dp"
                     android:layout_height="111dp"
                     android:layout_weight="1"
                     app:srcCompat="@drawable/beanerylogo" />
 
                 <ImageView
-                    android:id="@+id/chowking"
+                    android:id="@+id/pzhut"
                     android:layout_width="136dp"
                     android:layout_height="111dp"
                     android:layout_weight="1"
@@ -168,14 +168,14 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/mcdo"
+                    android:id="@+id/maxs"
                     android:layout_width="145dp"
                     android:layout_height="111dp"
                     android:layout_weight="1"
                     app:srcCompat="@drawable/max" />
 
                 <ImageView
-                    android:id="@+id/kfc"
+                    android:id="@+id/tgif"
                     android:layout_width="136dp"
                     android:layout_height="111dp"
                     android:layout_weight="1"
@@ -267,14 +267,14 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/greenwich"
+                    android:id="@+id/terrace"
                     android:layout_width="145dp"
                     android:layout_height="111dp"
                     android:layout_weight="1"
                     app:srcCompat="@drawable/terracecafelogo" />
 
                 <ImageView
-                    android:id="@+id/imageVaasdiew10"
+                    android:id="@+id/shakeys"
                     android:layout_width="136dp"
                     android:layout_height="111dp"
                     android:layout_weight="1"
@@ -367,14 +367,16 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imageView15"
+                    android:id="@+id/dominos"
                     android:layout_width="136dp"
                     android:layout_height="111dp"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/dominologo" />
+                    app:srcCompat="@drawable/dominologo"
+
+                    />
 
                 <ImageView
-                    android:id="@+id/imageView16"
+                    android:id="@+id/ycab"
                     android:layout_width="136dp"
                     android:layout_height="111dp"
                     android:layout_weight="1"
