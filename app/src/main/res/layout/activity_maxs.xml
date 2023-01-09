@@ -130,11 +130,7 @@
             android:textStyle="bold" />
 
     </LinearLayout>
-        <LinearLayout
-            android:layout_width="358dp"
-            android:layout_height="800dp"
-            android:orientation="vertical"
-            android:padding="10dp">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -152,11 +148,7 @@
                     android:layout_weight="1"
                     app:srcCompat="@drawable/max2" />
             </LinearLayout>
-        <LinearLayout
-            android:layout_width="358dp"
-            android:layout_height="800dp"
-            android:orientation="vertical"
-            android:padding="10dp">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -174,11 +166,6 @@
                     android:layout_weight="1"
                     app:srcCompat="@drawable/max4" />
             </LinearLayout>
-            <LinearLayout
-                android:layout_width="358dp"
-                android:layout_height="800dp"
-                android:orientation="vertical"
-                android:padding="10dp">
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -196,11 +183,6 @@
                          android:layout_weight="1"
                          app:srcCompat="@drawable/max6" />
             </LinearLayout>
-                <LinearLayout
-                    android:layout_width="358dp"
-                    android:layout_height="800dp"
-                    android:orientation="vertical"
-                    android:padding="10dp">
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -219,11 +201,7 @@
                             android:layout_weight="1"
                             app:srcCompat="@drawable/max8" />
             </LinearLayout>
-                <LinearLayout
-                    android:layout_width="358dp"
-                    android:layout_height="800dp"
-                    android:orientation="vertical"
-                    android:padding="10dp">
+
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -241,11 +219,6 @@
                              android:layout_weight="1"
                              app:srcCompat="@drawable/max10" />
             </LinearLayout>
-                <LinearLayout
-                    android:layout_width="358dp"
-                    android:layout_height="800dp"
-                    android:orientation="vertical"
-                    android:padding="10dp">
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -263,11 +236,6 @@
                             android:layout_weight="1"
                             app:srcCompat="@drawable/max12" />
             </LinearLayout>
-                <LinearLayout
-                    android:layout_width="358dp"
-                    android:layout_height="800dp"
-                    android:orientation="vertical"
-                    android:padding="10dp">
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -285,11 +253,6 @@
                             android:layout_weight="1"
                             app:srcCompat="@drawable/max14" />
             </LinearLayout>
-                <LinearLayout
-                    android:layout_width="358dp"
-                    android:layout_height="800dp"
-                    android:orientation="vertical"
-                    android:padding="10dp">
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -307,11 +270,6 @@
                             android:layout_weight="1"
                             app:srcCompat="@drawable/max16" />
             </LinearLayout>
-                <LinearLayout
-                    android:layout_width="358dp"
-                    android:layout_height="800dp"
-                    android:orientation="vertical"
-                    android:padding="10dp">
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -329,11 +287,6 @@
                             android:layout_weight="1"
                             app:srcCompat="@drawable/max18" />
             </LinearLayout>
-                <LinearLayout
-                    android:layout_width="358dp"
-                    android:layout_height="800dp"
-                    android:orientation="vertical"
-                    android:padding="10dp">
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -351,11 +304,7 @@
                             android:layout_weight="1"
                             app:srcCompat="@drawable/max20" />
             </LinearLayout>
-                <LinearLayout
-                    android:layout_width="358dp"
-                    android:layout_height="800dp"
-                    android:orientation="vertical"
-                    android:padding="10dp">
+
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -374,11 +323,6 @@
                             android:layout_weight="1"
                             app:srcCompat="@drawable/max22" />
             </LinearLayout>
-                <LinearLayout
-                    android:layout_width="358dp"
-                    android:layout_height="800dp"
-                    android:orientation="vertical"
-                    android:padding="10dp">
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -396,11 +340,6 @@
                             android:layout_weight="1"
                             app:srcCompat="@drawable/max24" />
             </LinearLayout>
-                <LinearLayout
-                    android:layout_width="358dp"
-                    android:layout_height="800dp"
-                    android:orientation="vertical"
-                    android:padding="10dp">
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -419,11 +358,6 @@
                             android:layout_weight="1"
                             app:srcCompat="@drawable/max26" />
             </LinearLayout>
-                <LinearLayout
-                    android:layout_width="358dp"
-                    android:layout_height="800dp"
-                    android:orientation="vertical"
-                    android:padding="10dp">
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -441,11 +375,6 @@
                             android:layout_weight="1"
                             app:srcCompat="@drawable/max28" />
             </LinearLayout>
-                <LinearLayout
-                    android:layout_width="358dp"
-                    android:layout_height="800dp"
-                    android:orientation="vertical"
-                    android:padding="10dp">
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -463,11 +392,7 @@
                             android:layout_weight="1"
                             app:srcCompat="@drawable/max30" />
             </LinearLayout>
-                <LinearLayout
-                    android:layout_width="358dp"
-                    android:layout_height="800dp"
-                    android:orientation="vertical"
-                    android:padding="10dp">
+
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -485,11 +410,7 @@
                             android:layout_weight="1"
                             app:srcCompat="@drawable/max32" />
             </LinearLayout>
-                <LinearLayout
-                    android:layout_width="358dp"
-                    android:layout_height="800dp"
-                    android:orientation="vertical"
-                    android:padding="10dp">
+
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -529,25 +450,9 @@
                             android:layout_weight="1"
                             app:srcCompat="@drawable/max36" />
                     </LinearLayout>
-                </LinearLayout>
-                </LinearLayout>
-                </LinearLayout>
-                </LinearLayout>
-                </LinearLayout>
-                </LinearLayout>
-                </LinearLayout>
-                </LinearLayout>
-                </LinearLayout>
-                </LinearLayout>
-                </LinearLayout>
-                </LinearLayout>
-                </LinearLayout>
-              </LinearLayout>
-           </LinearLayout>
-          </LinearLayout>
+
          </LinearLayout>
         </LinearLayout>
-    </LinearLayout>
     </ScrollView>
 
     <ImageView

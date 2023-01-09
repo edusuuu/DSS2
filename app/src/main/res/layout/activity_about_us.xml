@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg11"
     tools:context=".AboutUs">
 
     <LinearLayout
@@ -12,7 +13,168 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/customborder"
+            android:backgroundTint="#F21C1C1C"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About Us"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:background="@drawable/customborder"
+            android:backgroundTint="#F21C1C1C"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="60dp"
+                android:background="@drawable/customborder"
+                android:backgroundTint="#E1FFFFFF"
+                android:layout_marginBottom="10dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Creators"
+                    android:textColor="#E6EA963E"
+                    android:textSize="36sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Angeles, Edzel John R."
+    android:textColor="#E6EA963E"
+    android:textSize="30sp"
+    android:layout_marginBottom="5dp"
+    />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Caraig, Carl Marcius O."
+                android:textColor="#E6EA963E"
+                android:textSize="30sp"
+                android:layout_marginBottom="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pabiton, Merryliza T."
+                android:textColor="#E6EA963E"
+                android:textSize="30sp"
+                android:layout_marginBottom="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ramos, Dannel C."
+                android:textColor="#E6EA963E"
+                android:textSize="30sp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:background="@drawable/customborder"
+            android:backgroundTint="#E6EA963E"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:background="@drawable/customborder"
+                android:backgroundTint="#E1FFFFFF"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="left"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Contact Us"
+                    android:textColor="#E6EA963E"
+                    android:textSize="36sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:text="E-mail"
+                android:textColor="@color/white"
+                android:textSize="35sp"
+                android:gravity="center"
+                android:layout_gravity="left"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Caraig, Carl Marcius O."
+                android:textColor="#F21C1C1C"
+                android:textSize="30sp"
+                android:layout_marginBottom="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pabiton, Merryliza T."
+                android:textColor="#F21C1C1C"
+                android:textSize="30sp"
+                android:layout_marginBottom="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ramos, Dannel C."
+                android:textColor="#F21C1C1C"
+                android:textSize="30sp"
+                />
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="60dp"
+                android:text="Contact No."
+                android:textColor="@color/white"
+                android:textSize="35sp"
+                android:gravity="center"
+                android:layout_gravity="left"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
