@@ -73,14 +73,19 @@
                     android:layout_width="145dp"
                     android:layout_height="111dp"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/beanerylogo" />
+                    android:clickable="true"
+                    app:srcCompat="@drawable/beanerylogo"
+
+
+                    />
 
                 <ImageView
                     android:id="@+id/pzhut"
                     android:layout_width="136dp"
                     android:layout_height="111dp"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/pizzahutlogo" />
+                    app:srcCompat="@drawable/pizzahutlogo"
+                    android:clickable="true"/>
             </LinearLayout>
 
             <LinearLayout
@@ -172,14 +177,16 @@
                     android:layout_width="145dp"
                     android:layout_height="111dp"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/max" />
+                    app:srcCompat="@drawable/max"
+                    android:clickable="true"/>
 
                 <ImageView
                     android:id="@+id/tgif"
                     android:layout_width="136dp"
                     android:layout_height="111dp"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/tgifridayslogo" />
+                    app:srcCompat="@drawable/tgifridayslogo"
+                    android:clickable="true"/>
             </LinearLayout>
 
             <LinearLayout
@@ -271,14 +278,16 @@
                     android:layout_width="145dp"
                     android:layout_height="111dp"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/terracecafelogo" />
+                    app:srcCompat="@drawable/terracecafelogo"
+                    android:clickable="true"/>
 
                 <ImageView
                     android:id="@+id/shakeys"
                     android:layout_width="136dp"
                     android:layout_height="111dp"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/shakeyslogo" />
+                    app:srcCompat="@drawable/shakeyslogo"
+                    android:clickable="true"/>
             </LinearLayout>
 
             <LinearLayout
@@ -372,7 +381,7 @@
                     android:layout_height="111dp"
                     android:layout_weight="1"
                     app:srcCompat="@drawable/dominologo"
-
+                    android:clickable="true"
                     />
 
                 <ImageView
@@ -380,7 +389,8 @@
                     android:layout_width="136dp"
                     android:layout_height="111dp"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/yellowcabpizza" />
+                    app:srcCompat="@drawable/yellowcabpizza"
+                    android:clickable="true"/>
 
             </LinearLayout>
 
