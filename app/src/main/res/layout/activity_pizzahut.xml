@@ -80,10 +80,10 @@
         app:srcCompat="@drawable/pizzahutlogo" />
 
     <ScrollView
-        android:layout_width="match_parent"
         android:id="@+id/sv1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
         android:layout_marginTop="8dp"
-        android:layout_height="wrap_content"
         android:fillViewport="true"
         android:paddingRight="5dp"
         android:paddingBottom="500dp"
@@ -130,15 +130,12 @@
 
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="358dp"
-                android:layout_height="800dp"
-                android:orientation="vertical"
-                android:padding="10dp">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
+
                     <ImageView
                         android:id="@+id/sb1"
                         android:layout_width="145dp"
@@ -153,30 +150,35 @@
                         android:layout_weight="1"
                         app:srcCompat="@drawable/pzcarbonarasupreme2" />
                 </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="15dp">
+
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Ultimate Cheesy"
+                        android:textColor="#E6EA963E"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_width="180dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Carbonara Supreme"
+                        android:textColor="#E6EA963E"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
-                    <TextView
-                        android:layout_width="170dp"
-                        android:layout_height="match_parent"
-                        android:text="Ultimate Cheesy"
-                        android:gravity="center"
-                        android:textColor="#E6EA963E"
-                        android:textSize="15dp"/>
-                    <TextView
-                        android:layout_width="180dp"
-                        android:layout_height="match_parent"
-                        android:text="Carbonara Supreme"
-                        android:gravity="center"
-                        android:textColor="#E6EA963E"
-                        android:textSize="15dp"/>
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
                     <ImageView
                         android:id="@+id/sb3"
                         android:layout_width="145dp"
@@ -191,30 +193,37 @@
                         android:layout_weight="1"
                         app:srcCompat="@drawable/pzmeatlovers4" />
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="15dp"
+                    >
 
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="Super Supreme"
                         android:gravity="center"
+                        android:text="Super Supreme"
                         android:textColor="#E6EA963E"
-                        android:textSize="15dp"/>
+                        android:textSize="15dp" />
+
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="Meat Lovers"
                         android:gravity="center"
+                        android:text="Meat Lovers"
                         android:textColor="#E6EA963E"
-                        android:textSize="15dp"/>
+                        android:textSize="15dp" />
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    >
+
                     <ImageView
                         android:id="@+id/sb5"
                         android:layout_width="145dp"
@@ -229,30 +238,35 @@
                         android:layout_weight="1"
                         app:srcCompat="@drawable/pzbakedcarbonara6" />
                 </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="15dp">
+
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Roasted Tomatao and Sausage Baked Pasta"
+                        android:textColor="#E6EA963E"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_width="180dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Baked Carbonara"
+                        android:textColor="#E6EA963E"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
-                    <TextView
-                        android:layout_width="170dp"
-                        android:layout_height="match_parent"
-                        android:text="Roasted Tomatao and Sausage Baked Pasta"
-                        android:gravity="center"
-                        android:textColor="#E6EA963E"
-                        android:textSize="15dp"/>
-                    <TextView
-                        android:layout_width="180dp"
-                        android:layout_height="match_parent"
-                        android:text="Baked Carbonara"
-                        android:gravity="center"
-                        android:textColor="#E6EA963E"
-                        android:textSize="15dp"/>
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
                     <ImageView
                         android:id="@+id/sb7"
                         android:layout_width="145dp"
@@ -267,30 +281,35 @@
                         android:layout_weight="1"
                         app:srcCompat="@drawable/pzbakedbolognesewithmeatballs8" />
                 </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="15dp">
+
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Baked Lasagna"
+                        android:textColor="#E6EA963E"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_width="180dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Baked Bolognese with meatballs"
+                        android:textColor="#E6EA963E"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
-                    <TextView
-                        android:layout_width="170dp"
-                        android:layout_height="match_parent"
-                        android:text="Baked Lasagna"
-                        android:gravity="center"
-                        android:textColor="#E6EA963E"
-                        android:textSize="15dp"/>
-                    <TextView
-                        android:layout_width="180dp"
-                        android:layout_height="match_parent"
-                        android:text="Baked Bolognese with meatballs"
-                        android:gravity="center"
-                        android:textColor="#E6EA963E"
-                        android:textSize="15dp"/>
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
                     <ImageView
                         android:id="@+id/sb9"
                         android:layout_width="145dp"
@@ -305,30 +324,36 @@
                         android:layout_weight="1"
                         app:srcCompat="@drawable/pzbakedbolognese10" />
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="15dp">
 
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="Baked Ziti"
                         android:gravity="center"
+                        android:text="Baked Ziti"
                         android:textColor="#E6EA963E"
-                        android:textSize="15dp"/>
+                        android:textSize="15dp" />
+
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="Baked Bolognese"
                         android:gravity="center"
+                        android:text="Baked Bolognese"
                         android:textColor="#E6EA963E"
-                        android:textSize="15dp"/>
+                        android:textSize="15dp" />
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    >
+
                     <ImageView
                         android:id="@+id/sb11"
                         android:layout_width="145dp"
@@ -343,30 +368,35 @@
                         android:layout_weight="1"
                         app:srcCompat="@drawable/pzhamandcheeserolls12" />
                 </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="15dp">
+
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Tater Tots"
+                        android:textColor="#E6EA963E"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_width="180dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Ham and Chesse Rolls"
+                        android:textColor="#E6EA963E"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
-                    <TextView
-                        android:layout_width="170dp"
-                        android:layout_height="match_parent"
-                        android:text="Tater Tots"
-                        android:gravity="center"
-                        android:textColor="#E6EA963E"
-                        android:textSize="15dp"/>
-                    <TextView
-                        android:layout_width="180dp"
-                        android:layout_height="match_parent"
-                        android:text="Ham and Chesse Rolls"
-                        android:gravity="center"
-                        android:textColor="#E6EA963E"
-                        android:textSize="15dp"/>
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
                     <ImageView
                         android:id="@+id/sb13"
                         android:layout_width="145dp"
@@ -381,30 +411,35 @@
                         android:layout_weight="1"
                         app:srcCompat="@drawable/pztexmexbakedrice14" />
                 </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="15dp">
+
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Tater Tots Loaded"
+                        android:textColor="#E6EA963E"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_width="180dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Mex-Tex Baked Rice"
+                        android:textColor="#E6EA963E"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
-                    <TextView
-                        android:layout_width="170dp"
-                        android:layout_height="match_parent"
-                        android:text="Tater Tots Loaded"
-                        android:gravity="center"
-                        android:textColor="#E6EA963E"
-                        android:textSize="15dp"/>
-                    <TextView
-                        android:layout_width="180dp"
-                        android:layout_height="match_parent"
-                        android:text="Mex-Tex Baked Rice"
-                        android:gravity="center"
-                        android:textColor="#E6EA963E"
-                        android:textSize="15dp"/>
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
                     <ImageView
                         android:id="@+id/sb15"
                         android:layout_width="145dp"
@@ -419,30 +454,35 @@
                         android:layout_weight="1"
                         app:srcCompat="@drawable/pzcajunsausagebakedrice16" />
                 </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="15dp">
+
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Mexican Beef Baked Rice"
+                        android:textColor="#E6EA963E"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_width="180dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Cajun Sausage Baked Rice"
+                        android:textColor="#E6EA963E"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
-                    <TextView
-                        android:layout_width="170dp"
-                        android:layout_height="match_parent"
-                        android:text="Mexican Beef Baked Rice"
-                        android:gravity="center"
-                        android:textColor="#E6EA963E"
-                        android:textSize="15dp"/>
-                    <TextView
-                        android:layout_width="180dp"
-                        android:layout_height="match_parent"
-                        android:text="Cajun Sausage Baked Rice"
-                        android:gravity="center"
-                        android:textColor="#E6EA963E"
-                        android:textSize="15dp"/>
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
                     <ImageView
                         android:id="@+id/sb17"
                         android:layout_width="145dp"
@@ -457,6 +497,7 @@
                         android:layout_weight="1"
                         app:srcCompat="@drawable/pzfriedchicken18" />
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -465,22 +506,25 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="Cheesy Ham and Bacon Baked Rice"
                         android:gravity="center"
+                        android:text="Cheesy Ham and Bacon Baked Rice"
                         android:textColor="#E6EA963E"
-                        android:textSize="15dp"/>
+                        android:textSize="15dp" />
+
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="Fried Chicken"
                         android:gravity="center"
+                        android:text="Fried Chicken"
                         android:textColor="#E6EA963E"
-                        android:textSize="15dp"/>
+                        android:textSize="15dp" />
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
+
                     <ImageView
                         android:id="@+id/sb19"
                         android:layout_width="145dp"
@@ -495,30 +539,35 @@
                         android:layout_weight="1"
                         app:srcCompat="@drawable/pzmozzasticks20" />
                 </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="15dp">
+
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="1-pc. Fried Chicken with Rice"
+                        android:textColor="#E6EA963E"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_width="180dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Mozza Sticks"
+                        android:textColor="#E6EA963E"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
-                    <TextView
-                        android:layout_width="170dp"
-                        android:layout_height="match_parent"
-                        android:text="1-pc. Fried Chicken with Rice"
-                        android:gravity="center"
-                        android:textColor="#E6EA963E"
-                        android:textSize="15dp"/>
-                    <TextView
-                        android:layout_width="180dp"
-                        android:layout_height="match_parent"
-                        android:text="Mozza Sticks"
-                        android:gravity="center"
-                        android:textColor="#E6EA963E"
-                        android:textSize="15dp"/>
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
                     <ImageView
                         android:id="@+id/sb21"
                         android:layout_width="145dp"
@@ -533,30 +582,35 @@
                         android:layout_weight="1"
                         app:srcCompat="@drawable/pzkitkatrolls22" />
                 </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="15dp">
+
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Kit-Kat pops"
+                        android:textColor="#E6EA963E"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:layout_width="180dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Kit-Kat rolls"
+                        android:textColor="#E6EA963E"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
-                    <TextView
-                        android:layout_width="170dp"
-                        android:layout_height="match_parent"
-                        android:text="Kit-Kat pops"
-                        android:gravity="center"
-                        android:textColor="#E6EA963E"
-                        android:textSize="15dp"/>
-                    <TextView
-                        android:layout_width="180dp"
-                        android:layout_height="match_parent"
-                        android:text="Kit-Kat rolls"
-                        android:gravity="center"
-                        android:textColor="#E6EA963E"
-                        android:textSize="15dp"/>
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
                     <ImageView
                         android:id="@+id/sb23"
                         android:layout_width="145dp"
@@ -571,26 +625,28 @@
                         android:layout_weight="1"
                         app:srcCompat="@drawable/pzsausageroll24" />
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="20dp">
 
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="Crispy Fries"
                         android:gravity="center"
+                        android:text="Crispy Fries"
                         android:textColor="#E6EA963E"
-                        android:textSize="15dp"/>
+                        android:textSize="15dp" />
+
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="Sausage Rolls"
                         android:gravity="center"
+                        android:text="Sausage Rolls"
                         android:textColor="#E6EA963E"
-                        android:textSize="15dp"/>
-                </LinearLayout>
+                        android:textSize="15dp" />
 
             </LinearLayout>
 
