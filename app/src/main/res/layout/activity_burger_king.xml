@@ -71,8 +71,8 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="205dp"
-        android:layout_height="188dp"
+        android:layout_width="190dp"
+        android:layout_height="173dp"
         android:background="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -255,14 +255,14 @@
                 android:layout_width="145dp"
                 android:layout_height="130dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/bgking7" />
+                app:srcCompat="@drawable/bgking07" />
 
             <ImageView
                 android:id="@+id/bgking8"
                 android:layout_width="136dp"
                 android:layout_height="130dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/bgking8" />
+                app:srcCompat="@drawable/bgking08" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"

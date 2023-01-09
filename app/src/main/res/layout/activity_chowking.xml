@@ -155,14 +155,14 @@
             <TextView
                 android:layout_width="170dp"
                 android:layout_height="match_parent"
-                android:text="Dimsum Chao Fan   Starts at ₱ 101.00"
+                android:text="Dimsum Chao Fan \n Starts at ₱ 101.00"
                 android:gravity="center"
                 android:textColor="#E6EA963E"
                 android:textSize="15dp"/>
             <TextView
                 android:layout_width="180dp"
                 android:layout_height="match_parent"
-                android:text="6pc. Chinese-Style Fried Chicken   \n Starts at ₱ 75.00"
+                android:text="6pc. Chinese-Style Fried Chicken \n Starts at ₱ 75.00"
                 android:gravity="center"
                 android:textColor="#E6EA963E"
                 android:textSize="15dp"/>

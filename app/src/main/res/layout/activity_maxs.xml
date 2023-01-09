@@ -148,7 +148,26 @@
                     android:layout_weight="1"
                     app:srcCompat="@drawable/max2" />
             </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="Whole Fried Chicken \n Starts at ₱ 620.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="Spicy Chicken Platter \n Starts at ₱ 920.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -166,6 +185,26 @@
                     android:layout_weight="1"
                     app:srcCompat="@drawable/max4" />
             </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="Max's Junior Spring Fried Chicken \n Starts at ₱ 460.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="Max's Half Fried Chicken \n Starts at ₱ 340.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -183,6 +222,26 @@
                          android:layout_weight="1"
                          app:srcCompat="@drawable/max6" />
             </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="Max's Lengua Blanca \n Starts at ₱ 915.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="Pocherong Baka \n Starts at ₱ 920.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -201,7 +260,26 @@
                             android:layout_weight="1"
                             app:srcCompat="@drawable/max8" />
             </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="Sizzling Crispy Pork Sisig \n Starts at ₱ 490.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="Sinigang na Tiyan ng Bangus \n Starts at ₱ 570.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -219,6 +297,26 @@
                              android:layout_weight="1"
                              app:srcCompat="@drawable/max10" />
             </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="Sinigang na Hipon \n Starts at ₱ 640.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="Sinigang na Baboy \n Starts at ₱ 640.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -236,6 +334,26 @@
                             android:layout_weight="1"
                             app:srcCompat="@drawable/max12" />
             </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="Nilagang Baka \n Starts at ₱ 920.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="All Beef Kare-kare \n Starts at ₱ 1030.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -253,6 +371,26 @@
                             android:layout_weight="1"
                             app:srcCompat="@drawable/max14" />
             </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="Crispy Pata \n Starts at ₱ 1150.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="Sizzling Tofu \n Starts at ₱ 365.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -270,6 +408,26 @@
                             android:layout_weight="1"
                             app:srcCompat="@drawable/max16" />
             </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="Sweet and Sour Fish Fillet \n Starts at ₱ 450.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="Beef Caldereta \n Starts at ₱ 675.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -287,6 +445,26 @@
                             android:layout_weight="1"
                             app:srcCompat="@drawable/max18" />
             </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text=" \n Starts at ₱ .00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text=" \n Starts at ₱ .00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -304,7 +482,26 @@
                             android:layout_weight="1"
                             app:srcCompat="@drawable/max20" />
             </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text=" \n Starts at ₱ .00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text=" \n Starts at ₱ .00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -323,6 +520,26 @@
                             android:layout_weight="1"
                             app:srcCompat="@drawable/max22" />
             </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text=" \n Starts at ₱ .00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text=" \n Starts at ₱ .00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -340,6 +557,26 @@
                             android:layout_weight="1"
                             app:srcCompat="@drawable/max24" />
             </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text=" \n Starts at ₱ .00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text=" \n Starts at ₱ .00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -358,6 +595,26 @@
                             android:layout_weight="1"
                             app:srcCompat="@drawable/max26" />
             </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text=" \n Starts at ₱ .00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text=" \n Starts at ₱ .00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -375,6 +632,26 @@
                             android:layout_weight="1"
                             app:srcCompat="@drawable/max28" />
             </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text=" \n Starts at ₱ .00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text=" \n Starts at ₱ .00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -392,7 +669,26 @@
                             android:layout_weight="1"
                             app:srcCompat="@drawable/max30" />
             </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text=" \n Starts at ₱ .00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text=" \n Starts at ₱ .00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -410,7 +706,26 @@
                             android:layout_weight="1"
                             app:srcCompat="@drawable/max32" />
             </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text=" \n Starts at ₱ .00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text=" \n Starts at ₱ .00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -428,6 +743,26 @@
                             android:layout_weight="1"
                             app:srcCompat="@drawable/max34" />
             </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text=" \n Starts at ₱ .00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text=" \n Starts at ₱ .00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
                 <LinearLayout
                     android:layout_width="358dp"
                     android:layout_height="800dp"
@@ -450,7 +785,26 @@
                             android:layout_weight="1"
                             app:srcCompat="@drawable/max36" />
                     </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
 
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_height="match_parent"
+                            android:text=" \n Starts at ₱ .00"
+                            android:gravity="center"
+                            android:textColor="#E6EA963E"
+                            android:textSize="15dp"/>
+                        <TextView
+                            android:layout_width="180dp"
+                            android:layout_height="match_parent"
+                            android:text=" \n Starts at ₱ .00"
+                            android:gravity="center"
+                            android:textColor="#E6EA963E"
+                            android:textSize="15dp"/>
+                    </LinearLayout>
          </LinearLayout>
         </LinearLayout>
     </ScrollView>
