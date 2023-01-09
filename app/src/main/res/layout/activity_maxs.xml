@@ -453,14 +453,14 @@
             <TextView
                 android:layout_width="170dp"
                 android:layout_height="match_parent"
-                android:text=" \n Starts at ₱ .00"
+                android:text="Boneless Bangus \n Starts at ₱ 460.00"
                 android:gravity="center"
                 android:textColor="#E6EA963E"
                 android:textSize="15dp"/>
             <TextView
                 android:layout_width="180dp"
                 android:layout_height="match_parent"
-                android:text=" \n Starts at ₱ .00"
+                android:text="Chicken Chopsuey \n Starts at ₱ 365.00"
                 android:gravity="center"
                 android:textColor="#E6EA963E"
                 android:textSize="15dp"/>
@@ -490,14 +490,14 @@
             <TextView
                 android:layout_width="170dp"
                 android:layout_height="match_parent"
-                android:text=" \n Starts at ₱ .00"
+                android:text="Lechon Kawali \n Starts at ₱ 490.00"
                 android:gravity="center"
                 android:textColor="#E6EA963E"
                 android:textSize="15dp"/>
             <TextView
                 android:layout_width="180dp"
                 android:layout_height="match_parent"
-                android:text=" \n Starts at ₱ .00"
+                android:text="Adobong Kangkong Stuffed Tofu \n Starts at ₱ 340.00"
                 android:gravity="center"
                 android:textColor="#E6EA963E"
                 android:textSize="15dp"/>
@@ -528,14 +528,14 @@
             <TextView
                 android:layout_width="170dp"
                 android:layout_height="match_parent"
-                android:text=" \n Starts at ₱ .00"
+                android:text="Chicken Pancit Canton \n Starts at ₱ 245.00"
                 android:gravity="center"
                 android:textColor="#E6EA963E"
                 android:textSize="15dp"/>
             <TextView
                 android:layout_width="180dp"
                 android:layout_height="match_parent"
-                android:text=" \n Starts at ₱ .00"
+                android:text="Seafood Pancit Canton \n Starts at ₱ 245.00"
                 android:gravity="center"
                 android:textColor="#E6EA963E"
                 android:textSize="15dp"/>
@@ -565,14 +565,14 @@
             <TextView
                 android:layout_width="170dp"
                 android:layout_height="match_parent"
-                android:text=" \n Starts at ₱ .00"
+                android:text="Fresh Lumpiang Ubod \n Starts at ₱ 155.00"
                 android:gravity="center"
                 android:textColor="#E6EA963E"
                 android:textSize="15dp"/>
             <TextView
                 android:layout_width="180dp"
                 android:layout_height="match_parent"
-                android:text=" \n Starts at ₱ .00"
+                android:text="Mini Fresh Lumpiang Ubod \n Starts at ₱ 170.00"
                 android:gravity="center"
                 android:textColor="#E6EA963E"
                 android:textSize="15dp"/>
@@ -603,14 +603,14 @@
             <TextView
                 android:layout_width="170dp"
                 android:layout_height="match_parent"
-                android:text=" \n Starts at ₱ .00"
+                android:text="Mini Fried Lumpiang Ubod \n Starts at ₱ 170.00"
                 android:gravity="center"
                 android:textColor="#E6EA963E"
                 android:textSize="15dp"/>
             <TextView
                 android:layout_width="180dp"
                 android:layout_height="match_parent"
-                android:text=" \n Starts at ₱ .00"
+                android:text="Binagoongan Rice \n Starts at ₱ 85.00"
                 android:gravity="center"
                 android:textColor="#E6EA963E"
                 android:textSize="15dp"/>
@@ -640,14 +640,14 @@
             <TextView
                 android:layout_width="170dp"
                 android:layout_height="match_parent"
-                android:text=" \n Starts at ₱ .00"
+                android:text="Tinapa Rice \n Starts at ₱ 85.00"
                 android:gravity="center"
                 android:textColor="#E6EA963E"
                 android:textSize="15dp"/>
             <TextView
                 android:layout_width="180dp"
                 android:layout_height="match_parent"
-                android:text=" \n Starts at ₱ .00"
+                android:text="Chicken Sisig Salad Ala Carte \n Starts at ₱ 330.00"
                 android:gravity="center"
                 android:textColor="#E6EA963E"
                 android:textSize="15dp"/>
@@ -677,14 +677,14 @@
             <TextView
                 android:layout_width="170dp"
                 android:layout_height="match_parent"
-                android:text=" \n Starts at ₱ .00"
+                android:text="Sizzling Corn Sisg Ala Carte \n Starts at ₱ 205.00"
                 android:gravity="center"
                 android:textColor="#E6EA963E"
                 android:textSize="15dp"/>
             <TextView
                 android:layout_width="180dp"
                 android:layout_height="match_parent"
-                android:text=" \n Starts at ₱ .00"
+                android:text="Halo-Halo \n Starts at ₱ 140.00"
                 android:gravity="center"
                 android:textColor="#E6EA963E"
                 android:textSize="15dp"/>
@@ -714,14 +714,14 @@
             <TextView
                 android:layout_width="170dp"
                 android:layout_height="match_parent"
-                android:text=" \n Starts at ₱ .00"
+                android:text="Knickerbocker \n Starts at ₱ 135.00"
                 android:gravity="center"
                 android:textColor="#E6EA963E"
                 android:textSize="15dp"/>
             <TextView
                 android:layout_width="180dp"
                 android:layout_height="match_parent"
-                android:text=" \n Starts at ₱ .00"
+                android:text="Ube Ice Scramble \n Starts at ₱ 95.00"
                 android:gravity="center"
                 android:textColor="#E6EA963E"
                 android:textSize="15dp"/>
@@ -751,14 +751,14 @@
             <TextView
                 android:layout_width="170dp"
                 android:layout_height="match_parent"
-                android:text=" \n Starts at ₱ .00"
+                android:text="Brazo de Mcedes \n Starts at ₱ 506.00"
                 android:gravity="center"
                 android:textColor="#E6EA963E"
                 android:textSize="15dp"/>
             <TextView
                 android:layout_width="180dp"
                 android:layout_height="match_parent"
-                android:text=" \n Starts at ₱ .00"
+                android:text="Mini Chocolate Mousse Cake \n Starts at ₱ 574.00"
                 android:gravity="center"
                 android:textColor="#E6EA963E"
                 android:textSize="15dp"/>
@@ -793,14 +793,14 @@
                         <TextView
                             android:layout_width="170dp"
                             android:layout_height="match_parent"
-                            android:text=" \n Starts at ₱ .00"
+                            android:text="Triple Treat Cake \n Starts at ₱ 804.00"
                             android:gravity="center"
                             android:textColor="#E6EA963E"
                             android:textSize="15dp"/>
                         <TextView
                             android:layout_width="180dp"
                             android:layout_height="match_parent"
-                            android:text=" \n Starts at ₱ .00"
+                            android:text="Malagos Choco Mousse \n Starts at ₱ 459.00"
                             android:gravity="center"
                             android:textColor="#E6EA963E"
                             android:textSize="15dp"/>
