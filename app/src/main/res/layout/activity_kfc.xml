@@ -129,11 +129,7 @@
             android:textStyle="bold" />
 
     </LinearLayout>
-    <LinearLayout
-        android:layout_width="358dp"
-        android:layout_height="800dp"
-        android:orientation="vertical"
-        android:padding="10dp">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -152,11 +148,26 @@
             android:layout_weight="1"
             app:srcCompat="@drawable/kfc2" />
     </LinearLayout>
-    <LinearLayout
-        android:layout_width="358dp"
-        android:layout_height="800dp"
-        android:orientation="vertical"
-        android:padding="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="Famous Bowl Fully Loaded Meal \n ₱ 185.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="Spaghetti \n ₱ 59.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -175,12 +186,26 @@
                 android:layout_weight="1"
                 app:srcCompat="@drawable/kfc4" />
         </LinearLayout>
-        </LinearLayout>
         <LinearLayout
-            android:layout_width="358dp"
-            android:layout_height="800dp"
-            android:orientation="vertical"
-            android:padding="10dp">
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="Chicken CheeseBurger \n ₱ 55.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="Bucket of 6 with Fixin Super PLatter \n ₱ 635.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -200,10 +225,25 @@
                     app:srcCompat="@drawable/kfc6" />
         </LinearLayout>
         <LinearLayout
-            android:layout_width="358dp"
-            android:layout_height="800dp"
-            android:orientation="vertical"
-            android:padding="10dp">
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="Christmas Bucket Meal For 4-All Chicken \n ₱ 919.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="Bucket of 10 \n ₱ 699.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -222,10 +262,25 @@
                      app:srcCompat="@drawable/kfc8" />
                 </LinearLayout>
         <LinearLayout
-            android:layout_width="358dp"
-            android:layout_height="800dp"
-            android:orientation="vertical"
-            android:padding="10dp">
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="Chicken CheeseBurger Combo \n ₱ 120.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="Bucket of 6 with Spaghetti Platter \n ₱ 550.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -245,10 +300,25 @@
                     app:srcCompat="@drawable/kfc10" />
         </LinearLayout>
         <LinearLayout
-            android:layout_width="358dp"
-            android:layout_height="800dp"
-            android:orientation="vertical"
-            android:padding="10dp">
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="Bucket of 10 with Super Platter \n ₱ 1095.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="Twister Combo \n ₱ 150.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -268,10 +338,25 @@
                     app:srcCompat="@drawable/kfc12" />
         </LinearLayout>
         <LinearLayout
-            android:layout_width="358dp"
-            android:layout_height="800dp"
-            android:orientation="vertical"
-            android:padding="10dp">
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="Mushroom Soup \n ₱ 45.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="Fixins \n ₱ 50.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -291,10 +376,25 @@
                     app:srcCompat="@drawable/kfc14" />
         </LinearLayout>
         <LinearLayout
-            android:layout_width="358dp"
-            android:layout_height="800dp"
-            android:orientation="vertical"
-            android:padding="10dp">
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="8-pc Bucket Meal \n ₱ 699.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="Sisig Rice Bowl Meal \n ₱ 139.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -314,10 +414,25 @@
                     app:srcCompat="@drawable/kfc16" />
         </LinearLayout>
         <LinearLayout
-            android:layout_width="358dp"
-            android:layout_height="800dp"
-            android:orientation="vertical"
-            android:padding="10dp">
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="Chicken Chops Meal \n ₱ 95.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="1-pc Chicken Meal with Mashed Potato \n ₱ 135.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -337,10 +452,25 @@
                     app:srcCompat="@drawable/kfc18" />
         </LinearLayout>
         <LinearLayout
-            android:layout_width="358dp"
-            android:layout_height="800dp"
-            android:orientation="vertical"
-            android:padding="10dp">
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="Ala King Zinger Steak Ala Carte \n ₱ 105.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="1-pc Chicken Spaghetti Meal \n ₱ 155.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -360,10 +490,25 @@
                     app:srcCompat="@drawable/kfc20" />
         </LinearLayout>
         <LinearLayout
-            android:layout_width="358dp"
-            android:layout_height="800dp"
-            android:orientation="vertical"
-            android:padding="10dp">
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="Fixin Platter \n ₱ 245.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="Ala King Zinger Steak Meal with Buttered Corn \n ₱ 140.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -382,17 +527,28 @@
                     android:layout_weight="1"
                     app:srcCompat="@drawable/kfc22" />
                 </LinearLayout>
-            </LinearLayout>
-            </LinearLayout>
-            </LinearLayout>
-            </LinearLayout>
-            </LinearLayout>
-            </LinearLayout>
-            </LinearLayout>
-            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="Sloppy Shots Combo \n ₱ 215.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="Christmas Bucket Meal for 4 \n ₱ 869.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
         </LinearLayout>
     </LinearLayout>
-    </LinearLayout>
+
     </ScrollView>
 
     <ImageView

@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6EA963E"
+    tools:context=".SusiesCuisine">
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="381dp"
+        android:layout_height="180dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/customborder"
+        android:backgroundTint="#D9000000"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/sv1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="Comment Section"
+            android:textColor="#E6EA963E"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="Comment1"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="Comment2"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="Comment3"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="205dp"
+        android:layout_height="188dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.121"
+        app:srcCompat="@drawable/sclogoo" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:id="@+id/sv1"
+        android:layout_marginTop="8dp"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        android:paddingRight="5dp"
+        android:paddingBottom="500dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="381dp"
+        android:layout_height="1200dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/customborder"
+        android:backgroundTint="#D9000000"
+        android:orientation="vertical"
+        android:padding="10dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.96">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/customborder"
+        android:backgroundTint="@color/black"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Menu"
+            android:textColor="#E6EA963E"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/sc1"
+            android:layout_width="145dp"
+            android:layout_height="130dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/sc1" />
+
+        <ImageView
+            android:id="@+id/sc2"
+            android:layout_width="136dp"
+            android:layout_height="130dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/sc2" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="match_parent"
+            android:text="Leche Flan W/ Mac Sml Bilao \n ₱ 575.00"
+            android:gravity="center"
+            android:textColor="#E6EA963E"
+            android:textSize="15dp"/>
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:text="Ricecake 1/4 \n ₱ 75.00"
+            android:gravity="center"
+            android:textColor="#E6EA963E"
+            android:textSize="15dp"/>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/sc3"
+                android:layout_width="145dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/sc3" />
+
+            <ImageView
+                android:id="@+id/sc4"
+                android:layout_width="136dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/sc4" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="Ricecake Half Box \n ₱ 150.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="Tibok-Tibok Sml Bilao 1/4 \n ₱ 75.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/sc5"
+                android:layout_width="145dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/sc5" />
+
+            <ImageView
+                android:id="@+id/sc6"
+                android:layout_width="136dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/sc6" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="Ale Ube Sml Bilao \n ₱ 870.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="Sapin-Sapin 1/4 \n ₱ 150.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/sc7"
+                android:layout_width="145dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/sc7" />
+
+            <ImageView
+                android:id="@+id/sc8"
+                android:layout_width="136dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/sc8" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="Sapin-Sapin Sml Bilao \n ₱ 585.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="Leche Flan Sml Bilao \n ₱ 710.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/sc9"
+                android:layout_width="145dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/sc9" />
+
+            <ImageView
+                android:id="@+id/sc10"
+                android:layout_width="136dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/sc10" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="Premium Assorted Sml Bilao \n ₱ 700.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="Moche 40 Pieces \n ₱ 440.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/sc11"
+                android:layout_width="145dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/sc11" />
+
+            <ImageView
+                android:id="@+id/sc12"
+                android:layout_width="136dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/sc12" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="Mamon cheese cake \n ₱ 175.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="Moist Cake Med \n ₱ 375.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/sc13"
+                android:layout_width="145dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/sc13" />
+
+            <ImageView
+                android:id="@+id/sc14"
+                android:layout_width="136dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/sc14" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="Black Forest Classic Sml Whole \n ₱ 345.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="Caramelcake Sml Whole \n ₱ 230.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/sc15"
+                android:layout_width="145dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/sc15" />
+
+            <ImageView
+                android:id="@+id/sc16"
+                android:layout_width="136dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/sc16" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="Carrot Cake Sml Whole \n ₱ 405.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="Coffee Walnut Big Whole \n ₱ 805.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/sc17"
+                android:layout_width="145dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/sc17" />
+
+            <ImageView
+                android:id="@+id/sc18"
+                android:layout_width="136dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/sc18" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="Swiss Cake Sml Whole \n ₱ 345.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="Chicken Longanisa with Rice and Egg \n ₱ 110.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/sc19"
+                android:layout_width="145dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/sc19" />
+
+            <ImageView
+                android:id="@+id/sc20"
+                android:layout_width="136dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/sc20" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="Siomai with Rice \n ₱ 115.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="Tocino with Rice and Egg \n ₱ 105.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/sc21"
+                android:layout_width="145dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/sc21" />
+
+            <ImageView
+                android:id="@+id/sc22"
+                android:layout_width="136dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/sc22" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="Porksteak with Rice \n ₱ 175.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="Dinuguan with Rice \n ₱ 250.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/sc23"
+                android:layout_width="145dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/sc23" />
+
+            <ImageView
+                android:id="@+id/sc24"
+                android:layout_width="136dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/sc24" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="Breaded Porkchop w/ Rice \n ₱ 170.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="Breaded Chicken w/ Rice \n ₱ 110.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/sc25"
+                android:layout_width="145dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/sc25" />
+
+            <ImageView
+                android:id="@+id/sc26"
+                android:layout_width="136dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/sc26" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="Chicken Guisado \n ₱ 915.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="Palabok Sml \n ₱ 795.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/sc27"
+                android:layout_width="145dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/sc27" />
+
+            <ImageView
+                android:id="@+id/sc28"
+                android:layout_width="136dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/sc28" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="Malabon Sml \n ₱ 920.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="Sotanghon W/ Miki Sml \n ₱ 645.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/sc29"
+                android:layout_width="145dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/sc29" />
+
+            <ImageView
+                android:id="@+id/sc30"
+                android:layout_width="136dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/sc30" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="Baked Lasagna Sml \n ₱ 805.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="Carbonara Sml \n ₱ 840.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="36dp"
+        android:layout_height="35dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+        app:layout_constraintStart_toEndOf="@+id/imageView8"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.44"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="36dp"
+        android:layout_height="35dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.44"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="36dp"
+        android:layout_height="35dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.44"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="36dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="37dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.44"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="36dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="116dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.44"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="200dp"
+        android:layout_height="57dp"
+        android:gravity="center"
+        android:text="Susie's Cuisine"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#050505"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
