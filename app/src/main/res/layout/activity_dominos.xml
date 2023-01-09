@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6EA963E"
+    tools:context=".Dominos">
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="381dp"
+        android:layout_height="180dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/customborder"
+        android:backgroundTint="#D9000000"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/sv1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="Comment Section"
+            android:textColor="#E6EA963E"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="Comment1"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="Comment2"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="Comment3"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="205dp"
+        android:layout_height="188dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.121"
+        app:srcCompat="@drawable/dominologo" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:id="@+id/sv1"
+        android:layout_marginTop="8dp"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        android:paddingRight="5dp"
+        android:paddingBottom="500dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="381dp"
+        android:layout_height="1200dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/customborder"
+        android:backgroundTint="#D9000000"
+        android:orientation="vertical"
+        android:padding="10dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.96">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/customborder"
+        android:backgroundTint="@color/black"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Menu"
+            android:textColor="#E6EA963E"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/dp1"
+            android:layout_width="145dp"
+            android:layout_height="130dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/dp1" />
+
+        <ImageView
+            android:id="@+id/dp2"
+            android:layout_width="136dp"
+            android:layout_height="130dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/dp2" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="match_parent"
+            android:text="California Franks \n Starts at ₱ 469.00"
+            android:gravity="center"
+            android:textColor="#E6EA963E"
+            android:textSize="15dp"/>
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:text="New York Buffalo Chicken \n Starts at ₱ 469.00"
+            android:gravity="center"
+            android:textColor="#E6EA963E"
+            android:textSize="15dp"/>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/dp3"
+                android:layout_width="145dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/dp3" />
+
+            <ImageView
+                android:id="@+id/dp4"
+                android:layout_width="136dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/dp4" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="Pizza Carbonara \n Starts at ₱ 469.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="American Bacon CheeseBurger \n Starts at ₱ 469.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/dp5"
+                android:layout_width="145dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/dp5" />
+
+            <ImageView
+                android:id="@+id/dp6"
+                android:layout_width="136dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/dp6" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="Extravaganzza \n Starts at ₱ 469.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="Memphis BBQ Chicken \n Starts at ₱ 469.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/dp7"
+                android:layout_width="145dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/dp7" />
+
+            <ImageView
+                android:id="@+id/dp8"
+                android:layout_width="136dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/dp8" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="Spinach and Feta \n Starts at ₱ 419.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="5 Cheese \n Starts at ₱ 419.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/dp9"
+                android:layout_width="145dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/dp9" />
+
+            <ImageView
+                android:id="@+id/dp10"
+                android:layout_width="136dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/dp10" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="Ultimate Pepperoni \n Starts at ₱ 419.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="Aloha Pizza \n Starts at ₱ 419.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/dp11"
+                android:layout_width="145dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/dp11" />
+
+            <ImageView
+                android:id="@+id/dp12"
+                android:layout_width="136dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/dp12" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="Domino's Deluxe \n Starts at ₱ 419.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="Cheese Mania \n Starts at ₱ 169.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/dp13"
+                android:layout_width="145dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/dp13" />
+
+            <ImageView
+                android:id="@+id/dp14"
+                android:layout_width="136dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/dp14" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="Ham And Cheese \n Starts at ₱ 169.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="Pepperoni \n Starts at ₱ 169.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/dp15"
+                android:layout_width="145dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/dp15" />
+
+            <ImageView
+                android:id="@+id/dp16"
+                android:layout_width="136dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/dp16" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="Cheesy Baked Macaroni \n Starts at ₱ 269.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="Italian Sausage Marinara \n Starts at ₱ 269.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/dp17"
+                android:layout_width="145dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/dp17" />
+
+            <ImageView
+                android:id="@+id/dp18"
+                android:layout_width="136dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/dp18" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="Chicken Kickers with Cheese Dip \n Starts at ₱ 299.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="Chick And Wedges \n Starts at ₱ 369.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/dp19"
+                android:layout_width="145dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/dp19" />
+
+            <ImageView
+                android:id="@+id/dp20"
+                android:layout_width="136dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/dp20" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="Baked Wings with Garlic Mayo Dip \n Starts at ₱ 349.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="Baked Wings Hikory BBQ \n Starts at ₱ 349.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/dp21"
+                android:layout_width="145dp"
+                android:layout_height="111dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/dp21" />
+
+            <ImageView
+                android:id="@+id/dp22"
+                android:layout_width="136dp"
+                android:layout_height="111dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/dp22" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="Calzone Italian Sausage \n Starts at ₱ 169.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="Potato Wedges with Cheese Dip \n Starts at ₱ 149.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/dp23"
+                android:layout_width="145dp"
+                android:layout_height="111dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/dp23" />
+
+            <ImageView
+                android:id="@+id/dp24"
+                android:layout_width="136dp"
+                android:layout_height="111dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/dp24" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="Garlic Parmesan Bites \n Starts at ₱ 159.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="Stuffed Cheesy Bread \n Starts at ₱ 159.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/dp25"
+                android:layout_width="145dp"
+                android:layout_height="111dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/dp25" />
+
+            <ImageView
+                android:id="@+id/dp26"
+                android:layout_width="136dp"
+                android:layout_height="111dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/dp26" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="Potato Wedges with Cheese and Garlic Mayo Dip \n Starts at ₱ 219.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="Choco Lava Cake \n Starts at ₱ 169.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/dp27"
+                android:layout_width="145dp"
+                android:layout_height="111dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/dp27" />
+
+            <ImageView
+                android:id="@+id/dp28"
+                android:layout_width="136dp"
+                android:layout_height="111dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/dp28" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="Marbled Cookie Brownie \n Starts at ₱ 169.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="Apple Crumble \n Starts at ₱ 209.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/dp29"
+                android:layout_width="145dp"
+                android:layout_height="111dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/dp29" />
+
+            <ImageView
+                android:id="@+id/dp30"
+                android:layout_width="136dp"
+                android:layout_height="111dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/dp30" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="Cinnabites \n Starts at ₱ 149.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="MArbled Cookie Brownie (2pcs) \n Starts at ₱ 75.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="36dp"
+        android:layout_height="35dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+        app:layout_constraintStart_toEndOf="@+id/imageView8"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.44"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="36dp"
+        android:layout_height="35dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.44"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="36dp"
+        android:layout_height="35dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.44"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="36dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="37dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.44"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="36dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="116dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.44"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="200dp"
+        android:layout_height="57dp"
+        android:gravity="center"
+        android:text="Domino's Pizza"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#050505"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
