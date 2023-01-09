@@ -131,11 +131,6 @@
 
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="358dp"
-                android:layout_height="800dp"
-                android:orientation="vertical"
-                android:padding="10dp">
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -707,8 +702,6 @@
                         android:textSize="15dp"/>
                 </LinearLayout>
             </LinearLayout>
-
-        </LinearLayout>
     </ScrollView>
 
     <ImageView
