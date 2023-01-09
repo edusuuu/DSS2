@@ -370,14 +370,14 @@
             android:orientation="horizontal">
 
           <ImageView
-              android:id="@+id/imageView15"
+              android:id="@+id/scuisinee"
               android:layout_width="136dp"
               android:layout_height="111dp"
               android:layout_weight="1"
               app:srcCompat="@drawable/sclogoo" />
 
           <ImageView
-              android:id="@+id/imageView16"
+              android:id="@+id/manginasal"
               android:layout_width="136dp"
               android:layout_height="111dp"
               android:layout_weight="1"
