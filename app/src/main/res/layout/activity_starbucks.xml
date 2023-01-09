@@ -131,11 +131,6 @@
 
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="358dp"
-                android:layout_height="800dp"
-                android:orientation="vertical"
-                android:padding="10dp">
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -145,14 +140,14 @@
                         android:layout_width="145dp"
                         android:layout_height="111dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/peppermintmochalatte1" />
+                        app:srcCompat="@drawable/sb1" />
 
                     <ImageView
                         android:id="@+id/sb2"
                         android:layout_width="136dp"
                         android:layout_height="111dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/jasmineclementinepurematchalatte2" />
+                        app:srcCompat="@drawable/sb2" />
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -162,14 +157,14 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="Pepper Mint Mocha Latte ₱ 195.00"
+                        android:text="Hazelnut Dolce Latte \n ₱ 215.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="Jasmine Clementine      Pure Matcha Latte "
+                        android:text="Hazelnut Dolce Frappuccino \n ₱ 215.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
@@ -183,14 +178,14 @@
                         android:layout_width="145dp"
                         android:layout_height="111dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/doublechocolatefloat3" />
+                        app:srcCompat="@drawable/sb3" />
 
                     <ImageView
                         android:id="@+id/sb4"
                         android:layout_width="136dp"
                         android:layout_height="111dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/strawberrymalt4" />
+                        app:srcCompat="@drawable/sb4" />
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -200,14 +195,14 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="Double Chocolate Float"
+                        android:text="Jasmine Clementine Pure Matcha Latte \n ₱ 200.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="Strawberry Malt"
+                        android:text="Bucatini Kung Pao Pasta \n ₱ 220.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
@@ -221,14 +216,14 @@
                         android:layout_width="145dp"
                         android:layout_height="111dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/hotbrewedcoffee5" />
+                        app:srcCompat="@drawable/sb5" />
 
                     <ImageView
                         android:id="@+id/sb6"
                         android:layout_width="136dp"
                         android:layout_height="111dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/saltedcaramelcoldbrew6" />
+                        app:srcCompat="@drawable/sb6" />
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -238,14 +233,14 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="Hot Brewed Coffee"
+                        android:text="No Chicken Caesar Wrap \n ₱ 195.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="Salted Caramel Cold Brew"
+                        android:text="Mango Float Cake Slice \n ₱ 240.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
@@ -259,14 +254,14 @@
                         android:layout_width="145dp"
                         android:layout_height="111dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/nitrovanillasweetcreamcoldbrew7" />
+                        app:srcCompat="@drawable/sb7" />
 
                     <ImageView
                         android:id="@+id/sb8"
                         android:layout_width="136dp"
                         android:layout_height="111dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/nitrocoldbrew8" />
+                        app:srcCompat="@drawable/sb8" />
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -276,14 +271,14 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="Nitro Vanilla Sweet     Cream Cold Brew"
+                        android:text="Double Chunky Chocolate Cookie \n ₱ 140.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="Nitro Cold Brew"
+                        android:text="My Valentine Doughnut \n ₱ 100.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
@@ -297,14 +292,14 @@
                         android:layout_width="145dp"
                         android:layout_height="111dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/vanillasweetcreamcoldbrew9" />
+                        app:srcCompat="@drawable/sb9" />
 
                     <ImageView
                         android:id="@+id/sb10"
                         android:layout_width="136dp"
                         android:layout_height="111dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/darkcaramelnitrocoldbrew10" />
+                        app:srcCompat="@drawable/sb10" />
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -314,14 +309,14 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="Vanilla Sweet Cream Cold Brew"
+                        android:text="Hot Brewed Coffee \n ₱ 135.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="Dark Caramel Nitro Cold Brew"
+                        android:text="Caffe Misto \n ₱ 135.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
@@ -335,14 +330,14 @@
                         android:layout_width="145dp"
                         android:layout_height="111dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/darkcaramelcoffeefrappuccino11" />
+                        app:srcCompat="@drawable/sb11" />
 
                     <ImageView
                         android:id="@+id/sb12"
                         android:layout_width="136dp"
                         android:layout_height="111dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/caffemisto12" />
+                        app:srcCompat="@drawable/sb12" />
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -352,14 +347,14 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="Dark Caramel Coffee Frappuccino"
+                        android:text="Cold Brew \n ₱ 180.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="Caffe Misto"
+                        android:text="Vanilla Sweet Cream Cold Brew \n ₱ 200.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
@@ -373,14 +368,14 @@
                         android:layout_width="145dp"
                         android:layout_height="111dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/strawberriesandcreamfrappuccino13" />
+                        app:srcCompat="@drawable/sb13" />
 
                     <ImageView
                         android:id="@+id/sb14"
                         android:layout_width="136dp"
                         android:layout_height="111dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/chocolatechipcreamfrappuccino14" />
+                        app:srcCompat="@drawable/sb14" />
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -390,14 +385,14 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="Strawberries and Cream Frappuccino"
+                        android:text="Caffe Americano \n ₱ 160.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="Chocolate Chip Cream Frappuccino"
+                        android:text="Caffe Mocha \n ₱ 185.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
@@ -411,14 +406,14 @@
                         android:layout_width="145dp"
                         android:layout_height="111dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/greenteacreamfrappuccino15" />
+                        app:srcCompat="@drawable/sb15" />
 
                     <ImageView
                         android:id="@+id/sb16"
                         android:layout_width="136dp"
                         android:layout_height="111dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/mangofloatcake16" />
+                        app:srcCompat="@drawable/sb16" />
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -428,14 +423,14 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="Green Tea Cream Frappucino"
+                        android:text="White Chocolate Mocha \n ₱ 195.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="Mango Float Cake"
+                        android:text="Caramel Macchiato \n ₱ 195.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
@@ -449,14 +444,14 @@
                         android:layout_width="145dp"
                         android:layout_height="111dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/myvalentinedoughnut17" />
+                        app:srcCompat="@drawable/sb17" />
 
                     <ImageView
                         android:id="@+id/sb18"
                         android:layout_width="136dp"
                         android:layout_height="111dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/darkmochalocacake18" />
+                        app:srcCompat="@drawable/sb18" />
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -466,14 +461,14 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="My Valentine Doughnut"
+                        android:text="Hazelnut Mocha Macchiato \n ₱ 190.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="Dark Mocha Loca Cake"
+                        android:text="Flat White \n ₱ 190.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
@@ -487,14 +482,14 @@
                         android:layout_width="145dp"
                         android:layout_height="111dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/nochickencaesarwrap19" />
+                        app:srcCompat="@drawable/sb19" />
 
                     <ImageView
                         android:id="@+id/sb20"
                         android:layout_width="136dp"
                         android:layout_height="111dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/bucatinikungpaopasta20" />
+                        app:srcCompat="@drawable/sb20" />
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -504,14 +499,14 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="No Chicken Caesar Wrap ₱ 195.00"
+                        android:text="Signature Chocolate \n ₱ 180.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="Bucatini Kung Pao Pasta  ₱ 220.00"
+                        android:text="White Chocolate \n ₱ 175.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
@@ -525,14 +520,14 @@
                         android:layout_width="145dp"
                         android:layout_height="111dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/chocoandnutchiaovernightoats21" />
+                        app:srcCompat="@drawable/sb21" />
 
                     <ImageView
                         android:id="@+id/sb22"
                         android:layout_width="136dp"
                         android:layout_height="111dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/baconbelgianwaffle22" />
+                        app:srcCompat="@drawable/sb22" />
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -542,14 +537,14 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="Choco and Nutchia Overnight Toast"
+                        android:text="Java Chip Frappuccino \n ₱ 200.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="Bacon Belgian Waffle"
+                        android:text="Mocha Frappuccino \n ₱ 185.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
@@ -563,14 +558,14 @@
                         android:layout_width="145dp"
                         android:layout_height="111dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/cinnamondanish23" />
+                        app:srcCompat="@drawable/sb23" />
 
                     <ImageView
                         android:id="@+id/sb24"
                         android:layout_width="136dp"
                         android:layout_height="111dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/darkchocolatemacadamiacookie24" />
+                        app:srcCompat="@drawable/sb24" />
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -580,14 +575,14 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="Cinnamon Danish"
+                        android:text="Caramel Frappuccino \n ₱ 185.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="Dark Chocolate Macadamia Cookie"
+                        android:text="Pure Matcha Cream Frappuccino \n ₱ 200.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
@@ -601,14 +596,14 @@
                         android:layout_width="145dp"
                         android:layout_height="111dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/everythingbagel25" />
+                        app:srcCompat="@drawable/sb25" />
 
                     <ImageView
                         android:id="@+id/sb26"
                         android:layout_width="136dp"
                         android:layout_height="111dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/frenchbuttercroissant26" />
+                        app:srcCompat="@drawable/sb26" />
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -618,14 +613,14 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="Everything Bagel"
+                        android:text="Chocolate Chip Cream Frappuccino \n ₱ 200.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="French Butter Croissant"
+                        android:text="Caramel Cream Frappuccino \n ₱ 185.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
@@ -639,14 +634,14 @@
                         android:layout_width="145dp"
                         android:layout_height="111dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/hamandcheeseonfrenchbuttercroissant27" />
+                        app:srcCompat="@drawable/sb27" />
 
                     <ImageView
                         android:id="@+id/sb28"
                         android:layout_width="136dp"
                         android:layout_height="111dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/sausageandbaconflatbread28" />
+                        app:srcCompat="@drawable/sb28" />
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -656,14 +651,14 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="Ham and Cheese on French Butter Croissant"
+                        android:text="Vanilla Cream Frappuccino \n ₱ 185.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="Sausage and Bacon Flat Bread"
+                        android:text="Dark Mocha Frappuccino \n ₱ 205.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
@@ -677,14 +672,14 @@
                         android:layout_width="145dp"
                         android:layout_height="111dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/triplecheeseensaymada29" />
+                        app:srcCompat="@drawable/sb29" />
 
                     <ImageView
                         android:id="@+id/sb30"
                         android:layout_width="136dp"
                         android:layout_height="111dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/nochixjapanesecurrypuff30" />
+                        app:srcCompat="@drawable/sb30" />
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -694,21 +689,19 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="Triple Cheese Ensaymada"
+                        android:text="Pure Matcha and Espresso Fusion \n ₱ 190.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="No Chix Japanese Curry Puff"
+                        android:text="Iced Shaken Hibiscus Tea w/ Pomegranate Pearls \n ₱ 170.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
                 </LinearLayout>
             </LinearLayout>
-
-        </LinearLayout>
     </ScrollView>
 
     <ImageView
