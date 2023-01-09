@@ -161,7 +161,7 @@
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Ultimate Cheesy"
+                        android:text="Ultimate Cheesy \n ₱549.00 "
                         android:textColor="#E6EA963E"
                         android:textSize="15dp" />
 
@@ -169,7 +169,7 @@
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Carbonara Supreme"
+                        android:text="Carbonara Supreme \n ₱429.00"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp" />
                 </LinearLayout>
@@ -205,7 +205,7 @@
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Super Supreme"
+                        android:text="Super Supreme \n ₱429.00"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp" />
 
@@ -213,7 +213,7 @@
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Meat Lovers"
+                        android:text="Meat Lovers \n ₱429.00"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp" />
                 </LinearLayout>
@@ -249,7 +249,7 @@
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Roasted Tomatao and Sausage Baked Pasta"
+                        android:text="Roasted Tomatao and Sausage Baked Pasta \n ₱429.00"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp" />
 
@@ -257,7 +257,7 @@
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Baked Carbonara"
+                        android:text="Baked Carbonara \n ₱359.00"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp" />
                 </LinearLayout>
@@ -292,7 +292,7 @@
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Baked Lasagna"
+                        android:text="Baked Lasagna \n ₱429.00"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp" />
 
@@ -300,7 +300,7 @@
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Baked Bolognese with meatballs"
+                        android:text="Baked Bolognese with meatballs \n ₱679.00"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp" />
                 </LinearLayout>
@@ -335,7 +335,7 @@
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Baked Ziti"
+                        android:text="Baked Ziti \n ₱399.00"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp" />
 
@@ -343,7 +343,7 @@
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Baked Bolognese"
+                        android:text="Baked Bolognese \n ₱349.00"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp" />
                 </LinearLayout>
@@ -379,7 +379,7 @@
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Tater Tots"
+                        android:text="Tater Tots \n ₱159.00"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp" />
 
@@ -387,7 +387,7 @@
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Ham and Chesse Rolls"
+                        android:text="Ham and Chesse Rolls \n ₱189.00"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp" />
                 </LinearLayout>
@@ -422,7 +422,7 @@
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Tater Tots Loaded"
+                        android:text="Tater Tots Loaded \n ₱219.00"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp" />
 
@@ -430,7 +430,7 @@
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Mex-Tex Baked Rice"
+                        android:text="Mex-Tex Baked Rice \n ₱169.00"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp" />
                 </LinearLayout>
@@ -465,7 +465,7 @@
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Mexican Beef Baked Rice"
+                        android:text="Mexican Beef Baked Rice \n ₱169.00"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp" />
 
@@ -473,7 +473,7 @@
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Cajun Sausage Baked Rice"
+                        android:text="Cajun Sausage Baked Rice \n ₱179.00"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp" />
                 </LinearLayout>
@@ -507,7 +507,7 @@
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Cheesy Ham and Bacon Baked Rice"
+                        android:text="Cheesy Ham and Bacon Baked Rice \n ₱189.00"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp" />
 
@@ -515,7 +515,7 @@
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Fried Chicken"
+                        android:text="Fried Chicken \n ₱429.00"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp" />
                 </LinearLayout>
@@ -550,7 +550,7 @@
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="1-pc. Fried Chicken with Rice"
+                        android:text="1-pc. Fried Chicken with Rice \n ₱159.00"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp" />
 
@@ -558,7 +558,7 @@
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Mozza Sticks"
+                        android:text="Mozza Sticks \n ₱183.00"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp" />
                 </LinearLayout>
@@ -593,7 +593,7 @@
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Kit-Kat pops"
+                        android:text="Kit-Kat pops \n ₱135.00"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp" />
 
@@ -601,7 +601,7 @@
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Kit-Kat rolls"
+                        android:text="Kit-Kat rolls \n ₱139.00"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp" />
                 </LinearLayout>
@@ -636,7 +636,7 @@
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Crispy Fries"
+                        android:text="Crispy Fries \n ₱75.00"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp" />
 
@@ -644,7 +644,7 @@
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Sausage Rolls"
+                        android:text="Sausage Rolls \n ₱169.00"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp" />
 
