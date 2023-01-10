@@ -21,17 +21,18 @@ public class Restaurant extends AppCompatActivity {
         ImageView beanery = findViewById(R.id.beanery);
         ImageView pzhut = findViewById(R.id.pzhut);
         ImageView maxs = findViewById(R.id.maxs);
-        ImageView terrace = findViewById(R.id.terrace);
+        ImageView amara = findViewById(R.id.terrace);
         ImageView tgif = findViewById(R.id.tgif);
         ImageView shakeys = findViewById(R.id.shakeys);
         ImageView dominos = findViewById(R.id.dominos);
         ImageView ycab = findViewById(R.id.ycab);
 
+
         back.setClickable(true);
         beanery.setClickable(true);
         pzhut.setClickable(true);
         maxs.setClickable(true);
-        terrace.setClickable(true);
+        amara.setClickable(true);
         tgif.setClickable(true);
         shakeys.setClickable(true);
         dominos.setClickable(true);
@@ -40,7 +41,7 @@ public class Restaurant extends AppCompatActivity {
         beanery.bringToFront();
         pzhut.bringToFront();
         maxs.bringToFront();
-        terrace.bringToFront();
+        amara.bringToFront();
         tgif.bringToFront();
         shakeys.bringToFront();
         ycab.bringToFront();
@@ -111,6 +112,33 @@ public class Restaurant extends AppCompatActivity {
             }
         });
 
+        amara.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Restaurant.this , AmarahsCorner.class);
+                Toast.makeText(Restaurant.this, "Loading page..." , Toast.LENGTH_SHORT).show();
+                startActivity(intent);
+            }
+        });
+
+        tgif.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Restaurant.this , TGIFridays.class);
+                Toast.makeText(Restaurant.this, "Loading page..." , Toast.LENGTH_SHORT).show();
+                startActivity(intent);
+            }
+        });
+
+        dominos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Restaurant.this , Dominos.class);
+                Toast.makeText(Restaurant.this, "Loading page..." , Toast.LENGTH_SHORT).show();
+                startActivity(intent);
+
+            }
+        });
 
 
 

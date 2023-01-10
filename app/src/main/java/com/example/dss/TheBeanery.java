@@ -4,6 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.Toast;
 
 public class TheBeanery extends AppCompatActivity {
 
@@ -13,5 +16,19 @@ public class TheBeanery extends AppCompatActivity {
         setContentView(R.layout.activity_the_beanery);
 
         Intent intent = getIntent();
+
+        ImageView back = findViewById(R.id.btnBack);
+        back.setClickable(true);
+
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                setContentView(R.layout.activity_restaurant);
+                Intent intent = new Intent(TheBeanery.this , Restaurant.class);
+                Toast.makeText(TheBeanery.this, "Returning...", Toast.LENGTH_SHORT).show();
+
+                startActivity(intent);
+            }
+        });
     }
 }
