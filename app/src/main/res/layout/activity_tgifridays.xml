@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#E6EA963E"
-    tools:context=".BurgerKing">
+    tools:context=".TGIFridays">
 
     <LinearLayout
         android:id="@+id/linearLayout5"
@@ -79,7 +79,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.121"
-        app:srcCompat="@drawable/bgking" />
+        app:srcCompat="@drawable/tgifridayslogo" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -137,18 +137,18 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <ImageView
-            android:id="@+id/bgking1"
+            android:id="@+id/tgif1"
             android:layout_width="145dp"
             android:layout_height="130dp"
             android:layout_weight="1"
-            app:srcCompat="@drawable/bgking1" />
+            app:srcCompat="@drawable/tgif1" />
 
         <ImageView
-            android:id="@+id/bgking2"
+            android:id="@+id/tgif2"
             android:layout_width="136dp"
             android:layout_height="130dp"
             android:layout_weight="1"
-            app:srcCompat="@drawable/bgking2" />
+            app:srcCompat="@drawable/tgif2" />
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -158,14 +158,14 @@
         <TextView
             android:layout_width="170dp"
             android:layout_height="match_parent"
-            android:text="Truffle Whopper Jr. Meal \n ₱ 208.00"
+            android:text="Fridays Signature Glazed Riblets \n ₱ 800.00"
             android:gravity="center"
             android:textColor="#E6EA963E"
             android:textSize="15dp"/>
         <TextView
             android:layout_width="180dp"
             android:layout_height="match_parent"
-            android:text="Spicy Chicken King Meal \n ₱ 252.00"
+            android:text="Fridays Signature Glazed Riblets Platter \n ₱ 1920.00"
             android:gravity="center"
             android:textColor="#E6EA963E"
             android:textSize="15dp"/>
@@ -175,18 +175,18 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
             <ImageView
-                android:id="@+id/bgking3"
+                android:id="@+id/tgif3"
                 android:layout_width="145dp"
                 android:layout_height="130dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/bgking3" />
+                app:srcCompat="@drawable/tgif3" />
 
             <ImageView
-                android:id="@+id/bgking4"
+                android:id="@+id/tgif4"
                 android:layout_width="136dp"
                 android:layout_height="130dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/bgking4" />
+                app:srcCompat="@drawable/tgif4" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -196,14 +196,14 @@
             <TextView
                 android:layout_width="170dp"
                 android:layout_height="match_parent"
-                android:text="Truffle Whopper Jr.\n ₱ 142.00"
+                android:text="Fridays Signature Chicken and Shrimp \n ₱ 910.00"
                 android:gravity="center"
                 android:textColor="#E6EA963E"
                 android:textSize="15dp"/>
             <TextView
                 android:layout_width="180dp"
                 android:layout_height="match_parent"
-                android:text="Plant Based King Feast For 2 \n ₱ 419.00"
+                android:text="Fridays Signature Pork Chop \n ₱ 655.00"
                 android:gravity="center"
                 android:textColor="#E6EA963E"
                 android:textSize="15dp"/>
@@ -213,18 +213,18 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
             <ImageView
-                android:id="@+id/bgking5"
+                android:id="@+id/tgif5"
                 android:layout_width="145dp"
                 android:layout_height="130dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/bgking5" />
+                app:srcCompat="@drawable/tgif5" />
 
             <ImageView
-                android:id="@+id/bgking6"
+                android:id="@+id/tgif6"
                 android:layout_width="136dp"
                 android:layout_height="130dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/bgking6" />
+                app:srcCompat="@drawable/tgif6" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -234,14 +234,14 @@
             <TextView
                 android:layout_width="170dp"
                 android:layout_height="match_parent"
-                android:text="King Feast for 4 \n ₱ 699.00"
+                android:text="Ribeye Steak 12 oz \n ₱ 2415.00"
                 android:gravity="center"
                 android:textColor="#E6EA963E"
                 android:textSize="15dp"/>
             <TextView
                 android:layout_width="180dp"
                 android:layout_height="match_parent"
-                android:text="Whopper Jr. Meal \n ₱ 147.00"
+                android:text="Seafood Platter \n ₱ 1865.00"
                 android:gravity="center"
                 android:textColor="#E6EA963E"
                 android:textSize="15dp"/>
@@ -251,18 +251,18 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
             <ImageView
-                android:id="@+id/bgking7"
+                android:id="@+id/tgif7"
                 android:layout_width="145dp"
                 android:layout_height="130dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/bgking07" />
+                app:srcCompat="@drawable/tgif7" />
 
             <ImageView
-                android:id="@+id/bgking8"
+                android:id="@+id/tgif8"
                 android:layout_width="136dp"
                 android:layout_height="130dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/bgking08" />
+                app:srcCompat="@drawable/tgif8" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -272,14 +272,14 @@
             <TextView
                 android:layout_width="170dp"
                 android:layout_height="match_parent"
-                android:text="Whopper Jr. \n ₱ 87.00"
+                android:text="3 Meat Platter \n ₱ 2140.00"
                 android:gravity="center"
                 android:textColor="#E6EA963E"
                 android:textSize="15dp"/>
             <TextView
                 android:layout_width="180dp"
                 android:layout_height="match_parent"
-                android:text="Pepperoni Bacon Whopper Jr. Meal \n ₱ 256.00"
+                android:text="Wings Platter \n ₱ 1410.00"
                 android:gravity="center"
                 android:textColor="#E6EA963E"
                 android:textSize="15dp"/>
@@ -289,18 +289,18 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
             <ImageView
-                android:id="@+id/bgking9"
+                android:id="@+id/tgif9"
                 android:layout_width="145dp"
                 android:layout_height="130dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/bgking9" />
+                app:srcCompat="@drawable/tgif9" />
 
             <ImageView
-                android:id="@+id/bgking10"
+                android:id="@+id/tgif10"
                 android:layout_width="136dp"
                 android:layout_height="130dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/bgking10" />
+                app:srcCompat="@drawable/tgif10" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -310,14 +310,14 @@
             <TextView
                 android:layout_width="170dp"
                 android:layout_height="match_parent"
-                android:text="Pepperoni Bacon Whopper Jr. \n ₱ 196.00"
+                android:text="Southern Platter \n ₱ 3000.00"
                 android:gravity="center"
                 android:textColor="#E6EA963E"
                 android:textSize="15dp"/>
             <TextView
                 android:layout_width="180dp"
                 android:layout_height="match_parent"
-                android:text="4-Cheese Whopper Jr. Meal \n ₱ 188.00"
+                android:text="Bucket Of Bones \n ₱ 3000.00"
                 android:gravity="center"
                 android:textColor="#E6EA963E"
                 android:textSize="15dp"/>
@@ -327,18 +327,18 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
             <ImageView
-                android:id="@+id/bgking11"
+                android:id="@+id/tgif11"
                 android:layout_width="145dp"
                 android:layout_height="130dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/bgking11" />
+                app:srcCompat="@drawable/tgif11" />
 
             <ImageView
-                android:id="@+id/bgking12"
+                android:id="@+id/tgif12"
                 android:layout_width="136dp"
                 android:layout_height="130dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/bgking12" />
+                app:srcCompat="@drawable/tgif12" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -348,51 +348,14 @@
             <TextView
                 android:layout_width="170dp"
                 android:layout_height="match_parent"
-                android:text="4-Cheese Whopper \n ₱ 257.00"
+                android:text="6 Spice Chicken \n ₱ 435.00"
                 android:gravity="center"
                 android:textColor="#E6EA963E"
                 android:textSize="15dp"/>
             <TextView
                 android:layout_width="180dp"
                 android:layout_height="match_parent"
-                android:text="Bacon 4-Cheese Whopper Jr. Meal \n ₱ 288.00"
-                android:gravity="center"
-                android:textColor="#E6EA963E"
-                android:textSize="15dp"/>
-        </LinearLayout><LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <ImageView
-            android:id="@+id/bgking13"
-            android:layout_width="145dp"
-            android:layout_height="130dp"
-            android:layout_weight="1"
-            app:srcCompat="@drawable/bgking13" />
-
-        <ImageView
-            android:id="@+id/bgking14"
-            android:layout_width="136dp"
-            android:layout_height="130dp"
-            android:layout_weight="1"
-            app:srcCompat="@drawable/bgking14" />
-    </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <TextView
-                android:layout_width="170dp"
-                android:layout_height="match_parent"
-                android:text="X-tra Long Chicken Jr. Sandwich Meal \n ₱ 126.00"
-                android:gravity="center"
-                android:textColor="#E6EA963E"
-                android:textSize="15dp"/>
-            <TextView
-                android:layout_width="180dp"
-                android:layout_height="match_parent"
-                android:text="X-tra Long Chicken Sandwich Meal \n ₱ 189.00"
+                android:text="Fish and Chips \n ₱ 545.00"
                 android:gravity="center"
                 android:textColor="#E6EA963E"
                 android:textSize="15dp"/>
@@ -402,18 +365,18 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
             <ImageView
-                android:id="@+id/bgking15"
+                android:id="@+id/tgif13"
                 android:layout_width="145dp"
                 android:layout_height="130dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/bgking15" />
+                app:srcCompat="@drawable/tgif13" />
 
             <ImageView
-                android:id="@+id/bgking16"
+                android:id="@+id/tgif14"
                 android:layout_width="136dp"
                 android:layout_height="130dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/bgking16" />
+                app:srcCompat="@drawable/tgif14" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -423,14 +386,14 @@
             <TextView
                 android:layout_width="170dp"
                 android:layout_height="match_parent"
-                android:text="Flame-Grilled Cheeseburger Meal \n ₱ 143.00"
+                android:text="Grilled Bbq Chicken \n ₱ 765.00"
                 android:gravity="center"
                 android:textColor="#E6EA963E"
                 android:textSize="15dp"/>
             <TextView
                 android:layout_width="180dp"
                 android:layout_height="match_parent"
-                android:text="Flame-Grilled Cheeseburger \n ₱ 83.00"
+                android:text="Chipotle Chicken \n ₱ 825.00"
                 android:gravity="center"
                 android:textColor="#E6EA963E"
                 android:textSize="15dp"/>
@@ -440,18 +403,18 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
             <ImageView
-                android:id="@+id/bgking17"
+                android:id="@+id/tgif15"
                 android:layout_width="145dp"
                 android:layout_height="130dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/bgking17" />
+                app:srcCompat="@drawable/tgif15" />
 
             <ImageView
-                android:id="@+id/bgking18"
+                android:id="@+id/tgif16"
                 android:layout_width="136dp"
                 android:layout_height="130dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/bgking18" />
+                app:srcCompat="@drawable/tgif16" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -461,14 +424,14 @@
             <TextView
                 android:layout_width="170dp"
                 android:layout_height="match_parent"
-                android:text="Flame-Grilled Triple Cheeseburger Meal \n ₱ 350.00"
+                android:text="Pacific Grilled Pork Chop \n ₱ 655.00"
                 android:gravity="center"
                 android:textColor="#E6EA963E"
                 android:textSize="15dp"/>
             <TextView
                 android:layout_width="180dp"
                 android:layout_height="match_parent"
-                android:text="Flame-Grilled Quadruple Cheeseburger Meal \n ₱ 402.00"
+                android:text="Salisburry Steak \n ₱ 800.00"
                 android:gravity="center"
                 android:textColor="#E6EA963E"
                 android:textSize="15dp"/>
@@ -478,18 +441,18 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
             <ImageView
-                android:id="@+id/bgking19"
+                android:id="@+id/tgif17"
                 android:layout_width="145dp"
                 android:layout_height="130dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/bgking19" />
+                app:srcCompat="@drawable/tgif17" />
 
             <ImageView
-                android:id="@+id/bgking20"
+                android:id="@+id/tgif18"
                 android:layout_width="136dp"
                 android:layout_height="130dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/bgking20" />
+                app:srcCompat="@drawable/tgif18" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -499,14 +462,14 @@
             <TextView
                 android:layout_width="170dp"
                 android:layout_height="match_parent"
-                android:text="Quarter Pound King Meal \n ₱ 295.00"
+                android:text="Crispy Smoked Fish \n ₱ 435.00"
                 android:gravity="center"
                 android:textColor="#E6EA963E"
                 android:textSize="15dp"/>
             <TextView
                 android:layout_width="180dp"
                 android:layout_height="match_parent"
-                android:text="Double Quarter Pound King Meal \n ₱ 406.00"
+                android:text="Filipino Pork Liempo \n ₱ 645.00"
                 android:gravity="center"
                 android:textColor="#E6EA963E"
                 android:textSize="15dp"/>
@@ -516,18 +479,18 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
             <ImageView
-                android:id="@+id/bgking21"
+                android:id="@+id/tgif19"
                 android:layout_width="145dp"
                 android:layout_height="130dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/bgking21" />
+                app:srcCompat="@drawable/tgif19" />
 
             <ImageView
-                android:id="@+id/bgking22"
+                android:id="@+id/tgif20"
                 android:layout_width="136dp"
                 android:layout_height="130dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/bgking22" />
+                app:srcCompat="@drawable/tgif20" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -537,14 +500,14 @@
             <TextView
                 android:layout_width="170dp"
                 android:layout_height="match_parent"
-                android:text="Flame-Grilled BBQ Bacon Cheeseburger Meal \n ₱ 244.00"
+                android:text="Fridays Signature Burger \n ₱ 780.00"
                 android:gravity="center"
                 android:textColor="#E6EA963E"
                 android:textSize="15dp"/>
             <TextView
                 android:layout_width="180dp"
                 android:layout_height="match_parent"
-                android:text="Flame-Grilled Hamburger Meal \n ₱ 136.00"
+                android:text="Hangover Burger \n ₱ 810.00"
                 android:gravity="center"
                 android:textColor="#E6EA963E"
                 android:textSize="15dp"/>
@@ -554,18 +517,18 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
             <ImageView
-                android:id="@+id/bgking23"
+                android:id="@+id/tgif21"
                 android:layout_width="145dp"
                 android:layout_height="130dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/bgking23" />
+                app:srcCompat="@drawable/tgif21" />
 
             <ImageView
-                android:id="@+id/bgking24"
+                android:id="@+id/tgif22"
                 android:layout_width="136dp"
                 android:layout_height="130dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/bgking24" />
+                app:srcCompat="@drawable/tgif22" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -575,14 +538,14 @@
             <TextView
                 android:layout_width="170dp"
                 android:layout_height="match_parent"
-                android:text="Mushroom Swiss King Jr. Meal \n ₱ 257.00"
+                android:text="Fridays Cheeseburger \n ₱ 710.00"
                 android:gravity="center"
                 android:textColor="#E6EA963E"
                 android:textSize="15dp"/>
             <TextView
                 android:layout_width="180dp"
                 android:layout_height="match_parent"
-                android:text="Double Mushroom Swiss King Jr. Meal \n ₱ 325.00"
+                android:text="Shiitake Truffle Burger \n ₱ 800.00"
                 android:gravity="center"
                 android:textColor="#E6EA963E"
                 android:textSize="15dp"/>
@@ -592,18 +555,18 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
             <ImageView
-                android:id="@+id/bgking25"
+                android:id="@+id/tgif23"
                 android:layout_width="145dp"
                 android:layout_height="130dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/bgking25" />
+                app:srcCompat="@drawable/tgif23" />
 
             <ImageView
-                android:id="@+id/bgking26"
+                android:id="@+id/tgif24"
                 android:layout_width="136dp"
                 android:layout_height="130dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/bgking26" />
+                app:srcCompat="@drawable/tgif24" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -613,14 +576,14 @@
             <TextView
                 android:layout_width="170dp"
                 android:layout_height="match_parent"
-                android:text="4-pc Chicken Nuggets with Sides Meal \n ₱ 147.00"
+                android:text="Cajun Shrimp and Chicken Pasta \n ₱ 435.00"
                 android:gravity="center"
                 android:textColor="#E6EA963E"
                 android:textSize="15dp"/>
             <TextView
                 android:layout_width="180dp"
                 android:layout_height="match_parent"
-                android:text="6-pc Chicken Nuggets with Sides Meal \n ₱ 191.00"
+                android:text="Tomato Arugula \n ₱ 325.00"
                 android:gravity="center"
                 android:textColor="#E6EA963E"
                 android:textSize="15dp"/>
@@ -630,18 +593,18 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
             <ImageView
-                android:id="@+id/bgking27"
+                android:id="@+id/tgif25"
                 android:layout_width="145dp"
                 android:layout_height="130dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/bgking27" />
+                app:srcCompat="@drawable/tgif25" />
 
             <ImageView
-                android:id="@+id/bgking28"
+                android:id="@+id/tgif26"
                 android:layout_width="136dp"
                 android:layout_height="130dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/bgking28" />
+                app:srcCompat="@drawable/tgif26" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -651,14 +614,166 @@
             <TextView
                 android:layout_width="170dp"
                 android:layout_height="match_parent"
-                android:text="Chicken Nugget Burger Meal \n ₱ 157.00"
+                android:text="Scallops And Scampi \n ₱ 435.00"
                 android:gravity="center"
                 android:textColor="#E6EA963E"
                 android:textSize="15dp"/>
             <TextView
                 android:layout_width="180dp"
                 android:layout_height="match_parent"
-                android:text="Chicken Nugget Burger \n ₱ 97.00"
+                android:text="Baked Mac And Cheese \n ₱ 490.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/tgif27"
+                android:layout_width="145dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/tgif27" />
+
+            <ImageView
+                android:id="@+id/tgif28"
+                android:layout_width="136dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/tgif28" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="Classic Carbonara \n ₱ 490.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="Pepperoni Crisps \n ₱ 655.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/tgif29"
+                android:layout_width="145dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/tgif29" />
+
+            <ImageView
+                android:id="@+id/tgif30"
+                android:layout_width="136dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/tgif30" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="Truffle Bacon And Mushrooms \n ₱ 765.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="Honey Buffalo Chicken \n ₱ 635.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/tgif31"
+                android:layout_width="145dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/tgif31" />
+
+            <ImageView
+                android:id="@+id/tgif32"
+                android:layout_width="136dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/tgif32" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="Bacon And Spinach \n ₱ 765.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="Brownie Obsession \n ₱ 445.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/tgif33"
+                android:layout_width="145dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/tgif33" />
+
+            <ImageView
+                android:id="@+id/tgif34"
+                android:layout_width="136dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/tgif34" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:text="Salted Caramel Chocolate Cake \n ₱ 425.00"
+                android:gravity="center"
+                android:textColor="#E6EA963E"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:text="White Chocolate Coconut Cheesecake \n ₱ 380.00"
                 android:gravity="center"
                 android:textColor="#E6EA963E"
                 android:textSize="15dp"/>
@@ -726,7 +841,7 @@
         android:layout_width="200dp"
         android:layout_height="57dp"
         android:gravity="center"
-        android:text="Burger King"
+        android:text="TGIFriday's"
         android:textSize="25dp"
         android:textStyle="bold"
         android:textColor="#050505"

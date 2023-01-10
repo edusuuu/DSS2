@@ -139,14 +139,14 @@
         <ImageView
             android:id="@+id/tb1"
             android:layout_width="145dp"
-            android:layout_height="140dp"
+            android:layout_height="125dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/tb1" />
 
         <ImageView
             android:id="@+id/tb2"
             android:layout_width="136dp"
-            android:layout_height="140dp"
+            android:layout_height="125dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/tb2" />
     </LinearLayout>
@@ -177,14 +177,14 @@
             <ImageView
                 android:id="@+id/tb3"
                 android:layout_width="130dp"
-                android:layout_height="140dp"
+                android:layout_height="125dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/tb3" />
 
             <ImageView
                 android:id="@+id/tb4"
                 android:layout_width="120dp"
-                android:layout_height="140dp"
+                android:layout_height="125dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/tb4" />
         </LinearLayout>
@@ -215,14 +215,14 @@
             <ImageView
                 android:id="@+id/tb5"
                 android:layout_width="130dp"
-                android:layout_height="140dp"
+                android:layout_height="125dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/tb3" />
 
             <ImageView
                 android:id="@+id/tb6"
                 android:layout_width="120dp"
-                android:layout_height="140dp"
+                android:layout_height="125dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/tb6" />
         </LinearLayout>
@@ -253,14 +253,14 @@
             <ImageView
                 android:id="@+id/tb7"
                 android:layout_width="130dp"
-                android:layout_height="140dp"
+                android:layout_height="125dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/tb7" />
 
             <ImageView
                 android:id="@+id/tb8"
                 android:layout_width="120dp"
-                android:layout_height="140dp"
+                android:layout_height="125dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/tb8" />
         </LinearLayout>
@@ -291,14 +291,14 @@
             <ImageView
                 android:id="@+id/tb9"
                 android:layout_width="130dp"
-                android:layout_height="140dp"
+                android:layout_height="125dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/tb9" />
 
             <ImageView
                 android:id="@+id/tb10"
                 android:layout_width="120dp"
-                android:layout_height="140dp"
+                android:layout_height="125dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/tb10" />
         </LinearLayout>
@@ -329,14 +329,14 @@
             <ImageView
                 android:id="@+id/tb11"
                 android:layout_width="130dp"
-                android:layout_height="140dp"
+                android:layout_height="125dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/tb11" />
 
             <ImageView
                 android:id="@+id/tb12"
                 android:layout_width="120dp"
-                android:layout_height="140dp"
+                android:layout_height="125dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/tb12" />
         </LinearLayout>
@@ -367,14 +367,14 @@
             <ImageView
                 android:id="@+id/tb13"
                 android:layout_width="130dp"
-                android:layout_height="140dp"
+                android:layout_height="125dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/tb13" />
 
             <ImageView
                 android:id="@+id/tb14"
                 android:layout_width="120dp"
-                android:layout_height="140dp"
+                android:layout_height="125dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/tb14" />
         </LinearLayout>
@@ -405,14 +405,14 @@
             <ImageView
                 android:id="@+id/tb15"
                 android:layout_width="130dp"
-                android:layout_height="140dp"
+                android:layout_height="125dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/tb15" />
 
             <ImageView
                 android:id="@+id/tb16"
                 android:layout_width="120dp"
-                android:layout_height="140dp"
+                android:layout_height="125dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/tb16" />
         </LinearLayout>
@@ -443,14 +443,14 @@
             <ImageView
                 android:id="@+id/tb17"
                 android:layout_width="130dp"
-                android:layout_height="140dp"
+                android:layout_height="125dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/tb17" />
 
             <ImageView
                 android:id="@+id/tb18"
                 android:layout_width="120dp"
-                android:layout_height="140dp"
+                android:layout_height="125dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/tb18" />
         </LinearLayout>
@@ -481,14 +481,14 @@
             <ImageView
                 android:id="@+id/tb19"
                 android:layout_width="130dp"
-                android:layout_height="140dp"
+                android:layout_height="125dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/tb19" />
 
             <ImageView
                 android:id="@+id/tb20"
                 android:layout_width="120dp"
-                android:layout_height="140dp"
+                android:layout_height="125dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/tb20" />
         </LinearLayout>
@@ -519,14 +519,14 @@
             <ImageView
                 android:id="@+id/tb21"
                 android:layout_width="130dp"
-                android:layout_height="140dp"
+                android:layout_height="125dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/tb21" />
 
             <ImageView
                 android:id="@+id/tb22"
                 android:layout_width="120dp"
-                android:layout_height="140dp"
+                android:layout_height="125dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/tb22" />
         </LinearLayout>
@@ -557,14 +557,14 @@
             <ImageView
                 android:id="@+id/tb23"
                 android:layout_width="130dp"
-                android:layout_height="140dp"
+                android:layout_height="125dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/tb23" />
 
             <ImageView
                 android:id="@+id/tb24"
                 android:layout_width="120dp"
-                android:layout_height="140dp"
+                android:layout_height="125dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/tb24" />
         </LinearLayout>
@@ -595,14 +595,14 @@
             <ImageView
                 android:id="@+id/tb25"
                 android:layout_width="130dp"
-                android:layout_height="140dp"
+                android:layout_height="125dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/tb25" />
 
             <ImageView
                 android:id="@+id/tb26"
                 android:layout_width="120dp"
-                android:layout_height="140dp"
+                android:layout_height="125dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/tb26" />
         </LinearLayout>
@@ -633,14 +633,14 @@
             <ImageView
                 android:id="@+id/tb27"
                 android:layout_width="130dp"
-                android:layout_height="140dp"
+                android:layout_height="125dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/tb27" />
 
             <ImageView
                 android:id="@+id/tb28"
                 android:layout_width="120dp"
-                android:layout_height="140dp"
+                android:layout_height="125dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/tb28" />
         </LinearLayout>
@@ -671,14 +671,14 @@
             <ImageView
                 android:id="@+id/tb29"
                 android:layout_width="130dp"
-                android:layout_height="140dp"
+                android:layout_height="125dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/tb29" />
 
             <ImageView
                 android:id="@+id/tb30"
                 android:layout_width="120dp"
-                android:layout_height="140dp"
+                android:layout_height="125dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/tb30" />
         </LinearLayout>
