@@ -158,14 +158,14 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="Truffle Cheese Pizza Americana ₱999.00"
+                        android:text="Truffle Cheese Pizza Americana \n ₱999.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="Shakey's Special  ₱1049.00"
+                        android:text="Shakey's Special \n ₱1049.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
@@ -196,14 +196,14 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="Classic Spinach Pizza Americana  ₱1049.00"
+                        android:text="Classic Spinach Pizza Americana \n ₱1049.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="Spinach And Shrimp ₱1049.00"
+                        android:text="Spinach And Shrimp \n ₱1049.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
@@ -234,14 +234,14 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="Roast Beef Pizza ₱ 405.00"
+                        android:text="Roast Beef Pizza \n ₱ 405.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="Spinach Glazed Bacon ₱1049.00"
+                        android:text="Spinach Glazed Bacon \n ₱1049.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
@@ -272,14 +272,14 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="Basket of French fries ₱399.00"
+                        android:text="Basket of French fries \n ₱399.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="Garlic Bread Loaf  ₱89.00"
+                        android:text="Garlic Bread Loaf \n ₱89.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
@@ -310,14 +310,14 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="Family Meal Deal ₱1119.00"
+                        android:text="Family Meal Deal \n ₱1119.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="Monster Meal Deal ₱3179.00"
+                        android:text="Monster Meal Deal \n ₱3179.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
@@ -348,14 +348,14 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="Mozzarella Cheese Sticks ₱240.00"
+                        android:text="Mozzarella Cheese Sticks \n ₱240.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="Calamari Crrunch  ₱428.00"
+                        android:text="Calamari Crrunch  \n ₱428.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
@@ -386,14 +386,14 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="Baaad Burger Combo ₱ 199.00"
+                        android:text="Baaad Burger Combo \n ₱ 199.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="Goood Burger Combo  ₱ 199.00"
+                        android:text="Goood Burger Combo \n ₱ 199.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
@@ -424,14 +424,14 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="The Baaad Burger ₱192.00"
+                        android:text="The Baaad Burger \n ₱192.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="The Goood Burger ₱192.00"
+                        android:text="The Goood Burger \n ₱192.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
@@ -462,14 +462,14 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="Bunch of lunch original with fries ₱212.00"
+                        android:text="Bunch of lunch original with fries \n ₱212.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="2 pcs of Chicken n Rice  ₱217.00"
+                        android:text="2 pcs of Chicken n Rice \n ₱217.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
@@ -500,14 +500,14 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="Skilletti ₱298.00"
+                        android:text="Skilletti \n ₱298.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="Carbonara Supreme ₱ 298.00"
+                        android:text="Carbonara Supreme \n ₱ 298.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
@@ -538,14 +538,14 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="Chicken Blowout with Fries ₱2529.00"
+                        android:text="Chicken Blowout with Fries \n ₱2529.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="Buddy Pack (5 pcs chix) with Fries  ₱674.00"
+                        android:text="Buddy Pack (5 pcs chix) with Fries \n ₱674.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
@@ -576,14 +576,14 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="Tuna Caesar Salad ₱236.00"
+                        android:text="Tuna Caesar Salad \n ₱236.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="Bacon and Cheese Fusilli  ₱ 258.00"
+                        android:text="Bacon and Cheese Fusilli \n ₱ 258.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
@@ -614,14 +614,14 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="Bottled House Blend Icedtea ₱120.00"
+                        android:text="Bottled House Blend Icedtea \n ₱120.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="Coke in Can  ₱68.00"
+                        android:text="Coke in Can \n ₱68.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
@@ -652,14 +652,14 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="match_parent"
-                        android:text="Sprite in Can ₱68.00"
+                        android:text="Sprite in Can \n ₱68.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
                     <TextView
                         android:layout_width="180dp"
                         android:layout_height="match_parent"
-                        android:text="San Mig Lght    ₱ 115.00"
+                        android:text="San Mig Lght \n ₱ 115.00"
                         android:gravity="center"
                         android:textColor="#E6EA963E"
                         android:textSize="15dp"/>
