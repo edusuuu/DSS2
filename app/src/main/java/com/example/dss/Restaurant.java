@@ -17,6 +17,7 @@ public class Restaurant extends AppCompatActivity {
 
         setContentView(R.layout.activity_restaurant);
 
+        ImageView back = findViewById(R.id.btnBack);
         ImageView beanery = findViewById(R.id.beanery);
         ImageView pzhut = findViewById(R.id.pzhut);
         ImageView maxs = findViewById(R.id.maxs);
@@ -26,6 +27,7 @@ public class Restaurant extends AppCompatActivity {
         ImageView dominos = findViewById(R.id.dominos);
         ImageView ycab = findViewById(R.id.ycab);
 
+        back.setClickable(true);
         beanery.setClickable(true);
         pzhut.setClickable(true);
         maxs.setClickable(true);
@@ -46,6 +48,18 @@ public class Restaurant extends AppCompatActivity {
 
 
         Intent intent = getIntent();
+
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                setContentView(R.layout.activity_main_page);
+                Intent intent = new Intent(Restaurant.this , MainPage.class);
+                Toast.makeText(Restaurant.this, "Returning...", Toast.LENGTH_SHORT).show();
+
+                startActivity(intent);
+
+            }
+        });
 
         beanery.setOnClickListener(new View.OnClickListener() {
             @Override

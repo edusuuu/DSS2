@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
 import android.content.Intent;
+import android.media.Image;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -18,6 +19,7 @@ public class FastFood extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fast_food);
 
+        ImageView back = findViewById(R.id.btnBack);
         ImageView jollibee = findViewById(R.id.jollibee);
         ImageView chowking = findViewById(R.id.chowking);
         ImageView mcdo = findViewById(R.id.mcdo);
@@ -27,6 +29,7 @@ public class FastFood extends AppCompatActivity {
         ImageView mangina = findViewById(R.id.manginasal);
         ImageView scuisine = findViewById(R.id.scuisinee);
 
+        back.setClickable(true);
         jollibee.setClickable(true);
         chowking.setClickable(true);
         mcdo.setClickable(true);
@@ -45,6 +48,17 @@ public class FastFood extends AppCompatActivity {
         mangina.bringToFront();
         scuisine.bringToFront();
 
+
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                setContentView(R.layout.activity_main_page);
+                Intent intent = new Intent(FastFood.this , MainPage.class);
+                Toast.makeText(FastFood.this, "Returning...", Toast.LENGTH_SHORT).show();
+
+                startActivity(intent);
+            }
+        });
 
         jollibee.setOnClickListener(new View.OnClickListener() {
             @Override
