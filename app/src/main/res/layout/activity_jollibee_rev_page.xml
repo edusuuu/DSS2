@@ -138,39 +138,76 @@
                     android:orientation="horizontal"
                     android:layout_marginBottom="10dp">
                     <ImageView
-                        android:id="@+id/sb1"
+                        android:id="@+id/jb1"
                         android:layout_width="145dp"
-                        android:layout_height="140dp"
+                        android:layout_height="100dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/jabi1" />
 
                     <ImageView
-                        android:id="@+id/sb2"
+                        android:id="@+id/jb2"
                         android:layout_width="136dp"
-                        android:layout_height="140dp"
+                        android:layout_height="100dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/jabi2" />
                 </LinearLayout>
-
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:text="Jolly Spaghetti with Yumburger \n ₱122.00"
+                    android:textColor="#E6EA963E" />
+                <TextView
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:text="Chickenjoy Bucket Family Meals \n ₱758.00"
+                    android:textColor="#E6EA963E" />
+            </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
                     android:layout_marginBottom="10dp">
                     <ImageView
-                        android:id="@+id/sb3"
+                        android:id="@+id/jb3"
                         android:layout_width="145dp"
-                        android:layout_height="140dp"
+                        android:layout_height="100dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/jab3" />
+                        app:srcCompat="@drawable/jabi3" />
 
                     <ImageView
-                        android:id="@+id/sb4"
+                        android:id="@+id/jb4"
                         android:layout_width="136dp"
-                        android:layout_height="140dp"
+                        android:layout_height="100dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/jabi4" />
                 </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:text="8-pc. Chickenjoy Solo \n ₱535.00"
+                    android:textColor="#E6EA963E" />
+                <TextView
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:text="1-pc. Chickenjoy with Jolly Spaghetti \n ₱135.00"
+                    android:textColor="#E6EA963E" />
+            </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -178,216 +215,501 @@
                     android:orientation="horizontal"
                     android:layout_marginBottom="10dp">
                     <ImageView
-                        android:id="@+id/sb5"
+                        android:id="@+id/j5"
                         android:layout_width="145dp"
-                        android:layout_height="140dp"
+                        android:layout_height="100dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/jabi5" />
 
                     <ImageView
-                        android:id="@+id/sb6"
+                        android:id="@+id/jb6"
                         android:layout_width="136dp"
-                        android:layout_height="140dp"
+                        android:layout_height="100dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/jabi6" />
                 </LinearLayout>
-
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:text="1-pc. Chickenjoy \n ₱82.00"
+                    android:textColor="#E6EA963E" />
+                <TextView
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:text="Yumburger Half Jolly Spaghetti and Fries Super Meal \n ₱133.00"
+                    android:textColor="#E6EA963E" />
+            </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
                     android:layout_marginBottom="10dp">
                     <ImageView
-                        android:id="@+id/sb7"
+                        android:id="@+id/jb7"
                         android:layout_width="145dp"
-                        android:layout_height="140dp"
+                        android:layout_height="100dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/jabi7" />
 
                     <ImageView
-                        android:id="@+id/sb8"
+                        android:id="@+id/jb8"
                         android:layout_width="136dp"
-                        android:layout_height="140dp"
+                        android:layout_height="100dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/jabi8" />
                 </LinearLayout>
-
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:text="Cheese Yumburger \n ₱66.00"
+                    android:textColor="#E6EA963E" />
+                <TextView
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:text="Jolly Spaghetti \n ₱59.00"
+                    android:textColor="#E6EA963E" />
+            </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
                     android:layout_marginBottom="10dp">
                     <ImageView
-                        android:id="@+id/sb9"
+                        android:id="@+id/jb9"
                         android:layout_width="145dp"
-                        android:layout_height="140dp"
+                        android:layout_height="100dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/jabi9" />
 
                     <ImageView
-                        android:id="@+id/sb10"
+                        android:id="@+id/jb10"
                         android:layout_width="136dp"
-                        android:layout_height="140dp"
+                        android:layout_height="100dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/jabi10" />
                 </LinearLayout>
-
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:text="Jolly Spaghetti \n ₱59.00"
+                    android:textColor="#E6EA963E" />
+                <TextView
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:text="4 - pc. Chickenjoy Family Box Solo \n ₱325.00"
+                    android:textColor="#E6EA963E" />
+            </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
                     android:layout_marginBottom="10dp">
                     <ImageView
-                        android:id="@+id/sb11"
+                        android:id="@+id/jb11"
                         android:layout_width="145dp"
-                        android:layout_height="140dp"
+                        android:layout_height="100dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/jabi11" />
 
                     <ImageView
-                        android:id="@+id/sb12"
+                        android:id="@+id/jb12"
                         android:layout_width="136dp"
-                        android:layout_height="140dp"
+                        android:layout_height="100dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/jabi12" />
                 </LinearLayout>
-
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:text="1-pc. Chickenjoy with Burger Steak and Half Jolly Spaghetti \n ₱211.00"
+                    android:textColor="#E6EA963E" />
+                <TextView
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:text="1-pc. Chickenjoy with Half Jolly Spaghetti and Shanghai \n ₱211.00"
+                    android:textColor="#E6EA963E" />
+            </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
                     android:layout_marginBottom="10dp">
                     <ImageView
-                        android:id="@+id/sb13"
+                        android:id="@+id/jb13"
                         android:layout_width="145dp"
-                        android:layout_height="140dp"
+                        android:layout_height="100dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/jabi13" />
 
                     <ImageView
-                        android:id="@+id/sb14"
+                        android:id="@+id/jb14"
                         android:layout_width="136dp"
-                        android:layout_height="140dp"
+                        android:layout_height="100dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/jabi14" />
                 </LinearLayout>
-
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:text="Choco Mallow Pie \n ₱52.00"
+                    android:textColor="#E6EA963E" />
+                <TextView
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:text="Chicken Sandwich with Fries and Drink \n ₱218.00"
+                    android:textColor="#E6EA963E" />
+            </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
                     android:layout_marginBottom="10dp">
                     <ImageView
-                        android:id="@+id/sb15"
+                        android:id="@+id/jb15"
                         android:layout_width="145dp"
-                        android:layout_height="140dp"
+                        android:layout_height="100dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/jabi15" />
 
                     <ImageView
-                        android:id="@+id/sb16"
+                        android:id="@+id/jb16"
                         android:layout_width="136dp"
-                        android:layout_height="140dp"
+                        android:layout_height="100dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/jabi16" />
                 </LinearLayout>
-
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:text="Longganisa Solo \n ₱158.00"
+                    android:textColor="#E6EA963E" />
+                <TextView
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:text="Breakfast Hotdog with Drink \n ₱138.00"
+                    android:textColor="#E6EA963E" />
+            </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
                     android:layout_marginBottom="10dp">
                     <ImageView
-                        android:id="@+id/sb17"
+                        android:id="@+id/jb17"
                         android:layout_width="145dp"
-                        android:layout_height="140dp"
+                        android:layout_height="100dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/jabi17" />
 
                     <ImageView
-                        android:id="@+id/sb18"
+                        android:id="@+id/jb18"
                         android:layout_width="136dp"
-                        android:layout_height="140dp"
+                        android:layout_height="100dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/jabi18" />
                 </LinearLayout>
-
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:text="Cheesy Yumburger with Fries and Drink \n ₱126.00"
+                    android:textColor="#E6EA963E" />
+                <TextView
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:text="Jolly Spaghetti with Yumburger with Drink \n ₱122.00"
+                    android:textColor="#E6EA963E" />
+            </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
                     android:layout_marginBottom="10dp">
                     <ImageView
-                        android:id="@+id/sb19"
+                        android:id="@+id/jb19"
                         android:layout_width="145dp"
-                        android:layout_height="140dp"
+                        android:layout_height="100dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/jabi19" />
 
                     <ImageView
-                        android:id="@+id/sb20"
+                        android:id="@+id/jb20"
                         android:layout_width="136dp"
-                        android:layout_height="140dp"
+                        android:layout_height="100dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/jabi20" />
                 </LinearLayout>
-
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:text="Jolly Spaghetti Kiddie Meal \n ₱108.00"
+                    android:textColor="#E6EA963E" />
+                <TextView
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:text="Yumburger Kiddie Meal \n ₱88.00"
+                    android:textColor="#E6EA963E" />
+            </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
                     android:layout_marginBottom="10dp">
                     <ImageView
-                        android:id="@+id/sb21"
+                        android:id="@+id/jb21"
                         android:layout_width="145dp"
-                        android:layout_height="140dp"
+                        android:layout_height="100dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/jabi21" />
 
                     <ImageView
-                        android:id="@+id/sb22"
+                        android:id="@+id/jb22"
                         android:layout_width="136dp"
-                        android:layout_height="140dp"
+                        android:layout_height="100dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/jabi22" />
                 </LinearLayout>
-
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:text="Soda Floats \n ₱52.00"
+                    android:textColor="#E6EA963E" />
+                <TextView
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:text="Coke Zero \n ₱53.00"
+                    android:textColor="#E6EA963E" />
+            </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
                     android:layout_marginBottom="10dp">
                     <ImageView
-                        android:id="@+id/sb23"
+                        android:id="@+id/jb23"
                         android:layout_width="145dp"
-                        android:layout_height="140dp"
+                        android:layout_height="100dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/jabi23" />
 
                     <ImageView
-                        android:id="@+id/sb24"
+                        android:id="@+id/jb24"
                         android:layout_width="136dp"
-                        android:layout_height="140dp"
+                        android:layout_height="100dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/jabi24" />
                 </LinearLayout>
-
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:text="Coffee \n ₱43.00"
+                    android:textColor="#E6EA963E" />
+                <TextView
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:text="Hot Chocolate \n ₱48.00"
+                    android:textColor="#E6EA963E" />
+            </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
                     android:layout_marginBottom="10dp">
                     <ImageView
-                        android:id="@+id/sb25"
+                        android:id="@+id/jb25"
                         android:layout_width="145dp"
-                        android:layout_height="140dp"
+                        android:layout_height="100dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/jabi25"
                         android:layout_gravity="center"/>
-
+                    <ImageView
+                        android:id="@+id/jb26"
+                        android:layout_width="145dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/jabi26"
+                        android:layout_gravity="center"/>
 
                 </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:text="Choco Crumble Sundae \n ₱59.00"
+                    android:textColor="#E6EA963E" />
+                <TextView
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:text="Double Amazing Aloha Champ Jr \n ₱144.00"
+                    android:textColor="#E6EA963E" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+                <ImageView
+                    android:id="@+id/jb27"
+                    android:layout_width="145dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/jabi27"
+                    android:layout_gravity="center"/>
+                <ImageView
+                    android:id="@+id/jb28"
+                    android:layout_width="145dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/jabi28"
+                    android:layout_gravity="center"/>
 
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:text="1-pc Burger Steak with Fries and Drink \n ₱122.00"
+                    android:textColor="#E6EA963E" />
+                <TextView
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:text="1-pc Burger Steak \n ₱59.00"
+                    android:textColor="#E6EA963E" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+                <ImageView
+                    android:id="@+id/jb29"
+                    android:layout_width="145dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/jabi29"
+                    android:layout_gravity="center"/>
+                <ImageView
+                    android:id="@+id/jb30"
+                    android:layout_width="145dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/jabi30"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:text="1-pc. Burger Steak with Shanghai \n ₱128.00 "
+                    android:textColor="#E6EA963E" />
+                <TextView
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:text="Jolly Spaghetti with Burger Steak \n ₱112.00 "
+                    android:textColor="#E6EA963E" />
+            </LinearLayout>
             </LinearLayout>
 
     </ScrollView>
