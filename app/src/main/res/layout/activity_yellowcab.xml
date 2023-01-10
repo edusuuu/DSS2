@@ -301,14 +301,14 @@
                 android:layout_marginBottom="10dp">
 
                 <ImageView
-                    android:id="@+id/mc9"
+                    android:id="@+id/yc9"
                     android:layout_width="145dp"
                     android:layout_height="100dp"
                     android:layout_weight="1"
                     app:srcCompat="@drawable/ycab9" />
 
                 <ImageView
-                    android:id="@+id/mc10"
+                    android:id="@+id/yc10"
                     android:layout_width="136dp"
                     android:layout_height="100dp"
                     android:layout_weight="1"
