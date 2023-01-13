@@ -10,8 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="692295ef-4a50-4b44-9f5f-f5cab48d830a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_pizzahut.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_pizzahut.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_kfc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_kfc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -134,17 +134,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
+
         <ImageView
             android:id="@+id/kfc1"
             android:layout_width="145dp"
-            android:layout_height="150dp"
+            android:layout_height="120dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/kfc1" />
 
         <ImageView
             android:id="@+id/kfc2"
             android:layout_width="136dp"
-            android:layout_height="150dp"
+            android:layout_height="120dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/kfc2" />
     </LinearLayout>
@@ -175,14 +176,14 @@
             <ImageView
                 android:id="@+id/kfc3"
                 android:layout_width="145dp"
-                android:layout_height="150dp"
+                android:layout_height="120dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/kfc3" />
 
             <ImageView
                 android:id="@+id/kfc4"
                 android:layout_width="136dp"
-                android:layout_height="150dp"
+                android:layout_height="120dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/kfc4" />
         </LinearLayout>
@@ -213,14 +214,14 @@
                 <ImageView
                     android:id="@+id/kfc5"
                     android:layout_width="145dp"
-                    android:layout_height="150dp"
+                    android:layout_height="120dp"
                     android:layout_weight="1"
                     app:srcCompat="@drawable/kfc5" />
 
                 <ImageView
                     android:id="@+id/kfc6"
                     android:layout_width="136dp"
-                    android:layout_height="150dp"
+                    android:layout_height="120dp"
                     android:layout_weight="1"
                     app:srcCompat="@drawable/kfc6" />
         </LinearLayout>
@@ -251,13 +252,13 @@
                 <ImageView
                     android:id="@+id/kfc7"
                     android:layout_width="145dp"
-                    android:layout_height="150dp"
+                    android:layout_height="120dp"
                     android:layout_weight="1"
                     app:srcCompat="@drawable/kfc7" />
                 <ImageView
                      android:id="@+id/kfc8"
                      android:layout_width="136dp"
-                     android:layout_height="150dp"
+                     android:layout_height="120dp"
                      android:layout_weight="1"
                      app:srcCompat="@drawable/kfc8" />
                 </LinearLayout>
@@ -288,14 +289,14 @@
                 <ImageView
                     android:id="@+id/kfc9"
                     android:layout_width="145dp"
-                    android:layout_height="150dp"
+                    android:layout_height="120dp"
                     android:layout_weight="1"
                     app:srcCompat="@drawable/kfc9" />
 
                 <ImageView
                     android:id="@+id/kfc10"
                     android:layout_width="136dp"
-                    android:layout_height="150dp"
+                    android:layout_height="120dp"
                     android:layout_weight="1"
                     app:srcCompat="@drawable/kfc10" />
         </LinearLayout>
@@ -326,14 +327,14 @@
                 <ImageView
                     android:id="@+id/kfc11"
                     android:layout_width="145dp"
-                    android:layout_height="150dp"
+                    android:layout_height="120dp"
                     android:layout_weight="1"
                     app:srcCompat="@drawable/kfc11" />
 
                 <ImageView
                     android:id="@+id/kfc12"
                     android:layout_width="136dp"
-                    android:layout_height="150dp"
+                    android:layout_height="120dp"
                     android:layout_weight="1"
                     app:srcCompat="@drawable/kfc12" />
         </LinearLayout>
@@ -364,14 +365,14 @@
                 <ImageView
                     android:id="@+id/kfc13"
                     android:layout_width="145dp"
-                    android:layout_height="150dp"
+                    android:layout_height="120dp"
                     android:layout_weight="1"
                     app:srcCompat="@drawable/kfc13" />
 
                 <ImageView
                     android:id="@+id/kfc14"
                     android:layout_width="136dp"
-                    android:layout_height="150dp"
+                    android:layout_height="120dp"
                     android:layout_weight="1"
                     app:srcCompat="@drawable/kfc14" />
         </LinearLayout>
@@ -402,14 +403,14 @@
                 <ImageView
                     android:id="@+id/kfc15"
                     android:layout_width="145dp"
-                    android:layout_height="150dp"
+                    android:layout_height="120dp"
                     android:layout_weight="1"
                     app:srcCompat="@drawable/kfc15" />
 
                 <ImageView
                     android:id="@+id/kfc16"
                     android:layout_width="136dp"
-                    android:layout_height="150dp"
+                    android:layout_height="120dp"
                     android:layout_weight="1"
                     app:srcCompat="@drawable/kfc16" />
         </LinearLayout>
@@ -440,14 +441,14 @@
                 <ImageView
                     android:id="@+id/kfc17"
                     android:layout_width="145dp"
-                    android:layout_height="150dp"
+                    android:layout_height="120dp"
                     android:layout_weight="1"
                     app:srcCompat="@drawable/kfc17" />
 
                 <ImageView
                     android:id="@+id/kfc18"
                     android:layout_width="136dp"
-                    android:layout_height="150dp"
+                    android:layout_height="120dp"
                     android:layout_weight="1"
                     app:srcCompat="@drawable/kfc18" />
         </LinearLayout>
@@ -478,14 +479,14 @@
                 <ImageView
                     android:id="@+id/kfc19"
                     android:layout_width="145dp"
-                    android:layout_height="150dp"
+                    android:layout_height="120dp"
                     android:layout_weight="1"
                     app:srcCompat="@drawable/kfc19" />
 
                 <ImageView
                     android:id="@+id/kfc20"
                     android:layout_width="136dp"
-                    android:layout_height="150dp"
+                    android:layout_height="120dp"
                     android:layout_weight="1"
                     app:srcCompat="@drawable/kfc20" />
         </LinearLayout>
@@ -516,14 +517,14 @@
                 <ImageView
                     android:id="@+id/kfc21"
                     android:layout_width="145dp"
-                    android:layout_height="150dp"
+                    android:layout_height="120dp"
                     android:layout_weight="1"
                     app:srcCompat="@drawable/kfc21" />
 
                 <ImageView
                     android:id="@+id/kfc22"
                     android:layout_width="136dp"
-                    android:layout_height="150dp"
+                    android:layout_height="120dp"
                     android:layout_weight="1"
                     app:srcCompat="@drawable/kfc22" />
                 </LinearLayout>
