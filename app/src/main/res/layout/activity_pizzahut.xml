@@ -139,14 +139,14 @@
                     <ImageView
                         android:id="@+id/sb1"
                         android:layout_width="145dp"
-                        android:layout_height="140dp"
+                        android:layout_height="120dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/pzultimatecheesy1" />
 
                     <ImageView
                         android:id="@+id/sb2"
                         android:layout_width="136dp"
-                        android:layout_height="140dp"
+                        android:layout_height="120dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/pzcarbonarasupreme2" />
                 </LinearLayout>
@@ -182,14 +182,14 @@
                     <ImageView
                         android:id="@+id/sb3"
                         android:layout_width="145dp"
-                        android:layout_height="140dp"
+                        android:layout_height="120dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/pzsupersupreme3" />
 
                     <ImageView
                         android:id="@+id/sb4"
                         android:layout_width="136dp"
-                        android:layout_height="140dp"
+                        android:layout_height="120dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/pzmeatlovers4" />
                 </LinearLayout>
@@ -227,14 +227,14 @@
                     <ImageView
                         android:id="@+id/sb5"
                         android:layout_width="145dp"
-                        android:layout_height="140dp"
+                        android:layout_height="120dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/pzroastedtomatoandsausagebakedpasta5" />
 
                     <ImageView
                         android:id="@+id/sb6"
                         android:layout_width="136dp"
-                        android:layout_height="140dp"
+                        android:layout_height="120dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/pzbakedcarbonara6" />
                 </LinearLayout>
@@ -270,14 +270,14 @@
                     <ImageView
                         android:id="@+id/sb7"
                         android:layout_width="145dp"
-                        android:layout_height="140dp"
+                        android:layout_height="120dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/pzbakedlasagna7" />
 
                     <ImageView
                         android:id="@+id/sb8"
                         android:layout_width="136dp"
-                        android:layout_height="140dp"
+                        android:layout_height="120dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/pzbakedbolognesewithmeatballs8" />
                 </LinearLayout>
@@ -313,14 +313,14 @@
                     <ImageView
                         android:id="@+id/sb9"
                         android:layout_width="145dp"
-                        android:layout_height="140dp"
+                        android:layout_height="120dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/pzbakedziti9" />
 
                     <ImageView
                         android:id="@+id/sb10"
                         android:layout_width="136dp"
-                        android:layout_height="140dp"
+                        android:layout_height="120dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/pzbakedbolognese10" />
                 </LinearLayout>
@@ -357,14 +357,14 @@
                     <ImageView
                         android:id="@+id/sb11"
                         android:layout_width="145dp"
-                        android:layout_height="140dp"
+                        android:layout_height="120dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/pztatertos11" />
 
                     <ImageView
                         android:id="@+id/sb12"
                         android:layout_width="136dp"
-                        android:layout_height="140dp"
+                        android:layout_height="120dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/pzhamandcheeserolls12" />
                 </LinearLayout>
@@ -400,14 +400,14 @@
                     <ImageView
                         android:id="@+id/sb13"
                         android:layout_width="145dp"
-                        android:layout_height="140dp"
+                        android:layout_height="120dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/pztatertotsloaded13" />
 
                     <ImageView
                         android:id="@+id/sb14"
                         android:layout_width="136dp"
-                        android:layout_height="140dp"
+                        android:layout_height="120dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/pztexmexbakedrice14" />
                 </LinearLayout>
@@ -443,14 +443,14 @@
                     <ImageView
                         android:id="@+id/sb15"
                         android:layout_width="145dp"
-                        android:layout_height="140dp"
+                        android:layout_height="120dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/pzmexicanbeefbakedrice15" />
 
                     <ImageView
                         android:id="@+id/sb16"
                         android:layout_width="136dp"
-                        android:layout_height="140dp"
+                        android:layout_height="120dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/pzcajunsausagebakedrice16" />
                 </LinearLayout>
@@ -486,14 +486,14 @@
                     <ImageView
                         android:id="@+id/sb17"
                         android:layout_width="145dp"
-                        android:layout_height="140dp"
+                        android:layout_height="120dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/pzcheesyhamandbaconbakedrice17" />
 
                     <ImageView
                         android:id="@+id/sb18"
                         android:layout_width="136dp"
-                        android:layout_height="140dp"
+                        android:layout_height="120dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/pzfriedchicken18" />
                 </LinearLayout>
@@ -528,14 +528,14 @@
                     <ImageView
                         android:id="@+id/sb19"
                         android:layout_width="145dp"
-                        android:layout_height="140dp"
+                        android:layout_height="120dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/pzonepcfriedchickenwithrice19" />
 
                     <ImageView
                         android:id="@+id/sb20"
                         android:layout_width="136dp"
-                        android:layout_height="140dp"
+                        android:layout_height="120dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/pzmozzasticks20" />
                 </LinearLayout>
@@ -571,14 +571,14 @@
                     <ImageView
                         android:id="@+id/sb21"
                         android:layout_width="145dp"
-                        android:layout_height="140dp"
+                        android:layout_height="120dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/pzkitkatpops21" />
 
                     <ImageView
                         android:id="@+id/sb22"
                         android:layout_width="136dp"
-                        android:layout_height="140dp"
+                        android:layout_height="120dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/pzkitkatrolls22" />
                 </LinearLayout>
@@ -614,14 +614,14 @@
                     <ImageView
                         android:id="@+id/sb23"
                         android:layout_width="145dp"
-                        android:layout_height="140dp"
+                        android:layout_height="120dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/pzcrispyfries23" />
 
                     <ImageView
                         android:id="@+id/sb24"
                         android:layout_width="136dp"
-                        android:layout_height="140dp"
+                        android:layout_height="120dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/pzsausageroll24" />
                 </LinearLayout>

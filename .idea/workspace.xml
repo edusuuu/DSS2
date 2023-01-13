@@ -10,41 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="692295ef-4a50-4b44-9f5f-f5cab48d830a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/m19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/m2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/m20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/m21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/m22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/m23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/m24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/m25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/m26.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/m27.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/m28.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/m29.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/m30.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/m1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/m1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/m10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/m10.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/m11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/m11.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/m12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/m12.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/m13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/m13.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/m14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/m14.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/m15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/m15.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/m16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/m16.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/m17.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/m17.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/m18.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/m18.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/m2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/m3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/m3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/m4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/m4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/m5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/m5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/m6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/m6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/m7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/m7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/m8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/m8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/m9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/m9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/manginasallogo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_mang_inasal_rev_page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_mang_inasal_rev_page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_pizzahut.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_pizzahut.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
