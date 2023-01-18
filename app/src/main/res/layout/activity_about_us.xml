@@ -91,7 +91,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="400dp"
+            android:layout_height="500dp"
             android:background="@drawable/customborder"
             android:backgroundTint="#E6EA963E"
             android:layout_marginTop="10dp"
