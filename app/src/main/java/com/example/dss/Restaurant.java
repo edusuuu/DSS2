@@ -56,7 +56,6 @@ public class Restaurant extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                setContentView(R.layout.activity_main_page);
                 Intent intent = new Intent(Restaurant.this , MainPage.class);
                 Toast.makeText(Restaurant.this, "Returning...", Toast.LENGTH_SHORT).show();
 
@@ -68,7 +67,6 @@ public class Restaurant extends AppCompatActivity {
         beanery.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                setContentView(R.layout.activity_the_beanery);
                 Intent intent = new Intent(Restaurant.this , TheBeanery.class);
                 Toast.makeText(Restaurant.this, "Loading page...", Toast.LENGTH_SHORT).show();
 
@@ -80,7 +78,6 @@ public class Restaurant extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Restaurant.this , Pizzahut.class);
-                setContentView(R.layout.activity_pizzahut);
                 Toast.makeText(Restaurant.this, "Loading page...", Toast.LENGTH_SHORT).show();
                 startActivity(intent);
             }
@@ -89,7 +86,6 @@ public class Restaurant extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Restaurant.this , Maxs.class);
-                setContentView(R.layout.activity_maxs);
                 Toast.makeText(Restaurant.this, "Loading page...", Toast.LENGTH_SHORT).show();
                 startActivity(intent);
             }
@@ -99,7 +95,6 @@ public class Restaurant extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Restaurant.this , activity_shakeys.class);
-                setContentView(R.layout.activity_shakeys);
                 Toast.makeText(Restaurant.this, "Loading page...", Toast.LENGTH_SHORT).show();
                 startActivity(intent);
             }
@@ -109,7 +104,6 @@ public class Restaurant extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Restaurant.this , activity_yellowcab.class);
-                setContentView(R.layout.activity_yellowcab);
                 Toast.makeText(Restaurant.this, "Loading page...", Toast.LENGTH_SHORT).show();
                 startActivity(intent);
             }

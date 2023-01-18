@@ -22,7 +22,6 @@ public class Dominos extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                setContentView(R.layout.activity_restaurant);
                 Intent intent = new Intent(Dominos.this , Restaurant.class);
                 Toast.makeText(Dominos.this, "Returning...", Toast.LENGTH_SHORT).show();
 

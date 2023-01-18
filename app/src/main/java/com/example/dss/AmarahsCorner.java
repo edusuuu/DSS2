@@ -22,7 +22,6 @@ public class AmarahsCorner extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                setContentView(R.layout.activity_restaurant);
                 Intent intent = new Intent(AmarahsCorner.this , Restaurant.class);
                 Toast.makeText(AmarahsCorner.this, "Returning...", Toast.LENGTH_SHORT).show();
 
