@@ -31,14 +31,14 @@
             android:text="About Us"
             android:layout_gravity="center"
             android:gravity="center"
-            android:textSize="50sp"
+            android:textSize="40sp"
             android:textStyle="bold"
             android:textColor="@color/white"
             />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="270dp"
+            android:layout_height="220dp"
             android:background="@drawable/customborder"
             android:backgroundTint="#F21C1C1C"
             android:layout_marginTop="10dp"
@@ -58,7 +58,7 @@
                     android:layout_height="match_parent"
                     android:text="Creators"
                     android:textColor="#E6000000"
-                    android:textSize="36sp"
+                    android:textSize="30sp"
                     android:gravity="center"
                     android:textStyle="bold"
                     />
@@ -68,23 +68,15 @@
     android:layout_height="wrap_content"
     android:text="Angeles, Edzel John R."
     android:textColor="#E6EA963E"
-    android:textSize="30sp"
+    android:textSize="20sp"
     android:layout_marginBottom="5dp"
     />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Caraig, Carl Marcius O."
-                android:textColor="#E6EA963E"
-                android:textSize="30sp"
-                android:layout_marginBottom="5dp"
-                />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:text="Pabiton, Merryliza T."
                 android:textColor="#E6EA963E"
-                android:textSize="30sp"
+                android:textSize="20sp"
                 android:layout_marginBottom="5dp"
                 />
             <TextView
@@ -92,14 +84,14 @@
                 android:layout_height="wrap_content"
                 android:text="Ramos, Dannel C."
                 android:textColor="#E6EA963E"
-                android:textSize="30sp"
+                android:textSize="20sp"
                 />
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="450dp"
+            android:layout_height="400dp"
             android:background="@drawable/customborder"
             android:backgroundTint="#E6EA963E"
             android:layout_marginTop="10dp"
@@ -120,7 +112,7 @@
                     android:layout_height="match_parent"
                     android:text="Contact Us"
                     android:textColor="#E6000000"
-                    android:textSize="36sp"
+                    android:textSize="30sp"
                     android:gravity="center"
                     android:textStyle="bold"
                     />
@@ -130,8 +122,7 @@
                 android:layout_height="40dp"
                 android:text="E-mail"
                 android:textColor="@color/black"
-                android:textSize="35sp"
-                android:gravity="center"
+                android:textSize="25sp"
                 android:layout_gravity="left"
                 android:layout_marginBottom="5dp"
                 android:textStyle="bold"
@@ -139,17 +130,17 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Caraig, Carl Marcius O."
+                android:text="ejrangeles@bpsu.edu.ph"
                 android:textColor="#F21C1C1C"
-                android:textSize="30sp"
+                android:textSize="20sp"
                 android:layout_marginBottom="5dp"
                 />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Pabiton, Merryliza T."
+                android:text="mtpabiton@@bpsu.edu.ph"
                 android:textColor="#F21C1C1C"
-                android:textSize="30sp"
+                android:textSize="20sp"
                 android:layout_marginBottom="5dp"
                 />
             <TextView
@@ -157,18 +148,31 @@
                 android:layout_height="wrap_content"
                 android:text="dcramos@bpsu.edu.ph"
                 android:textColor="#F21C1C1C"
-                android:textSize="30sp"
+                android:textSize="20sp"
                 />
             <TextView
                 android:layout_width="220dp"
                 android:layout_height="40dp"
                 android:text="Contact No."
                 android:textColor="@color/black"
-                android:textSize="35sp"
-                android:gravity="center"
+                android:textSize="25sp"
                 android:layout_gravity="left"
                 android:layout_marginBottom="5dp"
                 android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="09057684430 /"
+                android:textColor="#F21C1C1C"
+                android:textSize="20sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="09668749844"
+                android:textColor="#F21C1C1C"
+                android:textSize="20sp"
                 />
         </LinearLayout>
 
