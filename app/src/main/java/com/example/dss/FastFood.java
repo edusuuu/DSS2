@@ -85,8 +85,8 @@ public class FastFood extends AppCompatActivity {
         mcdo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                setContentView(R.layout.activity_mcdo_rev_page);
-                Intent intent = new Intent(FastFood.this , McdoRevPage.class);
+                setContentView(R.layout.activity_mcdo);
+                Intent intent = new Intent(FastFood.this , activity_mcdo.class);
                 Toast.makeText(FastFood.this, "Loading page...", Toast.LENGTH_SHORT).show();
 
                 startActivity(intent);
