@@ -1,0 +1,341 @@
+Index: app/src/main/res/layout/activity_log_in_page.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<androidx.constraintlayout.widget.ConstraintLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\r\n    xmlns:tools=\"http://schemas.android.com/tools\"\r\n    android:layout_width=\"match_parent\"\r\n    android:layout_height=\"match_parent\"\r\n    tools:context=\".LogInPage\">\r\n\r\n\r\n\r\n</androidx.constraintlayout.widget.ConstraintLayout>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/layout/activity_log_in_page.xml b/app/src/main/res/layout/activity_log_in_page.xml
+--- a/app/src/main/res/layout/activity_log_in_page.xml	(revision 0daa1063ff6a46d099da688563dccb531fe1e2ec)
++++ b/app/src/main/res/layout/activity_log_in_page.xml	(date 1674061167989)
+@@ -1,11 +1,107 @@
+ <?xml version="1.0" encoding="utf-8"?>
+-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
++<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
++    android:background="@drawable/loginlogo"
+     tools:context=".LogInPage">
+ 
++    <TextView
++        android:id="@+id/signin"
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:layout_marginStart="58dp"
++        android:layout_marginTop="58dp"
++        android:layout_marginEnd="58dp"
++        android:layout_marginBottom="58dp"
++        android:gravity="center"
++        android:text="Sign in"
++        android:textColor="@color/black"
++        android:textSize="35dp"
++        android:textStyle="bold" />
++
++    <EditText
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:id="@+id/username"
++        android:layout_below="@+id/signin"
++        android:background="#30ffffff"
++        android:hint="Username"
++        android:textColorHint="@color/black"
++        android:layout_margin="18dp"
++        android:padding="28dp"
++        android:drawableLeft="@drawable/ic_baseline_person_outline_24"
++        android:drawablePadding="28dp"/>
++
++    <EditText
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:id="@+id/Password"
++        android:layout_below="@+id/username"
++        android:background="#30ffffff"
++        android:hint="Password"
++        android:textColorHint="@color/black"
++        android:layout_margin="18dp"
++        android:padding="28dp"
++        android:drawableLeft="@drawable/ic_baseline_info_24"
++        android:drawablePadding="28dp"
++        android:inputType="textPassword"
++        />
++    <com.google.android.material.button.MaterialButton
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:id="@+id/loginbtn"
++        android:layout_below="@+id/Password"
++        android:text="LOGIN"
++        android:backgroundTint="@color/white"
++        android:layout_centerHorizontal="true"
++        android:layout_margin="28dp"/>
++    <TextView
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:id="@+id/forgotpass"
++        android:layout_below="@+id/loginbtn"
++        android:text="Forgot Password?"
++        android:textColor="@color/black"
++        android:layout_centerHorizontal="true"
++        android:layout_margin="28dp"/>
++
++    <TextView
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:id="@+id/others"
++        android:layout_above="@id/socialicons"
++        android:text="or sign in with"
++        android:layout_centerHorizontal="true"/>
++
++    <LinearLayout
++        android:layout_width="match_parent"
++        android:layout_height="wrap_content"
++        android:id="@+id/socialicons"
++        android:layout_alignParentBottom="true"
++        android:gravity="center">
++
++        <ImageView
++            android:layout_width="48dp"
++            android:layout_height="48dp"
++            android:layout_margin="20dp"
++            android:src="@drawable/googlelogo"/>
++        <ImageView
++            android:layout_width="48dp"
++            android:layout_height="48dp"
++            android:layout_margin="20dp"
++            android:src="@drawable/fblogo"/>
++        <ImageView
++            android:layout_width="48dp"
++            android:layout_height="48dp"
++            android:layout_margin="20dp"
++            android:src="@drawable/twitlogo"/>
++
++    </LinearLayout>
++
++
++
+ 
+ 
+-</androidx.constraintlayout.widget.ConstraintLayout>
+\ No newline at end of file
++</RelativeLayout>
+\ No newline at end of file
+Index: app/src/main/java/com/example/dss/LogInPage.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.example.dss;\r\n\r\nimport androidx.appcompat.app.AppCompatActivity;\r\n\r\nimport android.os.Bundle;\r\n\r\npublic class LogInPage extends AppCompatActivity {\r\n\r\n    @Override\r\n    protected void onCreate(Bundle savedInstanceState) {\r\n        super.onCreate(savedInstanceState);\r\n        setContentView(R.layout.activity_log_in_page);\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/dss/LogInPage.java b/app/src/main/java/com/example/dss/LogInPage.java
+--- a/app/src/main/java/com/example/dss/LogInPage.java	(revision 0daa1063ff6a46d099da688563dccb531fe1e2ec)
++++ b/app/src/main/java/com/example/dss/LogInPage.java	(date 1674060905280)
+@@ -3,6 +3,10 @@
+ import androidx.appcompat.app.AppCompatActivity;
+ 
+ import android.os.Bundle;
++import android.view.View;
++import android.widget.Button;
++import android.widget.TextView;
++import android.widget.Toast;
+ 
+ public class LogInPage extends AppCompatActivity {
+ 
+@@ -10,5 +14,24 @@
+     protected void onCreate(Bundle savedInstanceState) {
+         super.onCreate(savedInstanceState);
+         setContentView(R.layout.activity_log_in_page);
++
++        TextView username = (TextView) findViewById(R.id.username);
++        TextView Password = (TextView) findViewById(R.id.Password);
++
++        Button loginbtn = (Button) findViewById(R.id.loginbtn);
++
++        //admin and admin
++
++        loginbtn.setOnClickListener(new View.OnClickListener() {
++            @Override
++            public void onClick(View v) {
++                if (username.getText().toString().equals("admin") && Password.getText().toString().equals("admin")) {
++                    //correct
++                    Toast.makeText(LogInPage.this, "LOGIN SUCCESSFUL", Toast.LENGTH_SHORT).show();
++                } else
++                    Toast.makeText(LogInPage.this, "LOGIN FAILED!", Toast.LENGTH_SHORT).show();
++
++            }
++        });
+     }
+ }
+\ No newline at end of file
+Index: local.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>## This file must *NOT* be checked into Version Control Systems,\r\n# as it contains information specific to your local configuration.\r\n#\r\n# Location of the SDK. This is only used by Gradle.\r\n# For customization when using a Version Control System, please read the\r\n# header note.\r\n#Tue Jan 10 21:50:05 CST 2023\r\nsdk.dir=C\\:\\\\Users\\\\Acer\\\\AppData\\\\Local\\\\Android\\\\Sdk\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>ISO-8859-1
+===================================================================
+diff --git a/local.properties b/local.properties
+--- a/local.properties	(revision 0daa1063ff6a46d099da688563dccb531fe1e2ec)
++++ b/local.properties	(date 1674061167958)
+@@ -5,4 +5,4 @@
+ # For customization when using a Version Control System, please read the
+ # header note.
+ #Tue Jan 10 21:50:05 CST 2023
+-sdk.dir=C\:\\Users\\Acer\\AppData\\Local\\Android\\Sdk
++sdk.dir=C\:\\Users\\Admin\\AppData\\Local\\Android\\Sdk
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AndroidLayouts\">\r\n    <shared>\r\n      <config />\r\n    </shared>\r\n  </component>\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"NONE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"692295ef-4a50-4b44-9f5f-f5cab48d830a\" name=\"Changes\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/app/build.gradle\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app/build.gradle\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/app/src/main/java/com/example/dss/AmarahsCorner.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app/src/main/java/com/example/dss/AmarahsCorner.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/app/src/main/java/com/example/dss/BurgerKing.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app/src/main/java/com/example/dss/BurgerKing.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/app/src/main/java/com/example/dss/Chowking.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app/src/main/java/com/example/dss/Chowking.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/app/src/main/java/com/example/dss/Dominos.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app/src/main/java/com/example/dss/Dominos.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/app/src/main/java/com/example/dss/FastFood.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app/src/main/java/com/example/dss/FastFood.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/app/src/main/java/com/example/dss/Greenwich.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app/src/main/java/com/example/dss/Greenwich.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/app/src/main/java/com/example/dss/JollibeeRevPage.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app/src/main/java/com/example/dss/JollibeeRevPage.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/app/src/main/java/com/example/dss/KFC.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app/src/main/java/com/example/dss/KFC.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/app/src/main/java/com/example/dss/MainActivity.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app/src/main/java/com/example/dss/MainActivity.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/app/src/main/java/com/example/dss/MainPage.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app/src/main/java/com/example/dss/MainPage.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/app/src/main/java/com/example/dss/MangInasalRevPage.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app/src/main/java/com/example/dss/MangInasalRevPage.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/app/src/main/java/com/example/dss/Maxs.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app/src/main/java/com/example/dss/Maxs.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/app/src/main/java/com/example/dss/Pizzahut.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app/src/main/java/com/example/dss/Pizzahut.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/app/src/main/java/com/example/dss/Restaurant.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app/src/main/java/com/example/dss/Restaurant.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/app/src/main/java/com/example/dss/Starbucks.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app/src/main/java/com/example/dss/Starbucks.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/app/src/main/java/com/example/dss/SusiesCuisine.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app/src/main/java/com/example/dss/SusiesCuisine.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/app/src/main/java/com/example/dss/TGIFridays.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app/src/main/java/com/example/dss/TGIFridays.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/app/src/main/java/com/example/dss/TheBeanery.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app/src/main/java/com/example/dss/TheBeanery.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/app/src/main/java/com/example/dss/activity_mcdo.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app/src/main/java/com/example/dss/activity_mcdo.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/app/src/main/java/com/example/dss/activity_shakeys.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app/src/main/java/com/example/dss/activity_shakeys.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/app/src/main/java/com/example/dss/activity_yellowcab.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app/src/main/java/com/example/dss/activity_yellowcab.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/app/src/main/res/layout/activity_amarahs_corner.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app/src/main/res/layout/activity_amarahs_corner.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/app/src/main/res/layout/activity_burger_king.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app/src/main/res/layout/activity_burger_king.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/app/src/main/res/layout/activity_chowking.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app/src/main/res/layout/activity_chowking.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/app/src/main/res/layout/activity_coffee_project.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app/src/main/res/layout/activity_coffee_project.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/app/src/main/res/layout/activity_dominos.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app/src/main/res/layout/activity_dominos.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/app/src/main/res/layout/activity_fast_food.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app/src/main/res/layout/activity_fast_food.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/app/src/main/res/layout/activity_greenwich.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app/src/main/res/layout/activity_greenwich.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/app/src/main/res/layout/activity_jollibee_rev_page.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app/src/main/res/layout/activity_jollibee_rev_page.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/app/src/main/res/layout/activity_kfc.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app/src/main/res/layout/activity_kfc.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/app/src/main/res/layout/activity_mang_inasal_rev_page.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app/src/main/res/layout/activity_mang_inasal_rev_page.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/app/src/main/res/layout/activity_maxs.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app/src/main/res/layout/activity_maxs.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/app/src/main/res/layout/activity_mcdo.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app/src/main/res/layout/activity_mcdo.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/app/src/main/res/layout/activity_pizzahut.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app/src/main/res/layout/activity_pizzahut.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/app/src/main/res/layout/activity_restaurant.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app/src/main/res/layout/activity_restaurant.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/app/src/main/res/layout/activity_shakeys.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app/src/main/res/layout/activity_shakeys.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/app/src/main/res/layout/activity_starbucks.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app/src/main/res/layout/activity_starbucks.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/app/src/main/res/layout/activity_susies_cuisine.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app/src/main/res/layout/activity_susies_cuisine.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/app/src/main/res/layout/activity_tgifridays.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app/src/main/res/layout/activity_tgifridays.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/app/src/main/res/layout/activity_the_beanery.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app/src/main/res/layout/activity_the_beanery.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/app/src/main/res/layout/activity_yellowcab.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/app/src/main/res/layout/activity_yellowcab.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ExecutionTargetManager\" SELECTED_TARGET=\"device_and_snapshot_combo_box_target[C:\\Users\\ACER\\.android\\avd\\Pixel_3_XL_API_33.avd]\" />\r\n  <component name=\"ExternalProjectsData\">\r\n    <projectState path=\"$PROJECT_DIR$\">\r\n      <ProjectState />\r\n    </projectState>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2K8YCGiTeT2GE6xEyJez8bP6hmX\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.cidr.known.project.marker\" value=\"true\" />\r\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\r\n    <property name=\"cidr.known.project.marker\" value=\"true\" />\r\n    <property name=\"last_directory_selection\" value=\"$PROJECT_DIR$/app/src/main/res/drawable-v24\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/app/src/main/res/drawable-v24\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\Admin\\AndroidStudioProjects\\DSS2\\app\\src\\main\\res\\drawable-v24\" />\r\n    </key>\r\n    <key name=\"android.template.1499708669\">\r\n      <recent name=\"com.example.dss\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"app\" type=\"AndroidRunConfigurationType\" factoryName=\"Android App\" activateToolWindowBeforeRun=\"false\">\r\n      <module name=\"DSS.app.main\" />\r\n      <option name=\"DEPLOY\" value=\"true\" />\r\n      <option name=\"DEPLOY_APK_FROM_BUNDLE\" value=\"false\" />\r\n      <option name=\"DEPLOY_AS_INSTANT\" value=\"false\" />\r\n      <option name=\"ARTIFACT_NAME\" value=\"\" />\r\n      <option name=\"PM_INSTALL_OPTIONS\" value=\"\" />\r\n      <option name=\"ALL_USERS\" value=\"false\" />\r\n      <option name=\"ALWAYS_INSTALL_WITH_PM\" value=\"false\" />\r\n      <option name=\"CLEAR_APP_STORAGE\" value=\"false\" />\r\n      <option name=\"DYNAMIC_FEATURES_DISABLED_LIST\" value=\"\" />\r\n      <option name=\"ACTIVITY_EXTRA_FLAGS\" value=\"\" />\r\n      <option name=\"MODE\" value=\"default_activity\" />\r\n      <option name=\"CLEAR_LOGCAT\" value=\"false\" />\r\n      <option name=\"SHOW_LOGCAT_AUTOMATICALLY\" value=\"false\" />\r\n      <option name=\"INSPECTION_WITHOUT_ACTIVITY_RESTART\" value=\"false\" />\r\n      <option name=\"TARGET_SELECTION_MODE\" value=\"DEVICE_AND_SNAPSHOT_COMBO_BOX\" />\r\n      <option name=\"SELECTED_CLOUD_MATRIX_CONFIGURATION_ID\" value=\"-1\" />\r\n      <option name=\"SELECTED_CLOUD_MATRIX_PROJECT_ID\" value=\"\" />\r\n      <option name=\"DEBUGGER_TYPE\" value=\"Auto\" />\r\n      <Auto>\r\n        <option name=\"USE_JAVA_AWARE_DEBUGGER\" value=\"false\" />\r\n        <option name=\"SHOW_STATIC_VARS\" value=\"true\" />\r\n        <option name=\"WORKING_DIR\" value=\"\" />\r\n        <option name=\"TARGET_LOGGING_CHANNELS\" value=\"lldb process:gdb-remote packets\" />\r\n        <option name=\"SHOW_OPTIMIZED_WARNING\" value=\"true\" />\r\n      </Auto>\r\n      <Hybrid>\r\n        <option name=\"USE_JAVA_AWARE_DEBUGGER\" value=\"false\" />\r\n        <option name=\"SHOW_STATIC_VARS\" value=\"true\" />\r\n        <option name=\"WORKING_DIR\" value=\"\" />\r\n        <option name=\"TARGET_LOGGING_CHANNELS\" value=\"lldb process:gdb-remote packets\" />\r\n        <option name=\"SHOW_OPTIMIZED_WARNING\" value=\"true\" />\r\n      </Hybrid>\r\n      <Java />\r\n      <Native>\r\n        <option name=\"USE_JAVA_AWARE_DEBUGGER\" value=\"false\" />\r\n        <option name=\"SHOW_STATIC_VARS\" value=\"true\" />\r\n        <option name=\"WORKING_DIR\" value=\"\" />\r\n        <option name=\"TARGET_LOGGING_CHANNELS\" value=\"lldb process:gdb-remote packets\" />\r\n        <option name=\"SHOW_OPTIMIZED_WARNING\" value=\"true\" />\r\n      </Native>\r\n      <Profilers>\r\n        <option name=\"ADVANCED_PROFILING_ENABLED\" value=\"false\" />\r\n        <option name=\"STARTUP_PROFILING_ENABLED\" value=\"false\" />\r\n        <option name=\"STARTUP_CPU_PROFILING_ENABLED\" value=\"false\" />\r\n        <option name=\"STARTUP_CPU_PROFILING_CONFIGURATION_NAME\" value=\"Java/Kotlin Method Sample (legacy)\" />\r\n        <option name=\"STARTUP_NATIVE_MEMORY_PROFILING_ENABLED\" value=\"false\" />\r\n        <option name=\"NATIVE_MEMORY_SAMPLE_RATE_BYTES\" value=\"2048\" />\r\n        <option name=\"PROFILING_MODE\" value=\"NOT_SET\" />\r\n      </Profilers>\r\n      <option name=\"DEEP_LINK\" value=\"\" />\r\n      <option name=\"ACTIVITY_CLASS\" value=\"\" />\r\n      <option name=\"SEARCH_ACTIVITY_IN_GLOBAL_SCOPE\" value=\"false\" />\r\n      <option name=\"SKIP_ACTIVITY_VALIDATION\" value=\"false\" />\r\n      <method v=\"2\">\r\n        <option name=\"Android.Gradle.BeforeRunTask\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"692295ef-4a50-4b44-9f5f-f5cab48d830a\" name=\"Changes\" comment=\"\" />\r\n      <created>1673357558715</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1673357558715</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 0daa1063ff6a46d099da688563dccb531fe1e2ec)
++++ b/.idea/workspace.xml	(date 1674061318330)
+@@ -10,58 +10,28 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="692295ef-4a50-4b44-9f5f-f5cab48d830a" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/calllogo.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/fblogo.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/gmaillogo.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/googlelogo.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/loginlogo.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/loginlogo2.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/twitlogo.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/twitterlogo.jpg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_info_24.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05_01_2023_9_26_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05_01_2023_9_26_PM__Changes_.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/AmarahsCorner.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/AmarahsCorner.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/BurgerKing.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/BurgerKing.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/Chowking.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/Chowking.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/Dominos.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/Dominos.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/FastFood.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/FastFood.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/Greenwich.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/Greenwich.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/JollibeeRevPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/JollibeeRevPage.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/KFC.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/KFC.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/MainActivity.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/MainPage.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/MangInasalRevPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/MangInasalRevPage.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/Maxs.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/Maxs.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/Pizzahut.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/Pizzahut.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/Restaurant.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/Starbucks.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/Starbucks.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/SusiesCuisine.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/SusiesCuisine.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/TGIFridays.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/TGIFridays.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/TheBeanery.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/TheBeanery.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/activity_mcdo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/activity_mcdo.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/activity_shakeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/activity_shakeys.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/activity_yellowcab.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/activity_yellowcab.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_amarahs_corner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_amarahs_corner.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_burger_king.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_burger_king.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_chowking.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_chowking.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_coffee_project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_coffee_project.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_dominos.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_dominos.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_fast_food.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_fast_food.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_greenwich.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_greenwich.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_jollibee_rev_page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_jollibee_rev_page.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_kfc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_kfc.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_mang_inasal_rev_page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_mang_inasal_rev_page.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_maxs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_maxs.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_mcdo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_mcdo.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_pizzahut.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_pizzahut.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_restaurant.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_restaurant.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_shakeys.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_shakeys.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_starbucks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_starbucks.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_susies_cuisine.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_susies_cuisine.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_tgifridays.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_tgifridays.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_the_beanery.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_the_beanery.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_yellowcab.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_yellowcab.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/LogInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/LogInPage.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_log_in_page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_log_in_page.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+   </component>
+-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\ACER\.android\avd\Pixel_3_XL_API_33.avd]" />
++  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[110258a5]" />
+   <component name="ExternalProjectsData">
+     <projectState path="$PROJECT_DIR$">
+       <ProjectState />
+Index: .idea/assetWizardSettings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/assetWizardSettings.xml b/.idea/assetWizardSettings.xml
+new file mode 100644
+--- /dev/null	(date 1674059202234)
++++ b/.idea/assetWizardSettings.xml	(date 1674059202234)
+@@ -0,0 +1,46 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="WizardSettings">
++    <option name="children">
++      <map>
++        <entry key="vectorWizard">
++          <value>
++            <PersistentState>
++              <option name="children">
++                <map>
++                  <entry key="vectorAssetStep">
++                    <value>
++                      <PersistentState>
++                        <option name="children">
++                          <map>
++                            <entry key="clipartAsset">
++                              <value>
++                                <PersistentState>
++                                  <option name="values">
++                                    <map>
++                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/info/baseline_info_24.xml" />
++                                    </map>
++                                  </option>
++                                </PersistentState>
++                              </value>
++                            </entry>
++                          </map>
++                        </option>
++                        <option name="values">
++                          <map>
++                            <entry key="outputName" value="ic_baseline_info_24" />
++                            <entry key="sourceFile" value="C:\Users\Admin\AndroidStudioProjects\DSS2" />
++                          </map>
++                        </option>
++                      </PersistentState>
++                    </value>
++                  </entry>
++                </map>
++              </option>
++            </PersistentState>
++          </value>
++        </entry>
++      </map>
++    </option>
++  </component>
++</project>
+\ No newline at end of file
+Index: app/src/main/res/drawable/ic_baseline_info_24.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/drawable/ic_baseline_info_24.xml b/app/src/main/res/drawable/ic_baseline_info_24.xml
+new file mode 100644
+--- /dev/null	(date 1674058370292)
++++ b/app/src/main/res/drawable/ic_baseline_info_24.xml	(date 1674058370292)
+@@ -0,0 +1,5 @@
++<vector android:height="24dp" android:tint="#000000"
++    android:viewportHeight="24" android:viewportWidth="24"
++    android:width="24dp" xmlns:android="http://schemas.android.com/apk/res/android">
++    <path android:fillColor="@android:color/white" android:pathData="M12,2C6.48,2 2,6.48 2,12s4.48,10 10,10 10,-4.48 10,-10S17.52,2 12,2zM13,17h-2v-6h2v6zM13,9h-2L11,7h2v2z"/>
++</vector>
