@@ -704,7 +704,8 @@
         app:layout_constraintStart_toEndOf="@+id/imageView8"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
         app:layout_constraintVertical_bias="0.44"
-        app:srcCompat="@android:drawable/btn_star_big_on" />
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        app:tint="#D9000000"/>
 
     <ImageView
         android:id="@+id/imageView5"
@@ -714,7 +715,8 @@
         app:layout_constraintStart_toEndOf="@+id/imageView4"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
         app:layout_constraintVertical_bias="0.44"
-        app:srcCompat="@android:drawable/btn_star_big_on" />
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        app:tint="#D9000000"/>
 
     <ImageView
         android:id="@+id/imageView6"
@@ -724,7 +726,8 @@
         app:layout_constraintStart_toEndOf="@+id/imageView5"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
         app:layout_constraintVertical_bias="0.44"
-        app:srcCompat="@android:drawable/btn_star_big_on" />
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        app:tint="#D9000000"/>
 
     <ImageView
         android:id="@+id/imageView7"
@@ -737,7 +740,8 @@
         app:layout_constraintStart_toStartOf="@+id/imageView6"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
         app:layout_constraintVertical_bias="0.44"
-        app:srcCompat="@android:drawable/btn_star_big_on" />
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        app:tint="#D9000000"/>
 
     <ImageView
         android:id="@+id/imageView8"
@@ -748,7 +752,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
         app:layout_constraintVertical_bias="0.44"
-        app:srcCompat="@android:drawable/btn_star_big_on" />
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        app:tint="#D9000000"/>
 
     <TextView
         android:id="@+id/textView3"
