@@ -10,37 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="692295ef-4a50-4b44-9f5f-f5cab48d830a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/AmarahsCorner.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/AmarahsCorner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/BurgerKing.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/BurgerKing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/Chowking.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/Chowking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/Dominos.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/Dominos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/FastFood.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/FastFood.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/Greenwich.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/Greenwich.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/JollibeeRevPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/JollibeeRevPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/KFC.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/KFC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/MangInasalRevPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/MangInasalRevPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/Maxs.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/Maxs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/Pizzahut.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/Pizzahut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/Restaurant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/Starbucks.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/Starbucks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/SusiesCuisine.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/SusiesCuisine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/TGIFridays.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/TGIFridays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/TheBeanery.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/TheBeanery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/activity_mcdo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/activity_mcdo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/activity_shakeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/activity_shakeys.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/activity_yellowcab.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/activity_yellowcab.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_amarahs_corner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_amarahs_corner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_burger_king.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_burger_king.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_chowking.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_chowking.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_coffee_project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_coffee_project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_dominos.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_dominos.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_fast_food.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_fast_food.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_greenwich.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_greenwich.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_jollibee_rev_page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_jollibee_rev_page.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_kfc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_kfc.xml" afterDir="false" />
@@ -48,7 +23,6 @@
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_maxs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_maxs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_mcdo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_mcdo.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_pizzahut.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_pizzahut.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_restaurant.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_restaurant.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_shakeys.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_shakeys.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_starbucks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_starbucks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_susies_cuisine.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_susies_cuisine.xml" afterDir="false" />
@@ -90,6 +64,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Admin\AndroidStudioProjects\DSS2\app\src\main\res\drawable-v24" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ACER\Documents\GithubFolder\DSS2\app\src\main\res\drawable-v24" />
     </key>
     <key name="android.template.1499708669">
       <recent name="com.example.dss" />
