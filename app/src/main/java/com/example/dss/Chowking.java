@@ -21,7 +21,6 @@ public class Chowking extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                setContentView(R.layout.activity_restaurant);
                 Intent intent = new Intent(Chowking.this , FastFood.class);
                 Toast.makeText(Chowking.this, "Returning...", Toast.LENGTH_SHORT).show();
 

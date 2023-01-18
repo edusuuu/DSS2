@@ -23,7 +23,6 @@ public class MainPage extends AppCompatActivity {
                 @Override
                 public void onClick(View view) {
                 Intent intentA = new Intent(MainPage.this , FastFood.class);
-                    setContentView(R.layout.activity_fast_food);
                     Toast.makeText(MainPage.this, "Loading page...", Toast.LENGTH_SHORT).show();
                     startActivity(intentA);
                 }
@@ -32,7 +31,6 @@ public class MainPage extends AppCompatActivity {
                 @Override
                 public void onClick(View view) {
                 Intent intentB = new Intent(MainPage.this , Restaurant.class);
-                    setContentView(R.layout.activity_restaurant);
                     Toast.makeText(MainPage.this, "Loading page...", Toast.LENGTH_SHORT).show();
                     startActivity(intentB);
                 }

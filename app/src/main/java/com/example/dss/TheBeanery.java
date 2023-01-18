@@ -23,7 +23,6 @@ public class TheBeanery extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                setContentView(R.layout.activity_restaurant);
                 Intent intent = new Intent(TheBeanery.this , Restaurant.class);
                 Toast.makeText(TheBeanery.this, "Returning...", Toast.LENGTH_SHORT).show();
 

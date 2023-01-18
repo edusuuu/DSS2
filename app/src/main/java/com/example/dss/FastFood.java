@@ -52,7 +52,6 @@ public class FastFood extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                setContentView(R.layout.activity_main_page);
                 Intent intent = new Intent(FastFood.this , MainPage.class);
                 Toast.makeText(FastFood.this, "Returning...", Toast.LENGTH_SHORT).show();
 
@@ -63,7 +62,6 @@ public class FastFood extends AppCompatActivity {
         jollibee.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                setContentView(R.layout.activity_jollibee_rev_page);
                 Intent intent = new Intent(FastFood.this , JollibeeRevPage.class);
                 Toast.makeText(FastFood.this, "Loading page...", Toast.LENGTH_SHORT).show();
 
@@ -74,7 +72,6 @@ public class FastFood extends AppCompatActivity {
         chowking.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                setContentView(R.layout.activity_chowking);
                 Intent intent = new Intent(FastFood.this , Chowking.class);
                 Toast.makeText(FastFood.this, "Loading page...", Toast.LENGTH_SHORT).show();
 
@@ -85,7 +82,6 @@ public class FastFood extends AppCompatActivity {
         mcdo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                setContentView(R.layout.activity_mcdo);
                 Intent intent = new Intent(FastFood.this , activity_mcdo.class);
                 Toast.makeText(FastFood.this, "Loading page...", Toast.LENGTH_SHORT).show();
 
@@ -96,7 +92,6 @@ public class FastFood extends AppCompatActivity {
         kfc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                setContentView(R.layout.activity_kfc);
                 Intent intent = new Intent(FastFood.this , KFC.class);
                 Toast.makeText(FastFood.this, "Loading page...", Toast.LENGTH_SHORT).show();
 
@@ -107,7 +102,6 @@ public class FastFood extends AppCompatActivity {
         greenwich.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                setContentView(R.layout.activity_greenwich);
                 Intent intent = new Intent(FastFood.this , Greenwich.class);
                 Toast.makeText(FastFood.this, "Loading page...", Toast.LENGTH_SHORT).show();
 
@@ -118,7 +112,6 @@ public class FastFood extends AppCompatActivity {
         bgking.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                setContentView(R.layout.activity_burger_king);
                 Intent intent = new Intent(FastFood.this , BurgerKing.class);
                 Toast.makeText(FastFood.this, "Loading page...", Toast.LENGTH_SHORT).show();
 
@@ -129,7 +122,6 @@ public class FastFood extends AppCompatActivity {
         mangina.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                setContentView(R.layout.activity_mang_inasal_rev_page);
                 Intent intent = new Intent(FastFood.this , MangInasalRevPage.class);
                 Toast.makeText(FastFood.this, "Loading page...", Toast.LENGTH_SHORT).show();
 
@@ -140,7 +132,6 @@ public class FastFood extends AppCompatActivity {
         scuisine.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                setContentView(R.layout.activity_susies_cuisine);
                 Intent intent = new Intent(FastFood.this , SusiesCuisine.class);
                 Toast.makeText(FastFood.this, "Loading page...", Toast.LENGTH_SHORT).show();
 

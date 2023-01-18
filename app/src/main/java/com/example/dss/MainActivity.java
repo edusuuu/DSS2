@@ -11,6 +11,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,11 +22,7 @@ public class MainActivity extends AppCompatActivity {
         btnStart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                setContentView(R.layout.activity_main_page);
-
                 Intent intent = new Intent(MainActivity.this, MainPage.class);
-
-                Toast.makeText(MainActivity.this, "asdas", Toast.LENGTH_SHORT).show();
                 startActivity(intent);
 
 

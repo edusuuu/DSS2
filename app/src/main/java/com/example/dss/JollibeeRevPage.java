@@ -22,7 +22,6 @@ public class JollibeeRevPage extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                setContentView(R.layout.activity_restaurant);
                 Intent intent = new Intent(JollibeeRevPage.this , FastFood.class);
                 Toast.makeText(JollibeeRevPage.this, "Returning...", Toast.LENGTH_SHORT).show();
 

@@ -22,7 +22,6 @@ public class Greenwich extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                setContentView(R.layout.activity_restaurant);
                 Intent intent = new Intent(Greenwich.this , FastFood.class);
                 Toast.makeText(Greenwich.this, "Returning...", Toast.LENGTH_SHORT).show();
 

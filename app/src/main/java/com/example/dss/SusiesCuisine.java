@@ -22,7 +22,6 @@ public class SusiesCuisine extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                setContentView(R.layout.activity_restaurant);
                 Intent intent = new Intent(SusiesCuisine.this , FastFood.class);
                 Toast.makeText(SusiesCuisine.this, "Returning...", Toast.LENGTH_SHORT).show();
 

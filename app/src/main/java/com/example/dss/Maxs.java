@@ -22,7 +22,6 @@ public class Maxs extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                setContentView(R.layout.activity_restaurant);
                 Intent intent = new Intent(Maxs.this , Restaurant.class);
                 Toast.makeText(Maxs.this, "Returning...", Toast.LENGTH_SHORT).show();
 

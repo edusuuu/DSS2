@@ -22,7 +22,6 @@ public class MangInasalRevPage extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                setContentView(R.layout.activity_restaurant);
                 Intent intent = new Intent(MangInasalRevPage.this , FastFood.class);
                 Toast.makeText(MangInasalRevPage.this, "Returning...", Toast.LENGTH_SHORT).show();
 

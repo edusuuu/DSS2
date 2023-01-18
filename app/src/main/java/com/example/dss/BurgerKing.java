@@ -22,7 +22,6 @@ public class BurgerKing extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                setContentView(R.layout.activity_restaurant);
                 Intent intent = new Intent(BurgerKing.this , FastFood.class);
                 Toast.makeText(BurgerKing.this, "Returning...", Toast.LENGTH_SHORT).show();
 

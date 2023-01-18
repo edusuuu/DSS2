@@ -22,8 +22,6 @@ public class activity_mcdo extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                setContentView(R.layout.activity_restaurant);
                 Intent intent = new Intent(activity_mcdo.this , FastFood.class);
                 Toast.makeText(activity_mcdo.this, "Returning...", Toast.LENGTH_SHORT).show();
 

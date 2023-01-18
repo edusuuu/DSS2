@@ -22,7 +22,6 @@ public class Starbucks extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                setContentView(R.layout.activity_restaurant);
                 Intent intent = new Intent(Starbucks.this , Restaurant.class);
                 Toast.makeText(Starbucks.this, "Returning...", Toast.LENGTH_SHORT).show();
 
