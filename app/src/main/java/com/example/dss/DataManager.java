@@ -1,6 +1,7 @@
 package com.example.dss;
 
 import android.content.Context;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
@@ -68,8 +69,15 @@ public class DataManager {
 
     }
 
-    public void displaycomment(String _id , String comment)
+    public Cursor displaycomment(String _id , String comment)
     {
-
+    String query ="SELECT " +
+            TABLE_ROW_ID + ", " +
+            TABLE_ROW_COMMENT + " from "
+            + TABLE_DATA + " WHERE "
+            + TABLE_ROW_ID + " = '" + _id + "';";
+            Log.i("showCom()",query);
+        Cursor c = db.rawQuery(query, null);
+        return c;
     }
 }
