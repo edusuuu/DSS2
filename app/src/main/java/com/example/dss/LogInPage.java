@@ -9,7 +9,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class LogInPage extends AppCompatActivity {
+public class  LogInPage extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

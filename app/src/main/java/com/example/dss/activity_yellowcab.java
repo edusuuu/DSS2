@@ -14,7 +14,7 @@ public class activity_yellowcab extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_yellowcab);
-
+        Intent intent = getIntent();
         ImageView back = findViewById(R.id.btnBack);
 
         back.setClickable(true);

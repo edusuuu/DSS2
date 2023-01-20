@@ -27,7 +27,7 @@ public class Restaurant extends AppCompatActivity {
         ImageView dominos = findViewById(R.id.dominos);
         ImageView ycab = findViewById(R.id.ycab);
         ImageView cproj = findViewById(R.id.ycab1);
-
+        ImageView starbucks = findViewById(R.id.starbucks);
 
         back.setClickable(true);
         beanery.setClickable(true);
@@ -39,6 +39,7 @@ public class Restaurant extends AppCompatActivity {
         dominos.setClickable(true);
         ycab.setClickable(true);
         cproj.setClickable(true);
+        starbucks.setClickable(true);
 
         beanery.bringToFront();
         pzhut.bringToFront();
@@ -49,6 +50,7 @@ public class Restaurant extends AppCompatActivity {
         ycab.bringToFront();
         dominos.bringToFront();
         cproj.bringToFront();
+        starbucks.bringToFront();
 
 
         Intent intent = getIntent();
@@ -145,7 +147,14 @@ public class Restaurant extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
+        starbucks.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Restaurant.this , Starbucks.class);
+                Toast.makeText(Restaurant.this, "Loading page..." , Toast.LENGTH_SHORT).show();
+                startActivity(intent);
+            }
+        });
 
 
     }
