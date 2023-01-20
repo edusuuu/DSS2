@@ -4,8 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/loginlogo"
+    android:background="@color/black"
     tools:context=".LogInPage">
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="381dp"
+        android:layout_height="1200dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/customborder"
+        android:backgroundTint="#9E474646"
+        android:orientation="vertical"
+        android:padding="10dp">
 
     <TextView
         android:id="@+id/signin"
@@ -17,7 +30,7 @@
         android:layout_marginBottom="58dp"
         android:gravity="center"
         android:text="Register"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="35sp"
         android:textStyle="bold" />
 
@@ -30,7 +43,7 @@
         android:layout_marginTop="18dp"
         android:layout_marginEnd="18dp"
         android:layout_marginBottom="18dp"
-        android:background="#30ffffff"
+        android:background="#E6EA963E"
         android:drawableLeft="@drawable/ic_baseline_person_outline_24"
         android:drawablePadding="28dp"
         android:hint="Username"
@@ -45,8 +58,7 @@
         android:layout_marginStart="18dp"
         android:layout_marginTop="18dp"
         android:layout_marginEnd="18dp"
-        android:layout_marginBottom="18dp"
-        android:background="#30ffffff"
+        android:background="#E6EA963E"
         android:drawableLeft="@drawable/ic_baseline_info_24"
         android:drawablePadding="28dp"
         android:hint="Password"
@@ -60,10 +72,10 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/username"
         android:layout_marginStart="18dp"
-        android:layout_marginTop="122dp"
+        android:layout_marginTop="40dp"
         android:layout_marginEnd="18dp"
         android:layout_marginBottom="18dp"
-        android:background="#30ffffff"
+        android:background="#E6EA963E"
         android:drawableLeft="@drawable/ic_baseline_info_24"
         android:drawablePadding="28dp"
         android:hint="Confirm password"
@@ -81,8 +93,11 @@
         android:layout_marginTop="28dp"
         android:layout_marginEnd="28dp"
         android:layout_marginBottom="28dp"
+        android:layout_gravity="center"
         android:backgroundTint="@color/white"
+        android:textColor="@color/black"
         android:text="REGISTER" />
 
+    </LinearLayout>
 
 </RelativeLayout>

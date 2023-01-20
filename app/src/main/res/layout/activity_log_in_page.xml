@@ -6,19 +6,18 @@
     android:background="@color/black"
     tools:context=".LogInPage">
 
-    <ImageView
-        android:layout_width="1000dp"
-        android:layout_height="10dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginTop="-550dp"
-        android:layout_marginBottom="251dp"
-        android:layout_marginRight="-80dp"
-        android:layout_marginLeft="-70dp"
-        android:src="@drawable/circle"
-
-        app:tint="#E6EA963E" />
-
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="381dp"
+        android:layout_height="1200dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/customborder"
+        android:backgroundTint="#9E474646"
+        android:orientation="vertical"
+        android:padding="10dp">
 
     <TextView
         android:id="@+id/signin"
@@ -30,9 +29,11 @@
         android:layout_marginBottom="58dp"
         android:gravity="center"
         android:text="Sign in"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="35sp"
         android:textStyle="bold" />
+
+
 
     <EditText
         android:id="@+id/username"
@@ -66,15 +67,22 @@
         android:inputType="textPassword"
         android:padding="28dp"
         android:textColorHint="@color/black" />
+
     <Button
+        android:id="@+id/loginbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/loginbtn"
         android:layout_below="@+id/Password"
-        android:text="LOGIN"
-        android:backgroundTint="@color/white"
         android:layout_centerHorizontal="true"
-        android:layout_margin="28dp"/>
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="28dp"
+        android:backgroundTint="@color/white"
+        android:text="LOGIN"
+        android:layout_gravity="center"
+        android:textColor="#101010"
+        android:textSize="13sp" />
 
     <TextView
         android:id="@+id/noAccount"
@@ -84,7 +92,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="28dp"
         android:layout_marginEnd="28dp"
-        android:layout_marginBottom="28dp"
+        android:layout_marginBottom="15dp"
+        android:layout_gravity="center"
         android:text="Don't have an account?"
         android:textColor="#A18F8F"
         android:textSize="13sp"/>
@@ -96,14 +105,14 @@
         android:layout_below="@+id/loginbtn"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="28dp"
-        android:layout_marginTop="28dp"
         android:layout_marginEnd="28dp"
         android:layout_marginBottom="28dp"
         android:text="Register Here"
         android:textSize="15sp"
-        android:textColor="@color/white" />
+        android:layout_gravity="center"
+        android:textColor="#E6EA963E" />
 
-
+    </LinearLayout>
 
 
 </RelativeLayout>
