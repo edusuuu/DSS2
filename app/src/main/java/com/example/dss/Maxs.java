@@ -18,7 +18,7 @@ public class Maxs extends AppCompatActivity {
         ImageView back = findViewById(R.id.btnBack);
 
         back.setClickable(true);
-
+        Intent intent = getIntent();
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
