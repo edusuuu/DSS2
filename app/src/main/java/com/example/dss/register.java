@@ -21,7 +21,7 @@ public class register extends AppCompatActivity {
         pass = findViewById(R.id.pass);
         cpass = findViewById(R.id.cpass);
          Button regisbtn = findViewById(R.id.regisbtn);
-
+        final DataManager dm = new DataManager(this);
          regisbtn.setOnClickListener(new View.OnClickListener() {
              @Override
              public void onClick(View v) {
@@ -29,6 +29,7 @@ public class register extends AppCompatActivity {
                  if(username.getText().toString() != null && pass.getText().toString() == cpass.getText().toString()) {
                      Toast.makeText(register.this,"Registration Success!", Toast.LENGTH_SHORT).show();
                     //register function in DataManager + intent and start activity
+                     dm.register(username.getText().toString(),pass.getText().toString());
                  }
                  else {
                      Toast.makeText(register.this,"Registration Failed!", Toast.LENGTH_SHORT).show();
