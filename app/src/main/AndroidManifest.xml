@@ -13,6 +13,57 @@
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         tools:targetApi="31">
         <activity
+            android:name=".thebeanery_comment"
+            android:exported="false" />
+        <activity
+            android:name=".tgif_comment"
+            android:exported="false" />
+        <activity
+            android:name=".susiescuisine_comment"
+            android:exported="false" />
+        <activity
+            android:name=".starbucks_comment"
+            android:exported="false" />
+        <activity
+            android:name=".pizzahut_comment"
+            android:exported="false" />
+        <activity
+            android:name=".maxs_comment"
+            android:exported="false" />
+        <activity
+            android:name=".manginasal_comment"
+            android:exported="false" />
+        <activity
+            android:name=".kfc_comment"
+            android:exported="false" />
+        <activity
+            android:name=".jollibee_comment"
+            android:exported="false" />
+        <activity
+            android:name=".greenwich_comment"
+            android:exported="false" />
+        <activity
+            android:name=".dominos_comment"
+            android:exported="false" />
+        <activity
+            android:name=".coffeeproject_comment"
+            android:exported="false" />
+        <activity
+            android:name=".chowking_comment"
+            android:exported="false" />
+        <activity
+            android:name=".BurgerKing_comment"
+            android:exported="false" />
+        <activity
+            android:name=".amarahscorner_comment"
+            android:exported="false" />
+        <activity
+            android:name=".yellowcab_comment"
+            android:exported="false" />
+        <activity
+            android:name=".shakeys_comment"
+            android:exported="false" />
+        <activity
             android:name=".mcdo_comment"
             android:exported="false" />
         <activity
