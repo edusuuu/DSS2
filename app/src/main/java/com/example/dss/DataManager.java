@@ -69,7 +69,16 @@ public class DataManager {
 
     }
 
-    public Cursor displaycomment(String _id , String comment)
+    public String ShowData(Cursor c) {
+        AppData myData = new AppData();
+        while(c.moveToNext()){
+        Log.i(c.getString(1),c.getString(2));
+        myData.setData(c.getString(0),c.getString(1),c.getString(2));
+        }
+        return myData.getData();
+    }
+
+    public Cursor displaycomment(String _id)
     {
     String query ="SELECT " +
             TABLE_ROW_ID + ", " +

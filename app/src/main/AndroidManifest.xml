@@ -13,6 +13,9 @@
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         tools:targetApi="31">
         <activity
+            android:name=".mcdo_comment"
+            android:exported="false" />
+        <activity
             android:name=".register"
             android:exported="false" />
         <activity
@@ -174,7 +177,6 @@
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
-
         </activity>
     </application>
 

@@ -18,7 +18,7 @@ public class AppData {
     public String getData() {
         return data;
     }
-    public void setData(String id, String pass, String comment)
+    public void setData(String id, String pass, String string)
     {
         StringBuffer tempData =new StringBuffer(this.data);
         tempData.append("ID: " + id + "\nPassword: " + pass + "\nComment: " + comment + "\n");
