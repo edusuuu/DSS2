@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/DSS.iml" filepath="$PROJECT_DIR$/.idea/DSS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DSS.iml" filepath="$PROJECT_DIR$/.idea/modules/DSS.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/DSS.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/DSS.app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/DSS.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/DSS.app.androidTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/DSS.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/DSS.app.main.iml" />
