@@ -52,7 +52,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:hint="Enter Name"
-                    android:textSize="20sp"
+                    android:textSize="22sp"
                     android:textColorHint="@color/black"
                     android:textStyle="bold"
                     android:layout_gravity="left"
@@ -64,7 +64,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Enter Comment"
-                    android:textSize="18sp"
+                    android:textSize="20sp"
                     />
                 <Button
                     android:id="@+id/button"
@@ -75,6 +75,7 @@
                     />
                 <TextView
                     android:id="@+id/n1"
+                    android:text="Gavin M"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -86,13 +87,17 @@
 
                 <TextView
                     android:id="@+id/cm1"
+                    android:text="My friends and I love burger king!! The fries, whoppers and burgers were delicious and worth it!!
+You'd never get tired of it!! Its a bit expensive but won't regret it."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
                     android:layout_marginBottom="15dp"
                     />
+
                 <TextView
                     android:id="@+id/n2"
+                    android:text="Harvard"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -104,6 +109,9 @@
 
                 <TextView
                     android:id="@+id/cm2"
+                    android:text="Burger King gives you the liberty to semi-customize your sandwich. I was able to do that with their Extra Long Chicken Sandwich. I had their staff place smoky barbecue sauce and ketchup instead of mayonnaise, and pickles instead of raw onions for an added sour finish.
+Not everything was seamless as the fries that came with my meal was full of salt and their orange juice probably swimming with loads of sugar.
+I am glad though that Burger King outlets are still competing with giant franchises of Jollibee and Mcdonalds. It's always better for us customers to have more choice"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -111,6 +119,7 @@
                     />
                 <TextView
                     android:id="@+id/n3"
+                    android:text="Caleb T."
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -122,6 +131,8 @@
 
                 <TextView
                     android:id="@+id/cm3"
+                    android:text="I came in today and was greatly greeted by the employee. My food was great, not cold just perfect. And they were all nice, made my day a lot better! I have been through before and have had the same experiences
+as this one and did not have the time write a review but if I had to say it was 10/10 for me."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -129,6 +140,7 @@
                     />
                 <TextView
                     android:id="@+id/n4"
+                    android:text="Trix Y"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -140,6 +152,8 @@
 
                 <TextView
                     android:id="@+id/cm4"
+                    android:text="Where big burgers are served. Burger king is the most worth burger I have ever tasted. Their burgers are tender and juicy and the rest
+of the ingredients are perfectly cooked. Everyone can eat this. I assure you, whooper is the best thing to order."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
