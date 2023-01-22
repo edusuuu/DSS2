@@ -96,6 +96,7 @@
                     />
                 <TextView
                     android:id="@+id/n1"
+                    android:text="Allans Gastro Snaps"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -109,6 +110,7 @@
 
                 <TextView
                     android:id="@+id/cm1"
+                    android:text="Domino's Pizza is one of my favorite Pizza chains, because even their thick crust is so soft also most of their flavors are so savory delicious."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -117,6 +119,7 @@
                     />
                 <TextView
                     android:id="@+id/n2"
+                    android:text="Yohanny"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -130,6 +133,8 @@
 
                 <TextView
                     android:id="@+id/cm2"
+                    android:text="The pizzas were not bad. Didn't expect to like the mayo in the American bacon pizza but it worked. Pizza dough was a bit tough and chewy (its a given, it
+was a good dough actually) but when reheated the next day and I toasted it a bit longer, it tastes better. (i just prefer a crunchier pizza.. it's a personal reference 😊)The toppings are just right, and the cheese was gooey which i loved."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -138,6 +143,7 @@
                     />
                 <TextView
                     android:id="@+id/n3"
+                    android:text="Kobe Requilman"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -151,6 +157,11 @@
 
                 <TextView
                     android:id="@+id/cm3"
+                    android:text="Perfect hehe pinayagan kami mag stay ng matagal at tumambay\n
+Food: Sarap ng mga pizzas nila\n
+Price: super tipid dito compare sa iba\n
+Ambiance: medyo maiinit lang pero ko naman\n
+Crew/services: medyo suplada lang si ate na nasa counter at ibang crew di nag smile."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -159,6 +170,7 @@
                     />
                 <TextView
                     android:id="@+id/n4"
+                    android:text="Rachael Louise"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -172,6 +184,7 @@
 
                 <TextView
                     android:id="@+id/cm4"
+                    android:text="The pizzas were nice however far too greasy. The potato Wedges were way to soggy. The Nuggets were too spicy for the kids. only thing that was good was the garlic bread is not worth."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"

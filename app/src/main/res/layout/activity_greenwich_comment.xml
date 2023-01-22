@@ -96,6 +96,7 @@
                     />
                 <TextView
                     android:id="@+id/n1"
+                    android:text="Xtine's Escapism"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -109,6 +110,7 @@
 
                 <TextView
                     android:id="@+id/cm1"
+                    android:text="I always like Greenwich, their pizza selection has always something new to offer. This time, they have their Bacon pizza. I love bacon, and Greenwich did it again, I was amaze on how they brought it together. Also, one of new favorites, is their Cheesy sticks, you have to try it, it's perfect."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -117,6 +119,7 @@
                     />
                 <TextView
                     android:id="@+id/n2"
+                    android:text="Keith Alexander Tempra"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -130,6 +133,8 @@
 
                 <TextView
                     android:id="@+id/cm2"
+                    android:text="Their pizza is great. We ordered their newest offering, the Steak and Fries pizza. What i love about Greenwich is their lasagna. The best!
+Plus the fact that they renovated their place is a plus for me. Good ambiance!"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -138,6 +143,7 @@
                     />
                 <TextView
                     android:id="@+id/n3"
+                    android:text="Tess Santos"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -151,6 +157,8 @@
 
                 <TextView
                     android:id="@+id/cm3"
+                    android:text="When I do go to Greenwich, I I usually get  their pizza, pasta and chicken! However, I find them quite pricey for a fast food restaurant. I mean,
+ the lasagna is so small and I can finish it within 10 bites. The lasagna is really good tho! Chicken is okay - just average."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -159,6 +167,7 @@
                     />
                 <TextView
                     android:id="@+id/n4"
+                    android:text="Katweazel"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -172,6 +181,7 @@
 
                 <TextView
                     android:id="@+id/cm4"
+                    android:text="Good tasty pizzas,this is not all they provide,service was good.they also do takeaway,plenty of seats."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
