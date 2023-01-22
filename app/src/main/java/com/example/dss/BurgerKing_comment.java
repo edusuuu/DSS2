@@ -2,14 +2,11 @@ package com.example.dss;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class BurgerKing_comment extends AppCompatActivity {
 
@@ -18,8 +15,6 @@ public class BurgerKing_comment extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_burger_king_comment);
 
-        ImageView back = findViewById(R.id.btnBack);
-        back.setClickable(true);
 
         Button submit = findViewById(R.id.button);
         EditText name,comment;
@@ -61,16 +56,6 @@ public class BurgerKing_comment extends AppCompatActivity {
         cm15 = findViewById(R.id.cm15);
         cm16 = findViewById(R.id.cm16);
         cm17 = findViewById(R.id.cm17);
-
-        back.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(BurgerKing_comment.this, BurgerKing.class);
-                Toast.makeText(BurgerKing_comment.this, "Returning...", Toast.LENGTH_SHORT).show();
-
-                startActivity(i);
-            }
-        });
 
 
         submit.setOnClickListener(new View.OnClickListener() {
