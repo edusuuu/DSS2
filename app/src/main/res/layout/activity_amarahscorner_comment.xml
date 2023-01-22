@@ -83,7 +83,7 @@
                     android:layout_height="wrap_content"
                     android:hint="Enter Comment"
                     android:textColorHint="@color/white"
-                    android:textSize="18sp"
+                    android:textSize="20sp"
                     />
                 <Button
                     android:id="@+id/button"
@@ -95,6 +95,7 @@
                     />
                 <TextView
                     android:id="@+id/n1"
+                    android:text="Marc Joseph"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -108,6 +109,8 @@
 
                 <TextView
                     android:id="@+id/cm1"
+                    android:text=" Worth it pag hihintay sa masarap na pizza. Friendly din mga staff at rider. Sa uulitin po amarah's corner pasig!
+Fast delivery·Great food·Great dessert·Child-friendly"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -116,6 +119,7 @@
                     />
                 <TextView
                     android:id="@+id/n2"
+                    android:text="Rc Reyes"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -129,6 +133,7 @@
 
                 <TextView
                     android:id="@+id/cm2"
+                    android:text="I wasn't expecting this, it's my first time to order at this store and it's a Wow! For me, from the food and drinks na inooffer nila (specially yung Matcha Milk tea ). I highly recommend this store, Kudos"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -137,6 +142,7 @@
                     />
                 <TextView
                     android:id="@+id/n3"
+                    android:text="Joy Ann De Asis"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -150,6 +156,7 @@
 
                 <TextView
                     android:id="@+id/cm3"
+                    android:text="napaka ganda ng ambiance ng place,  affordable ang food at bilis ng service. Great food!"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -158,6 +165,7 @@
                     />
                 <TextView
                     android:id="@+id/n4"
+                    android:text="Ozzi Galan"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -171,6 +179,8 @@
 
                 <TextView
                     android:id="@+id/cm4"
+                    android:text="Food is Delish. Convenient tambayan. i stayed for a couple of hours, the people are very accomodating. sulit ang presyo ng pagkain.
+I recommend the Chicken Wings and Cucumber Lemonade. babalikan mo ang Amarah's Corner. wapax."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"

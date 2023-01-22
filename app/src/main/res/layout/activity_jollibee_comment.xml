@@ -96,6 +96,7 @@
                     />
                 <TextView
                     android:id="@+id/n1"
+                    android:text="Marc Kevin"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -109,6 +110,12 @@
 
                 <TextView
                     android:id="@+id/cm1"
+                    android:text="Many people wants to eat in the Jollibee because
+ the food is very delicious and the amount of the
+food is not expensive. As I observe their employees
+is well-groomed,the place is clean and the food is
+presentable.And I think Jollibee is one of the
+best fast food restaurant in the Bataan."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -117,6 +124,7 @@
                     />
                 <TextView
                     android:id="@+id/n2"
+                    android:text="Hobart Wombat"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -130,6 +138,10 @@
 
                 <TextView
                     android:id="@+id/cm2"
+                    android:text="This was my first visit to a Jollibee in the Bataan Philippines,
+having only visited before in Brunei and Hong Kong.
+I love the Palabok and chicken joy!!!!
+This is great Filipino fast food - go Jollibee!"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -138,6 +150,7 @@
                     />
                 <TextView
                     android:id="@+id/n3"
+                    android:text="Nathalia Mendoza"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -151,6 +164,9 @@
 
                 <TextView
                     android:id="@+id/cm3"
+                    android:text="Jollibee brands are known for their customer service. The staffs here
+are nice and efficient. The Filipino brand food chains offer not only foods
+but the good service itself."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -159,6 +175,7 @@
                     />
                 <TextView
                     android:id="@+id/n4"
+                    android:text="Annette"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -172,6 +189,9 @@
 
                 <TextView
                     android:id="@+id/cm4"
+                    android:text="The food is kid-friendly and filling. The chicken joy is the best seller for
+this place, and it is known for this product. I also like the combination of
+pasta and chicken with pineapple juice. I will always have a Jollibee meal whenever I visit the Bataan Philippines"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"

@@ -96,6 +96,7 @@
                     />
                 <TextView
                     android:id="@+id/n1"
+                    android:text="Kim Manods"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -109,6 +110,7 @@
 
                 <TextView
                     android:id="@+id/cm1"
+                    android:text="Love the design of this place. Very Instagramable. Its my first time trying their cheesecake and it was okay. Kind of pricey tho and the coffee was just okay. Nothing special."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -117,6 +119,7 @@
                     />
                 <TextView
                     android:id="@+id/n2"
+                    android:text="Kimmy Bernardo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -130,6 +133,7 @@
 
                 <TextView
                     android:id="@+id/cm2"
+                    android:text="Super chill vibes. I loved the interiors as it sure looks so fancy! Menu prices were a little bit expensive for it's taste. It was past midnight when we got here so the place was not that crowded. Great place to chill and have some talk with your friends."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -138,6 +142,7 @@
                     />
                 <TextView
                     android:id="@+id/n3"
+                    android:text="Angeleer"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -151,6 +156,7 @@
 
                 <TextView
                     android:id="@+id/cm3"
+                    android:text="My family loves to eat that's why we keep on discovering new restaurant and coffee shop . we tried coffee project my daughter ordered carbonara ,irish cream jelly , i tried their sardines pasta , my husband ordered clubhouse sandwich and latte .the interior is very nice cold staff are polite rest room is clean you must try their other menu price "
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -159,6 +165,7 @@
                     />
                 <TextView
                     android:id="@+id/n4"
+                    android:text="Adianau"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -172,6 +179,8 @@
 
                 <TextView
                     android:id="@+id/cm4"
+                    android:text="A coffee place that gives you a quiet and cozy ambiance that is located lower ground floor of the Vista place that has an outdoor sitting area.
+Great for a quick stop in a bustling area which is near a TV network station."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"

@@ -96,6 +96,7 @@
                     />
                 <TextView
                     android:id="@+id/n1"
+                    android:text="Sega G"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -109,6 +110,9 @@
 
                 <TextView
                     android:id="@+id/cm1"
+                    android:text="Stopped in because I really wanted some American food. Had enough fish and rice for a day. To my dismay
+the menu had changed to more like all the other fast food with the normal rice dishes. The chicken did not taste the same as what I am used to but was OK. Price was a little high for the area.
+I would eat there again because it is better than many other places I have eaten."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -117,6 +121,7 @@
                     />
                 <TextView
                     android:id="@+id/n2"
+                    android:text="Kristine Mae B"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -130,6 +135,7 @@
 
                 <TextView
                     android:id="@+id/cm2"
+                    android:text="Our favorite lunch place as a student. Very affordable and delicious meals"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -138,6 +144,7 @@
                     />
                 <TextView
                     android:id="@+id/n3"
+                    android:text="Courteney Cabrera"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -151,6 +158,9 @@
 
                 <TextView
                     android:id="@+id/cm3"
+                    android:text="Need I say more? I bet everyone loves KFC because of the uniqueness of their fried chicken, especially their gravy! Every time I eat there, I would request a separate plate just for the gravy. This fast food restaurant is perfect for everyone.
+I highly recommend their Ala King, Twister and Caesar Salad. Oh plus their fries! And also, their spoonfuls especially
+the mango cheesecake. i love KFC because the offer dishes for such a low cost but definitely delicious. You can even order a dish for just 50 pesos and you're good to go."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -159,6 +169,7 @@
                     />
                 <TextView
                     android:id="@+id/n4"
+                    android:text="Raine Santos"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -172,6 +183,9 @@
 
                 <TextView
                     android:id="@+id/cm4"
+                    android:text="One thing that I particularly liked at KFC is they always introduce a variety of dishes not
+just confined in serving fried chicken. But since I love their chicken (hot & crispy in particular), I tried their bucket meal of less than P500 has 8 pieces of chicken, 4 cups of rice, 4 cups of mashed potato and 4 glasses of soda. This is my treat to my BFF and her kid. But whenever I eat solo, I just ordered 1 piece of chicken with fixin and drink.
+I would never get tired of eating in this place."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
