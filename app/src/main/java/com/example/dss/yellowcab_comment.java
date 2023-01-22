@@ -116,6 +116,8 @@ public class yellowcab_comment extends AppCompatActivity {
         n17.setVisibility(View.INVISIBLE);
         cm17.setVisibility(View.INVISIBLE);
 
+        name.setText(Username.getName());
+
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
