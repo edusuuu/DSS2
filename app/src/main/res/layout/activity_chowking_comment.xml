@@ -71,7 +71,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:hint="Enter Name"
-                    android:textSize="20sp"
+                    android:textSize="22sp"
                     android:textColorHint="@color/white"
                     android:textStyle="bold"
                     android:layout_gravity="left"
@@ -84,7 +84,7 @@
                     android:layout_height="wrap_content"
                     android:hint="Enter Comment"
                     android:textColorHint="@color/white"
-                    android:textSize="18sp"
+                    android:textSize="20sp"
                     />
                 <Button
                     android:id="@+id/button"
@@ -96,6 +96,7 @@
                     />
                 <TextView
                     android:id="@+id/n1"
+                    android:text="Humsup Geelong"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -109,6 +110,7 @@
 
                 <TextView
                     android:id="@+id/cm1"
+                    android:text=""
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -117,6 +119,7 @@
                     />
                 <TextView
                     android:id="@+id/n2"
+                    android:text=""
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -130,6 +133,7 @@
 
                 <TextView
                     android:id="@+id/cm2"
+                    android:text=""
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -138,6 +142,7 @@
                     />
                 <TextView
                     android:id="@+id/n3"
+                    android:text=""
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -151,6 +156,7 @@
 
                 <TextView
                     android:id="@+id/cm3"
+                    android:text=""
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -159,6 +165,7 @@
                     />
                 <TextView
                     android:id="@+id/n4"
+                    android:text=""
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -172,6 +179,7 @@
 
                 <TextView
                     android:id="@+id/cm4"
+                    android:text=""
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
