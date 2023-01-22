@@ -2,14 +2,11 @@ package com.example.dss;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class kfc_comment extends AppCompatActivity {
 
@@ -18,8 +15,7 @@ public class kfc_comment extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_kfc_comment);
 
-        ImageView back = findViewById(R.id.btnBack);
-        back.setClickable(true);
+
         Button submit = findViewById(R.id.button);
         EditText name,comment;
         TextView n1,n2,n3,n4,n5,n6,n7,n8,n9,n10,n11,n12,n13,n14,n15,n16,n17;
@@ -88,16 +84,7 @@ public class kfc_comment extends AppCompatActivity {
         n17.setVisibility(View.INVISIBLE);
         cm17.setVisibility(View.INVISIBLE);
 
-        back.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(kfc_comment.this, KFC.class);
-                Toast.makeText(kfc_comment.this, "Returning...", Toast.LENGTH_SHORT).show();
-
-                startActivity(i);
-            }
-        });
-
+        name.setText(Username.getName());
 
         submit.setOnClickListener(new View.OnClickListener() {
             @Override

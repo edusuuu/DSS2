@@ -2,14 +2,11 @@ package com.example.dss;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class manginasal_comment extends AppCompatActivity {
 
@@ -18,8 +15,6 @@ public class manginasal_comment extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_manginasal_comment);
 
-        ImageView back = findViewById(R.id.btnBack);
-        back.setClickable(true);
 
         Button submit = findViewById(R.id.button);
         EditText name,comment;
@@ -89,16 +84,7 @@ public class manginasal_comment extends AppCompatActivity {
         n17.setVisibility(View.INVISIBLE);
         cm17.setVisibility(View.INVISIBLE);
 
-        back.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(manginasal_comment.this, MangInasalRevPage.class);
-                Toast.makeText(manginasal_comment.this, "Returning...", Toast.LENGTH_SHORT).show();
-
-                startActivity(i);
-            }
-        });
-
+        name.setText(Username.getName());
 
         submit.setOnClickListener(new View.OnClickListener() {
             @Override

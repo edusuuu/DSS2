@@ -126,7 +126,7 @@ public class yellowcab_comment extends AppCompatActivity {
             }
         });
 
-
+        name.setText(Username.getName());
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
