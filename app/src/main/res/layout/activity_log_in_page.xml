@@ -84,34 +84,6 @@
         android:textColor="#101010"
         android:textSize="13sp" />
 
-    <TextView
-        android:id="@+id/noAccount"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/loginbtn"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="28dp"
-        android:layout_marginEnd="28dp"
-        android:layout_marginBottom="15dp"
-        android:layout_gravity="center"
-        android:text="Don't have an account?"
-        android:textColor="#A18F8F"
-        android:textSize="13sp"/>
-
-    <TextView
-        android:id="@+id/register"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/loginbtn"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="28dp"
-        android:layout_marginEnd="28dp"
-        android:layout_marginBottom="28dp"
-        android:text="Register Here"
-        android:textSize="15sp"
-        android:layout_gravity="center"
-        android:textColor="#E6EA963E" />
-
     </LinearLayout>
 
 
