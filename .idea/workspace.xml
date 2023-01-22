@@ -15,13 +15,11 @@
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/amarahscorner_comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/amarahscorner_comment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/chowking_comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/chowking_comment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/coffeeproject_comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/coffeeproject_comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/dominos_comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/dominos_comment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/greenwich_comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/greenwich_comment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/jollibee_comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/jollibee_comment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/kfc_comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/kfc_comment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/manginasal_comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/manginasal_comment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/maxs_comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/maxs_comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/mcdo_comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/mcdo_comment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/pizzahut_comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/pizzahut_comment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/shakeys_comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/shakeys_comment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/starbucks_comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/starbucks_comment.java" afterDir="false" />
@@ -35,7 +33,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\A\.android\avd\ok.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\ACER\.android\avd\Pixel_3_XL_API_33_1.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
