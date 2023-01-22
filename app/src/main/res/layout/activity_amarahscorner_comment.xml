@@ -4,31 +4,47 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg12"
     tools:context=".amarahscorner_comment">
     <LinearLayout
         android:layout_width="409dp"
         android:layout_height="729dp"
         android:orientation="vertical"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="400dp"
             android:layout_height="wrap_content"
             android:background="@drawable/customborder"
-            android:backgroundTint="#AA9C9C">
+            android:backgroundTint="#E6EA963E"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/btnBack"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.02"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.007"
+                app:srcCompat="@drawable/back" />
 
             <TextView
                 android:id="@+id/title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
                 android:text="Reviews"
+                android:textColor="@color/black"
                 android:textSize="33sp" />
         </LinearLayout>
-
 
         <ScrollView
             android:layout_weight="1"
@@ -45,6 +61,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
+                android:background="@drawable/customborder"
+                android:backgroundTint="#E6121111"
                 android:orientation="vertical">
 
                 <EditText
@@ -52,8 +70,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:hint="Enter Name"
-                    android:textSize="22sp"
-                    android:textColorHint="@color/black"
+                    android:textSize="20sp"
+                    android:textColorHint="@color/white"
                     android:textStyle="bold"
                     android:layout_gravity="left"
                     android:gravity="left"
@@ -64,12 +82,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Enter Comment"
-                    android:textSize="20sp"
+                    android:textColorHint="@color/white"
+                    android:textSize="18sp"
                     />
                 <Button
                     android:id="@+id/button"
                     android:layout_width="120dp"
                     android:layout_height="wrap_content"
+                    android:backgroundTint="#E6EA963E"
                     android:text="Submit"
                     android:layout_gravity="center"
                     />
@@ -77,30 +97,30 @@
                     android:id="@+id/n1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Marc Joseph"
                     android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
                     android:textColor="@color/black"
                     android:textStyle="bold"
                     android:layout_gravity="left"
                     android:gravity="left"
-
                     />
 
                 <TextView
                     android:id="@+id/cm1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Worth it pag hihintay sa masarap na pizza. Friendly din mga staff & rider. Sa uulitin po amarah's corner pasig!
-Fast delivery ·Great food·Great dessert·Child-friendly"
                     android:textSize="18sp"
+                    android:textColor="@color/white"
                     android:layout_marginBottom="15dp"
                     />
                 <TextView
                     android:id="@+id/n2"
                     android:layout_width="wrap_content"
-                    android:text="Rc Reyes"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
                     android:textColor="@color/black"
                     android:textStyle="bold"
                     android:layout_gravity="left"
@@ -109,18 +129,19 @@ Fast delivery ·Great food·Great dessert·Child-friendly"
 
                 <TextView
                     android:id="@+id/cm2"
-                    android:text="I wasn't expecting this, it's my first time to order at this store and it's a Wow! For me, from the food and drinks na inooffer nila (specially yung Matcha Milk tea ). I highly recommend this store, Kudos"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
+                    android:textColor="@color/white"
                     android:layout_marginBottom="15dp"
                     />
                 <TextView
                     android:id="@+id/n3"
-                    android:text="Joy Ann De Asis"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
                     android:textColor="@color/black"
                     android:textStyle="bold"
                     android:layout_gravity="left"
@@ -129,18 +150,19 @@ Fast delivery ·Great food·Great dessert·Child-friendly"
 
                 <TextView
                     android:id="@+id/cm3"
-                    android:text="napaka ganda ng ambiance ng place,  affordable ang food at bilis ng service. Great food!"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
+                    android:textColor="@color/white"
                     android:layout_marginBottom="15dp"
                     />
                 <TextView
                     android:id="@+id/n4"
-                    android:text="Ozzi Galan"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
                     android:textColor="@color/black"
                     android:textStyle="bold"
                     android:layout_gravity="left"
@@ -149,11 +171,10 @@ Fast delivery ·Great food·Great dessert·Child-friendly"
 
                 <TextView
                     android:id="@+id/cm4"
-                    android:text="Food is Delish. Convenient tambayan. i stayed for a couple of hours, the people are very accomodating. sulit ang presyo ng pagkain.
-                    i recommend the Chicken Wings and Cucumber Lemonade. babalikan mo ang Amarah's Corner. wapax."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
+                    android:textColor="@color/white"
                     android:layout_marginBottom="15dp"
                     />
                 <TextView
@@ -161,6 +182,8 @@ Fast delivery ·Great food·Great dessert·Child-friendly"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
                     android:textColor="@color/black"
                     android:textStyle="bold"
                     android:layout_gravity="left"
@@ -172,6 +195,7 @@ Fast delivery ·Great food·Great dessert·Child-friendly"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
+                    android:textColor="@color/white"
                     android:layout_marginBottom="15dp"
                     />
                 <TextView
@@ -179,6 +203,8 @@ Fast delivery ·Great food·Great dessert·Child-friendly"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
                     android:textColor="@color/black"
                     android:textStyle="bold"
                     android:layout_gravity="left"
@@ -190,6 +216,7 @@ Fast delivery ·Great food·Great dessert·Child-friendly"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
+                    android:textColor="@color/white"
                     android:layout_marginBottom="15dp"
                     />
                 <TextView
@@ -197,6 +224,8 @@ Fast delivery ·Great food·Great dessert·Child-friendly"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
                     android:textColor="@color/black"
                     android:textStyle="bold"
                     android:layout_gravity="left"
@@ -208,6 +237,7 @@ Fast delivery ·Great food·Great dessert·Child-friendly"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
+                    android:textColor="@color/white"
                     android:layout_marginBottom="15dp"
                     />
                 <TextView
@@ -215,6 +245,8 @@ Fast delivery ·Great food·Great dessert·Child-friendly"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
                     android:textColor="@color/black"
                     android:textStyle="bold"
                     android:layout_gravity="left"
@@ -226,6 +258,7 @@ Fast delivery ·Great food·Great dessert·Child-friendly"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
+                    android:textColor="@color/white"
                     android:layout_marginBottom="15dp"
                     />
                 <TextView
@@ -233,7 +266,9 @@ Fast delivery ·Great food·Great dessert·Child-friendly"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
-                    android:textColorHint="@color/black"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
                     android:textStyle="bold"
                     android:layout_gravity="left"
                     android:gravity="left"
@@ -244,6 +279,7 @@ Fast delivery ·Great food·Great dessert·Child-friendly"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
+                    android:textColor="@color/white"
                     android:layout_marginBottom="15dp"
                     />
                 <TextView
@@ -251,6 +287,8 @@ Fast delivery ·Great food·Great dessert·Child-friendly"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
                     android:textColor="@color/black"
                     android:textStyle="bold"
                     android:layout_gravity="left"
@@ -262,6 +300,7 @@ Fast delivery ·Great food·Great dessert·Child-friendly"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
+                    android:textColor="@color/white"
                     android:layout_marginBottom="15dp"
                     />
                 <TextView
@@ -269,6 +308,8 @@ Fast delivery ·Great food·Great dessert·Child-friendly"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
                     android:textColor="@color/black"
                     android:textStyle="bold"
                     android:layout_gravity="left"
@@ -280,6 +321,7 @@ Fast delivery ·Great food·Great dessert·Child-friendly"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
+                    android:textColor="@color/white"
                     android:layout_marginBottom="15dp"
                     />
                 <TextView
@@ -287,6 +329,8 @@ Fast delivery ·Great food·Great dessert·Child-friendly"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
                     android:textColor="@color/black"
                     android:textStyle="bold"
                     android:layout_gravity="left"
@@ -298,6 +342,7 @@ Fast delivery ·Great food·Great dessert·Child-friendly"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
+                    android:textColor="@color/white"
                     android:layout_marginBottom="15dp"
                     />
                 <TextView
@@ -305,6 +350,8 @@ Fast delivery ·Great food·Great dessert·Child-friendly"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
                     android:textColor="@color/black"
                     android:textStyle="bold"
                     android:layout_gravity="left"
@@ -316,6 +363,7 @@ Fast delivery ·Great food·Great dessert·Child-friendly"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
+                    android:textColor="@color/white"
                     android:layout_marginBottom="15dp"
                     />
                 <TextView
@@ -323,6 +371,8 @@ Fast delivery ·Great food·Great dessert·Child-friendly"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
                     android:textColor="@color/black"
                     android:textStyle="bold"
                     android:layout_gravity="left"
@@ -334,6 +384,7 @@ Fast delivery ·Great food·Great dessert·Child-friendly"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
+                    android:textColor="@color/white"
                     android:layout_marginBottom="15dp"
                     />
                 <TextView
@@ -341,6 +392,8 @@ Fast delivery ·Great food·Great dessert·Child-friendly"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
                     android:textColor="@color/black"
                     android:textStyle="bold"
                     android:layout_gravity="left"
@@ -352,6 +405,7 @@ Fast delivery ·Great food·Great dessert·Child-friendly"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
+                    android:textColor="@color/white"
                     android:layout_marginBottom="15dp"
                     />
                 <TextView
@@ -359,7 +413,9 @@ Fast delivery ·Great food·Great dessert·Child-friendly"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
-                    android:textColorHint="@color/black"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
                     android:textStyle="bold"
                     android:layout_gravity="left"
                     android:gravity="left"
@@ -370,6 +426,7 @@ Fast delivery ·Great food·Great dessert·Child-friendly"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
+                    android:textColor="@color/white"
                     android:layout_marginBottom="15dp"
                     />
                 <TextView
@@ -377,6 +434,8 @@ Fast delivery ·Great food·Great dessert·Child-friendly"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
                     android:textColor="@color/black"
                     android:textStyle="bold"
                     android:layout_gravity="left"
@@ -388,13 +447,13 @@ Fast delivery ·Great food·Great dessert·Child-friendly"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
+                    android:textColor="@color/white"
                     android:layout_marginBottom="15dp"
                     />
 
 
 
             </LinearLayout>
-
         </ScrollView>
 
 
