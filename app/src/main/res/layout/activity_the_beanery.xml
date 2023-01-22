@@ -677,8 +677,10 @@
     </ScrollView>
 
     <RatingBar
+        android:rating="3.6"
+        android:numStars="5"
         android:id="@+id/rbar"
-        android:layout_width="250dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:foregroundGravity="center"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
@@ -692,12 +694,14 @@
         android:id="@+id/rate"
         android:layout_width="100dp"
         android:layout_height="50dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="12dp"
         android:hint="Rate 1-5"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
         app:layout_constraintEnd_toStartOf="@+id/btnRate"
         app:layout_constraintHorizontal_bias="0.99"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="334dp" />
+        app:layout_constraintTop_toBottomOf="@+id/rbar" />
 
     <Button
         android:id="@+id/btnRate"

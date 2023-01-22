@@ -6,7 +6,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.RatingBar;
 import android.widget.Toast;
 
 public class Dominos extends AppCompatActivity {
@@ -19,6 +21,12 @@ public class Dominos extends AppCompatActivity {
         ImageView back = findViewById(R.id.btnBack);
         Button comments = findViewById(R.id.comments);
         back.setClickable(true);
+
+        RatingBar rbar = findViewById(R.id.rbar);
+        EditText rate = findViewById(R.id.rate);
+        Button btnRate = findViewById(R.id.btnRate);
+
+        rbar.setClickable(false);
 
         comments.setOnClickListener(new View.OnClickListener() {
             @Override
