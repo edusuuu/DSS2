@@ -26,17 +26,17 @@ public class  LogInPage extends AppCompatActivity {
         loginbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (username.getText().toString() != null
-                        && Password.getText().toString() != null) {
-                    Toast.makeText(LogInPage.this, "LOGIN SUCCESSFUL", Toast.LENGTH_SHORT).show();
-                    Intent intent = new Intent(LogInPage.this, MainPage.class);
-                    startActivity(intent);
-                } else {
+                if (username.getText().toString().isEmpty()
+                        && Password.getText().toString().isEmpty()) {
+
                     username.setError("User not found.");
                     Password.setError("Password incorrect.");
 
-
-
+                } else {
+                    Toast.makeText(LogInPage.this, "LOGIN SUCCESSFUL", Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(LogInPage.this, MainPage.class);
+                    startActivity(intent);
+                    
                 }
             }
 
