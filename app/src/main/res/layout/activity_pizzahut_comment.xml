@@ -71,7 +71,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:hint="Enter Name"
-                    android:textSize="20sp"
+                    android:textSize="22sp"
                     android:textColor="@color/white"
                     android:textColorHint="@color/white"
                     android:textStyle="bold"
@@ -86,7 +86,7 @@
                     android:layout_height="wrap_content"
                     android:hint="Enter Comment"
                     android:textColorHint="@color/white"
-                    android:textSize="18sp"
+                    android:textSize="20sp"
                     />
                 <Button
                     android:id="@+id/button"
@@ -98,6 +98,7 @@
                     />
                 <TextView
                     android:id="@+id/n1"
+                    android:text="Angielyn Morales"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -111,6 +112,7 @@
 
                 <TextView
                     android:id="@+id/cm1"
+                    android:text="We dined here just to try the bacon crusted pizza. Nothing special, just the normal cheesy stuffed crust with crunchy bacon. Pizza is just the same and we still enjoyed our meal."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -119,6 +121,7 @@
                     />
                 <TextView
                     android:id="@+id/n2"
+                    android:text="Bebeth Jean"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -132,6 +135,7 @@
 
                 <TextView
                     android:id="@+id/cm2"
+                    android:text="Very expensive service charge but the staffs were not accommodating at all!!!! Plus sobrang alat ng food yung asin lang ata binayaran namin dun. Smh. Never again pizza hut."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -140,6 +144,7 @@
                     />
                 <TextView
                     android:id="@+id/n3"
+                    android:text="Mitz Almarez"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -153,6 +158,8 @@
 
                 <TextView
                     android:id="@+id/cm3"
+                    android:text="We ordered Hawaiian supreme to go. Our order took so long, there were few customers that time and it wasn’t peak hours. Naubos na yung
+kwento namin ng kasama ko wala pa rin yung order. Apart from poor service, okay naman yung pizza. The usual flavor with thick crust."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -161,6 +168,7 @@
                     />
                 <TextView
                     android:id="@+id/n4"
+                    android:text="Marian"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -174,6 +182,7 @@
 
                 <TextView
                     android:id="@+id/cm4"
+                    android:text="With the super special stuffed crust pizza, I can finish an entire box in one sitting! Finishing an entire box only makes me want to order some more. Pizza hut is the go to pizza that never goes wrong."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"

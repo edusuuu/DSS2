@@ -98,6 +98,7 @@
                     />
                 <TextView
                     android:id="@+id/n1"
+                    android:text="Renz987"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -111,6 +112,7 @@
 
                 <TextView
                     android:id="@+id/cm1"
+                    android:text="This is my favorite coffee shop. My usual order is the green tea latte hot with hazelnut syrup and my favorite branch in Balanga Thank you guys"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -119,6 +121,7 @@
                     />
                 <TextView
                     android:id="@+id/n2"
+                    android:text="Rodriquez0401"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -132,6 +135,7 @@
 
                 <TextView
                     android:id="@+id/cm2"
+                    android:text="Coffee is a masterpiece here at Starbucks. There's no question when it comes to quality of food and coffee, as well their customer service. Wherever you are in the world Starbucks is always a must visit for coffee lovers.."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -140,6 +144,7 @@
                     />
                 <TextView
                     android:id="@+id/n3"
+                    android:text="Sophiegrayy"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -153,6 +158,8 @@
 
                 <TextView
                     android:id="@+id/cm3"
+                    android:text="My favorite place for sandwiches
+I love Starbucks sandwiches. Coffee are so so. Cakes could be good, depending on your order. Staffs are friendly and cheerful. Acceps credit cards."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -161,6 +168,7 @@
                     />
                 <TextView
                     android:id="@+id/n4"
+                    android:text="Alphame108"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -174,6 +182,8 @@
 
                 <TextView
                     android:id="@+id/cm4"
+                    android:text="It's okay, I'm not addicted to coffee anyway, but I do agree that it's a nice place to meet your friends and talk about life over endless cups of java. Do people still say java? Anyway, the endless bit is an exaggeration, as most of their drinks, well they're a bit pricey, especially for a cheap-thrills peasant like me.
+All in all, I'd say don't make starbucks a habit and you'll be fine."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
