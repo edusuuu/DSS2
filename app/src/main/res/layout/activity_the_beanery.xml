@@ -677,6 +677,7 @@
     </ScrollView>
 
     <RatingBar
+        android:id="@+id/rbar"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:foregroundGravity="center"
@@ -686,7 +687,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
         app:layout_constraintVertical_bias="0.315" />
+
     <EditText
+        android:id="@+id/rate"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:layout_marginEnd="12dp"
@@ -705,6 +708,7 @@
         app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintVertical_bias="1.0" />
+
 
 
     <TextView
