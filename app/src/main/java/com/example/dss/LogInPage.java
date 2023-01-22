@@ -21,13 +21,13 @@ public class  LogInPage extends AppCompatActivity {
 
         Button loginbtn = (Button) findViewById(R.id.loginbtn);
 
-        //admin and admin
+
 
         loginbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (username.getText().toString().equalsIgnoreCase("admin")
-                        && Password.getText().toString().equalsIgnoreCase("admin")) {
+                if (username.getText().toString() != null
+                        && Password.getText().toString() != null) {
                     Toast.makeText(LogInPage.this, "LOGIN SUCCESSFUL", Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent(LogInPage.this, MainPage.class);
                     startActivity(intent);
