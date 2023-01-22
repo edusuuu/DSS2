@@ -33,10 +33,12 @@ public class  LogInPage extends AppCompatActivity {
                     Password.setError("Password incorrect.");
 
                 } else {
+                    String user = username.getText().toString();
+                    Username.setName(user);
                     Toast.makeText(LogInPage.this, "LOGIN SUCCESSFUL", Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent(LogInPage.this, MainPage.class);
                     startActivity(intent);
-                    
+
                 }
             }
 
