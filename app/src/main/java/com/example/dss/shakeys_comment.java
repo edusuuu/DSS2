@@ -83,7 +83,7 @@ public class shakeys_comment extends AppCompatActivity {
         n17.setVisibility(View.INVISIBLE);
         cm17.setVisibility(View.INVISIBLE);
 
-
+        name.setText(Username.getName());
 
         submit.setOnClickListener(new View.OnClickListener() {
             @Override

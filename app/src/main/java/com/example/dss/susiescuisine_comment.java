@@ -85,7 +85,7 @@ public class susiescuisine_comment extends AppCompatActivity {
         cm17.setVisibility(View.INVISIBLE);
 
 
-
+        name.setText(Username.getName());
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
