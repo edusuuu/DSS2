@@ -99,6 +99,7 @@
                     />
                 <TextView
                     android:id="@+id/n1"
+                    android:text="Hermz Tolentino"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -112,6 +113,7 @@
 
                 <TextView
                     android:id="@+id/cm1"
+                    android:text="Foods are delicious. The service is good."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -120,6 +122,7 @@
                     />
                 <TextView
                     android:id="@+id/n2"
+                    android:text="Kelvin Clark"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -133,6 +136,7 @@
 
                 <TextView
                     android:id="@+id/cm2"
+                    android:text="Super slow service, waiting for our food for 40mins. very bad experience. pricey for the service they are providing. I strongly suggest to avoid eating here."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -141,6 +145,7 @@
                     />
                 <TextView
                     android:id="@+id/n3"
+                    android:text="Jeffrey"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -154,6 +159,7 @@
 
                 <TextView
                     android:id="@+id/cm3"
+                    android:text="Very good food but a little expensive!"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -162,6 +168,7 @@
                     />
                 <TextView
                     android:id="@+id/n4"
+                    android:text="Sheena Maris"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -175,6 +182,8 @@
 
                 <TextView
                     android:id="@+id/cm4"
+                    android:text="Everyone was super friendly and helpful.The warmth and hospitality exceeded my expectations and we will treasure this time forever.
+Kudos to Team Bataan!"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"

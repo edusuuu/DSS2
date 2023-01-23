@@ -99,6 +99,7 @@
                     />
                 <TextView
                     android:id="@+id/n1"
+                    android:text="Nics1346"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -112,6 +113,8 @@
 
                 <TextView
                     android:id="@+id/cm1"
+                    android:text="we never fail to visit whenever we visit pampanga.. their sweets and palabok are one of the best.. they also service amazing halo-halo and authentic pampanga
+cuisine for reasonable prices."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -120,6 +123,7 @@
                     />
                 <TextView
                     android:id="@+id/n2"
+                    android:text="lpzralphivan"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -133,6 +137,8 @@
 
                 <TextView
                     android:id="@+id/cm2"
+                    android:text="Expect that the superb taste and quality of food is there. The staffs area friendly and the service is good. Nearby the famous Totobits place and Nepo Mart. The place is a little but
+smaller than other Susies Cuisine stores but nonetheless, its still Susies!"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -141,6 +147,7 @@
                     />
                 <TextView
                     android:id="@+id/n3"
+                    android:text="Elp13"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -154,6 +161,8 @@
 
                 <TextView
                     android:id="@+id/cm3"
+                    android:text="One of our offices' favorite go to orders are their pansit palabok and tibok tibok. Tibok tibok or in english, carabao milk pudding,  a Filipino dessert pudding made primarily
+                    from carabao milk and ground soaked glutinous rice. It's so soft you hardly feel your eating a lot already.Pansit Palabok is delicious"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -162,6 +171,7 @@
                     />
                 <TextView
                     android:id="@+id/n4"
+                    android:text="Maye2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -175,6 +185,10 @@
 
                 <TextView
                     android:id="@+id/cm4"
+                    android:text="i love this spot! i was first introduced to it when my profs let me taste some of their moche and palabok. now i go here with friends,
+                    favorites: palabok - thick and creamy! very generous with the sauce (which tastes amazing). topped with some pork bits, chicharron, shrimp, and half
+                    a boiled egg. more than worth it for 80 php, moche - my favorite kakanin here! I just the right amount of chew, filled with peanut paste and served
+                    with the most delicious coconut milk sauce! it’s 10 pcs of heaven for only 80 php as well. The other items on the menu are yummy as well! you’re sure to have fun exploring :)"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"

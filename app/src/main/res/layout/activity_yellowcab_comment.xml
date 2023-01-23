@@ -99,6 +99,7 @@
                     />
                 <TextView
                     android:id="@+id/n1"
+                    android:text="Jpatrickdaigie"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -112,6 +113,8 @@
 
                 <TextView
                     android:id="@+id/cm1"
+                    android:text="Yellow cab pizza here at centres once again my second trip to yellow cab first at this location. Pizza is the best i truly love there pizza flavor
+                     variety its cooked perfect. I like my pizza slightly well done , i dont have to ask its cooked to my desire. Myself and my family at this location was not happy with the pasta (chicken) just wasnot cooked to our liking."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -120,6 +123,7 @@
                     />
                 <TextView
                     android:id="@+id/n2"
+                    android:text="Eatee2018"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -133,6 +137,7 @@
 
                 <TextView
                     android:id="@+id/cm2"
+                    android:text="Want to experience New York style pizza. This is the place for you. Pizzas are affordable and allows you also to combine two types of pizzas into one."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -141,6 +146,7 @@
                     />
                 <TextView
                     android:id="@+id/n3"
+                    android:text="Cheiffeng"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -154,6 +160,7 @@
 
                 <TextView
                     android:id="@+id/cm3"
+                    android:text="The best pizza in I've had in Bataan. I like thin crust and this was very good. They have good topings and a good choice of pizzas. The staff is friendly."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -162,6 +169,7 @@
                     />
                 <TextView
                     android:id="@+id/n4"
+                    android:text="Marilize14"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -175,6 +183,7 @@
 
                 <TextView
                     android:id="@+id/cm4"
+                    android:text="We where passing and found this place. Neat and clean. Good pizza choice and reasonable prices. Good for friends and family with easy parking. Would visit again"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"

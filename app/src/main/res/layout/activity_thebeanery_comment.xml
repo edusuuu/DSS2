@@ -99,6 +99,7 @@
                     />
                 <TextView
                     android:id="@+id/n1"
+                    android:text="Reyson T"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -112,6 +113,7 @@
 
                 <TextView
                     android:id="@+id/cm1"
+                    android:text="A nice place to hang out while enjoying some great food such as pastries and coffee. Love the ambiance and the staff. My go to place if craving for some coffee."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -120,6 +122,7 @@
                     />
                 <TextView
                     android:id="@+id/n2"
+                    android:text="Tahirnoareen"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -133,6 +136,8 @@
 
                 <TextView
                     android:id="@+id/cm2"
+                    android:text="The Beanery has always been my best-liked place to hang out with my friends and family.
+                     Their menu is very diverse, which is perfect for everyone. Their food and drinks are very affordable but do not compromise quality. The service is also excellent and quick. And because of the virus, safety protocols are strictly followed inside the restaurant. Sanitizers and temperature checking are present at the restaurant. This place is highly recommended for people going to Bataan."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -141,6 +146,7 @@
                     />
                 <TextView
                     android:id="@+id/n3"
+                    android:text="Nathan Luminario"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -154,6 +160,8 @@
 
                 <TextView
                     android:id="@+id/cm3"
+                    android:text="I love how they have a lot of options on their menu, both food and drinks. You can choose from rice meals, pasta, milk tea, espresso and cakes. Its heaven for those who love cakes especially cheesecake. The serving size is very generous which is value for money.
+                    And the place is very spacious and clean.Definitely a must-visit place in Bataan."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -162,6 +170,7 @@
                     />
                 <TextView
                     android:id="@+id/n4"
+                    android:text="Caparaskc"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -175,6 +184,7 @@
 
                 <TextView
                     android:id="@+id/cm4"
+                    android:text="My favorite foods to order are cakes and lechon kawali. I love all of their cakes..too mouth watering. And I always enjoy the lechon kawali. The place is great for a friends to hang out."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"

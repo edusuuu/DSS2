@@ -71,7 +71,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:hint="Enter Name"
-                    android:textSize="20sp"
+                    android:textSize="22sp"
                     android:textColor="@color/white"
                     android:textColorHint="@color/white"
                     android:textStyle="bold"
@@ -87,7 +87,7 @@
                     android:hint="Enter Comment"
                     android:textColor="@color/white"
                     android:textColorHint="@color/white"
-                    android:textSize="18sp"
+                    android:textSize="20sp"
                     />
                 <Button
                     android:id="@+id/button"
@@ -99,6 +99,7 @@
                     />
                 <TextView
                     android:id="@+id/n1"
+                    android:text="Sheryl Rose C"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -112,6 +113,8 @@
 
                 <TextView
                     android:id="@+id/cm1"
+                    android:text="If you want your food to be serve right away come to this place. they also offer affordable meals
+and free newspaper in the morning."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -120,6 +123,7 @@
                     />
                 <TextView
                     android:id="@+id/n2"
+                    android:text="Susie126"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -133,6 +137,8 @@
 
                 <TextView
                     android:id="@+id/cm2"
+                    android:text="I love the McChicken, hot fudge sundae and apple pie of McDonald's. Though french fries are fried potatoes
+anywhere, my favorite french fries are from McDonald's or McDo as we Filipinos fondly call the place. It's was a good place to hang out when I was a student and it's still one of my son's favorite hang outs with his friends."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -141,6 +147,7 @@
                     />
                 <TextView
                     android:id="@+id/n3"
+                    android:text="Neku K"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -154,6 +161,8 @@
 
                 <TextView
                     android:id="@+id/cm3"
+                    android:text="Hello i love Mc Donalds because the place is clean the food is good and yummy but the fries is too
+salty but sometimes not and the burger sometimes the taste is not good but i always love the cokefloat haha and please always prepare the food good"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -162,6 +171,7 @@
                     />
                 <TextView
                     android:id="@+id/n4"
+                    android:text="Joy Morris"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -175,6 +185,9 @@
 
                 <TextView
                     android:id="@+id/cm4"
+                    android:text="Everything was cold and terrible. Bring back the old McDonald’s, where a burger was the size of a burger and fries were hot and tasty.
+Service was terrible, food was stale and it’s way too pricey for what you get. It’s like they take things out of the freezer and warm
+it up. It doesn’t taste fresh anymore."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"

@@ -71,7 +71,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:hint="Enter Name"
-                    android:textSize="20sp"
+                    android:textSize="22sp"
                     android:textColor="@color/white"
                     android:textColorHint="@color/white"
                     android:textStyle="bold"
@@ -87,7 +87,7 @@
                     android:hint="Enter Comment"
                     android:textColor="@color/white"
                     android:textColorHint="@color/white"
-                    android:textSize="18sp"
+                    android:textSize="20sp"
                     />
                 <Button
                     android:id="@+id/button"
@@ -99,6 +99,7 @@
                     />
                 <TextView
                     android:id="@+id/n1"
+                    android:text="Rena Ranola"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -112,6 +113,7 @@
 
                 <TextView
                     android:id="@+id/cm1"
+                    android:text=" Very Accomodating and Friendly staff. Fast Service. Keep up the good work."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -120,6 +122,7 @@
                     />
                 <TextView
                     android:id="@+id/n2"
+                    android:text="Vavard99"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -133,6 +136,7 @@
 
                 <TextView
                     android:id="@+id/cm2"
+                    android:text="For a comforting takeout experience, it was four boxes of Shakey’s pizza. The signature thin crust pizza did not disappoint as it stayed crisp despite sitting for awhile. I also love the generous toppings on their best sellers on Pepperoni and Manager’s Choice."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -141,6 +145,7 @@
                     />
                 <TextView
                     android:id="@+id/n3"
+                    android:text="Dianara"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -154,6 +159,7 @@
 
                 <TextView
                     android:id="@+id/cm3"
+                    android:text="I think I've visited this branch thrice now. The service is always great. For some reason, we always get the same very pleasant waitress. She actually convinced us (she gave us a discount) to get a new Supercard. The food and service here (so far) has been consistent."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -162,6 +168,7 @@
                     />
                 <TextView
                     android:id="@+id/n4"
+                    android:text="Deogracias"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -175,6 +182,8 @@
 
                 <TextView
                     android:id="@+id/cm4"
+                    android:text="I have always liked their chicken from my college days when we drank beer and ordered chicken and mojos while listening to rock and roll.
+Solo pack was great as the tuna Caesar salad, the pizza (Hawaiian) and the calamari."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
