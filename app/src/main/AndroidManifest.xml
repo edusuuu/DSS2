@@ -91,6 +91,20 @@
                 android:value="" />
         </activity>
         <activity
+            android:name=".Maxs"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".SusiesCuisine"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".AmarahsCorner"
             android:exported="false">
             <meta-data

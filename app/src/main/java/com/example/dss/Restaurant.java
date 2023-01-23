@@ -84,14 +84,14 @@ public class Restaurant extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        maxs.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Restaurant.this , Maxs.class);
-                Toast.makeText(Restaurant.this, "Loading page...", Toast.LENGTH_SHORT).show();
-                startActivity(intent);
-            }
-        });
+      maxs.setOnClickListener(new View.OnClickListener() {
+          @Override
+          public void onClick(View v) {
+              Intent i = new Intent(Restaurant.this,Maxs.class);
+              Toast.makeText(Restaurant.this,"Loading page...", Toast.LENGTH_SHORT).show();
+              startActivity(i);
+          }
+      });
 
         shakeys.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -21,7 +21,8 @@ public class coffeeproject_comment extends AppCompatActivity {
         ImageView back = findViewById(R.id.btnBack);
         back.setClickable(true);
         Button submit = findViewById(R.id.button);
-        EditText name,comment;
+        EditText comment;
+        TextView name;
         TextView n1,n2,n3,n4,n5,n6,n7,n8,n9,n10,n11,n12,n13,n14,n15,n16,n17;
         TextView cm1,cm2,cm3,cm4,cm5,cm6,cm7,cm8,cm9,cm10,cm11,cm12,cm13,cm14,cm15,cm16,cm17;
         name = findViewById(R.id.inputName);

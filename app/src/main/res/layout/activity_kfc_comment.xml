@@ -66,12 +66,13 @@
                 android:backgroundTint="#E6121111"
                 android:orientation="vertical">
 
-                <EditText
+                <TextView
                     android:id="@+id/inputName"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:hint="Enter Name"
                     android:textSize="20sp"
+                    android:textColor="@color/white"
                     android:textColorHint="@color/white"
                     android:textStyle="bold"
                     android:layout_gravity="left"
@@ -81,7 +82,7 @@
                 <EditText
                     android:id="@+id/inputComment"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="48dp"
                     android:hint="Enter Comment"
                     android:textColorHint="@color/white"
                     android:textSize="18sp"
@@ -184,7 +185,7 @@ the mango cheesecake. i love KFC because the offer dishes for such a low cost bu
                 <TextView
                     android:id="@+id/cm4"
                     android:text="One thing that I particularly liked at KFC is they always introduce a variety of dishes not
-just confined in serving fried chicken. But since I love their chicken (hot & crispy in particular), I tried their bucket meal of less than P500 has 8 pieces of chicken, 4 cups of rice, 4 cups of mashed potato and 4 glasses of soda. This is my treat to my BFF and her kid. But whenever I eat solo, I just ordered 1 piece of chicken with fixin and drink.
+just confined in serving fried chicken. But since I love their chicken (hot and crispy in particular), I tried their bucket meal of less than P500 has 8 pieces of chicken, 4 cups of rice, 4 cups of mashed potato and 4 glasses of soda. This is my treat to my BFF and her kid. But whenever I eat solo, I just ordered 1 piece of chicken with fixin and drink.
 I would never get tired of eating in this place."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
