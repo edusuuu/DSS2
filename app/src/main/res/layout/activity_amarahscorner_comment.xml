@@ -85,7 +85,7 @@
                     android:hint="Enter Comment"
                     android:textColor="@color/white"
                     android:textColorHint="@color/white"
-                    android:textSize="20sp"
+                    android:textSize="18sp"
                     />
                 <Button
                     android:id="@+id/button"
@@ -115,7 +115,7 @@
 Fast delivery·Great food·Great dessert·Child-friendly"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="18sp"
+                    android:textSize="18dp"
                     android:textColor="@color/white"
                     android:layout_marginBottom="15dp"
                     />
