@@ -27,7 +27,7 @@
 
         <ImageView
             android:id="@+id/imageView3"
-            android:layout_width="350dp"
+            android:layout_width="320dp"
             android:layout_height="350dp"
             android:layout_gravity="center"
             android:layout_marginTop="30dp"
@@ -38,8 +38,9 @@
             android:layout_width="wrap_content"
             android:layout_height="60dp"
             android:layout_gravity="center"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="30dp"
             android:background="@drawable/roundedge"
+            android:backgroundTint="@color/white"
             android:fontFamily="sans-serif-smallcaps"
             android:text="Start"
             android:textColor="#000000"
