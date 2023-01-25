@@ -9,7 +9,7 @@
 
     <LinearLayout
         android:layout_width="409dp"
-        android:layout_height="729dp"
+        android:layout_height="840dp"
         android:orientation="vertical"
 
         app:layout_constraintBottom_toBottomOf="parent"
@@ -97,9 +97,9 @@
                     android:text="Submit"
                     android:layout_gravity="center"
                     />
+
                 <TextView
-                    android:id="@+id/n1"
-                    android:text="Angielyn Morales"
+                    android:id="@+id/n17"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -112,309 +112,7 @@
                     />
 
                 <TextView
-                    android:id="@+id/cm1"
-                    android:text="We dined here just to try the bacon crusted pizza. Nothing special, just the normal cheesy stuffed crust with crunchy bacon. Pizza is just the same and we still enjoyed our meal."
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="@color/white"
-                    android:layout_marginBottom="15dp"
-                    />
-                <TextView
-                    android:id="@+id/n2"
-                    android:text="Bebeth Jean"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:background="@drawable/customborder"
-                    android:backgroundTint="#E6EA963E"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_gravity="left"
-                    android:gravity="left"
-                    />
-
-                <TextView
-                    android:id="@+id/cm2"
-                    android:text="Very expensive service charge but the staffs were not accommodating at all!!!! Plus sobrang alat ng food yung asin lang ata binayaran namin dun. Smh. Never again pizza hut."
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="@color/white"
-                    android:layout_marginBottom="15dp"
-                    />
-                <TextView
-                    android:id="@+id/n3"
-                    android:text="Mitz Almarez"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:background="@drawable/customborder"
-                    android:backgroundTint="#E6EA963E"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_gravity="left"
-                    android:gravity="left"
-                    />
-
-                <TextView
-                    android:id="@+id/cm3"
-                    android:text="We ordered Hawaiian supreme to go. Our order took so long, there were few customers that time and it wasn’t peak hours. Naubos na yung
-kwento namin ng kasama ko wala pa rin yung order. Apart from poor service, okay naman yung pizza. The usual flavor with thick crust."
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="@color/white"
-                    android:layout_marginBottom="15dp"
-                    />
-                <TextView
-                    android:id="@+id/n4"
-                    android:text="Marian"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:background="@drawable/customborder"
-                    android:backgroundTint="#E6EA963E"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_gravity="left"
-                    android:gravity="left"
-                    />
-
-                <TextView
-                    android:id="@+id/cm4"
-                    android:text="With the super special stuffed crust pizza, I can finish an entire box in one sitting! Finishing an entire box only makes me want to order some more. Pizza hut is the go to pizza that never goes wrong."
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="@color/white"
-                    android:layout_marginBottom="15dp"
-                    />
-                <TextView
-                    android:id="@+id/n5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:background="@drawable/customborder"
-                    android:backgroundTint="#E6EA963E"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_gravity="left"
-                    android:gravity="left"
-                    />
-
-                <TextView
-                    android:id="@+id/cm5"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="@color/white"
-                    android:layout_marginBottom="15dp"
-                    />
-                <TextView
-                    android:id="@+id/n6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:background="@drawable/customborder"
-                    android:backgroundTint="#E6EA963E"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_gravity="left"
-                    android:gravity="left"
-                    />
-
-                <TextView
-                    android:id="@+id/cm6"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="@color/white"
-                    android:layout_marginBottom="15dp"
-                    />
-                <TextView
-                    android:id="@+id/n7"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:background="@drawable/customborder"
-                    android:backgroundTint="#E6EA963E"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_gravity="left"
-                    android:gravity="left"
-                    />
-
-                <TextView
-                    android:id="@+id/cm7"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="@color/white"
-                    android:layout_marginBottom="15dp"
-                    />
-                <TextView
-                    android:id="@+id/n8"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:background="@drawable/customborder"
-                    android:backgroundTint="#E6EA963E"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_gravity="left"
-                    android:gravity="left"
-                    />
-
-                <TextView
-                    android:id="@+id/cm8"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="@color/white"
-                    android:layout_marginBottom="15dp"
-                    />
-                <TextView
-                    android:id="@+id/n9"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:background="@drawable/customborder"
-                    android:backgroundTint="#E6EA963E"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_gravity="left"
-                    android:gravity="left"
-                    />
-
-                <TextView
-                    android:id="@+id/cm9"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="@color/white"
-                    android:layout_marginBottom="15dp"
-                    />
-                <TextView
-                    android:id="@+id/n10"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:background="@drawable/customborder"
-                    android:backgroundTint="#E6EA963E"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_gravity="left"
-                    android:gravity="left"
-                    />
-
-                <TextView
-                    android:id="@+id/cm10"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="@color/white"
-                    android:layout_marginBottom="15dp"
-                    />
-                <TextView
-                    android:id="@+id/n11"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:background="@drawable/customborder"
-                    android:backgroundTint="#E6EA963E"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_gravity="left"
-                    android:gravity="left"
-                    />
-
-                <TextView
-                    android:id="@+id/cm11"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="@color/white"
-                    android:layout_marginBottom="15dp"
-                    />
-                <TextView
-                    android:id="@+id/n12"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:background="@drawable/customborder"
-                    android:backgroundTint="#E6EA963E"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_gravity="left"
-                    android:gravity="left"
-                    />
-
-                <TextView
-                    android:id="@+id/cm12"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="@color/white"
-                    android:layout_marginBottom="15dp"
-                    />
-                <TextView
-                    android:id="@+id/n13"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:background="@drawable/customborder"
-                    android:backgroundTint="#E6EA963E"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_gravity="left"
-                    android:gravity="left"
-                    />
-
-                <TextView
-                    android:id="@+id/cm13"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="@color/white"
-                    android:layout_marginBottom="15dp"
-                    />
-                <TextView
-                    android:id="@+id/n14"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:background="@drawable/customborder"
-                    android:backgroundTint="#E6EA963E"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_gravity="left"
-                    android:gravity="left"
-                    />
-
-                <TextView
-                    android:id="@+id/cm14"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="@color/white"
-                    android:layout_marginBottom="15dp"
-                    />
-                <TextView
-                    android:id="@+id/n15"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:background="@drawable/customborder"
-                    android:backgroundTint="#E6EA963E"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_gravity="left"
-                    android:gravity="left"
-                    />
-
-                <TextView
-                    android:id="@+id/cm15"
+                    android:id="@+id/cm17"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -443,7 +141,7 @@ kwento namin ng kasama ko wala pa rin yung order. Apart from poor service, okay 
                     android:layout_marginBottom="15dp"
                     />
                 <TextView
-                    android:id="@+id/n17"
+                    android:id="@+id/n15"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -456,7 +154,28 @@ kwento namin ng kasama ko wala pa rin yung order. Apart from poor service, okay 
                     />
 
                 <TextView
-                    android:id="@+id/cm17"
+                    android:id="@+id/cm15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="15dp"
+                    />
+                <TextView
+                    android:id="@+id/n14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/cm14"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -465,6 +184,293 @@ kwento namin ng kasama ko wala pa rin yung order. Apart from poor service, okay 
                     />
 
 
+
+                <TextView
+                    android:id="@+id/n13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/cm13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="15dp"
+                    />
+                <TextView
+                    android:id="@+id/n12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/cm12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="15dp"
+                    />
+                <TextView
+                    android:id="@+id/n11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/cm11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="15dp"
+                    />
+                <TextView
+                    android:id="@+id/n10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/cm10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="15dp"
+                    />
+                <TextView
+                    android:id="@+id/n9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/cm9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="15dp"
+                    />
+                <TextView
+                    android:id="@+id/n8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/cm8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="15dp"
+                    />
+                <TextView
+                    android:id="@+id/n7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/cm7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="15dp"
+                    />
+                <TextView
+                    android:id="@+id/n6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/cm6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="15dp"
+                    />
+                <TextView
+                    android:id="@+id/n5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/cm5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="15dp"
+                    />
+
+                <TextView
+                    android:id="@+id/n4"
+                    android:text="Marian"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/cm4"
+                    android:text="With the super special stuffed crust pizza, I can finish an entire box in one sitting! Finishing an entire box only makes me want to order some more. Pizza hut is the go to pizza that never goes wrong."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="15dp"
+                    />
+
+                <TextView
+                    android:id="@+id/n3"
+                    android:text="Mitz Almarez"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/cm3"
+                    android:text="We ordered Hawaiian supreme to go. Our order took so long, there were few customers that time and it wasn’t peak hours. Naubos na yung
+kwento namin ng kasama ko wala pa rin yung order. Apart from poor service, okay naman yung pizza. The usual flavor with thick crust."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="15dp"
+                    />
+
+                <TextView
+                    android:id="@+id/n2"
+                    android:text="Bebeth Jean"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/cm2"
+                    android:text="Very expensive service charge but the staffs were not accommodating at all!!!! Plus sobrang alat ng food yung asin lang ata binayaran namin dun. Smh. Never again pizza hut."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="15dp"
+                    />
+
+                <TextView
+                    android:id="@+id/n1"
+                    android:text="Angielyn Morales"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/cm1"
+                    android:text="We dined here just to try the bacon crusted pizza. Nothing special, just the normal cheesy stuffed crust with crunchy bacon. Pizza is just the same and we still enjoyed our meal."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="15dp"
+                    />
 
             </LinearLayout>
         </ScrollView>

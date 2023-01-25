@@ -9,7 +9,7 @@
 
     <LinearLayout
         android:layout_width="409dp"
-        android:layout_height="729dp"
+        android:layout_height="840dp"
         android:orientation="vertical"
 
         app:layout_constraintBottom_toBottomOf="parent"
@@ -97,9 +97,9 @@
                     android:text="Submit"
                     android:layout_gravity="center"
                     />
+
                 <TextView
-                    android:id="@+id/n1"
-                    android:text="Kim Manods"
+                    android:id="@+id/n17"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -112,8 +112,7 @@
                     />
 
                 <TextView
-                    android:id="@+id/cm1"
-                    android:text="Love the design of this place. Very Instagramable. Its my first time trying their cheesecake and it was okay. Kind of pricey tho and the coffee was just okay. Nothing special."
+                    android:id="@+id/cm17"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -121,8 +120,7 @@
                     android:layout_marginBottom="15dp"
                     />
                 <TextView
-                    android:id="@+id/n2"
-                    android:text="Kimmy Bernardo"
+                    android:id="@+id/n16"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -135,8 +133,7 @@
                     />
 
                 <TextView
-                    android:id="@+id/cm2"
-                    android:text="Super chill vibes. I loved the interiors as it sure looks so fancy! Menu prices were a little bit expensive for it's taste. It was past midnight when we got here so the place was not that crowded. Great place to chill and have some talk with your friends."
+                    android:id="@+id/cm16"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -144,8 +141,7 @@
                     android:layout_marginBottom="15dp"
                     />
                 <TextView
-                    android:id="@+id/n3"
-                    android:text="Angeleer"
+                    android:id="@+id/n15"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -158,8 +154,220 @@
                     />
 
                 <TextView
-                    android:id="@+id/cm3"
-                    android:text="My family loves to eat that's why we keep on discovering new restaurant and coffee shop . we tried coffee project my daughter ordered carbonara ,irish cream jelly , i tried their sardines pasta , my husband ordered clubhouse sandwich and latte .the interior is very nice cold staff are polite rest room is clean you must try their other menu price "
+                    android:id="@+id/cm15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="15dp"
+                    />
+                <TextView
+                    android:id="@+id/n14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/cm14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="15dp"
+                    />
+
+
+
+                <TextView
+                    android:id="@+id/n13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/cm13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="15dp"
+                    />
+                <TextView
+                    android:id="@+id/n12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/cm12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="15dp"
+                    />
+                <TextView
+                    android:id="@+id/n11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/cm11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="15dp"
+                    />
+                <TextView
+                    android:id="@+id/n10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/cm10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="15dp"
+                    />
+                <TextView
+                    android:id="@+id/n9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/cm9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="15dp"
+                    />
+                <TextView
+                    android:id="@+id/n8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/cm8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="15dp"
+                    />
+                <TextView
+                    android:id="@+id/n7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/cm7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="15dp"
+                    />
+                <TextView
+                    android:id="@+id/n6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/cm6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="15dp"
+                    />
+                <TextView
+                    android:id="@+id/n5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/cm5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -190,8 +398,10 @@ Great for a quick stop in a bustling area which is near a TV network station."
                     android:textColor="@color/white"
                     android:layout_marginBottom="15dp"
                     />
+
                 <TextView
-                    android:id="@+id/n5"
+                    android:id="@+id/n3"
+                    android:text="Angeleer"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -204,15 +414,18 @@ Great for a quick stop in a bustling area which is near a TV network station."
                     />
 
                 <TextView
-                    android:id="@+id/cm5"
+                    android:id="@+id/cm3"
+                    android:text="My family loves to eat that's why we keep on discovering new restaurant and coffee shop . we tried coffee project my daughter ordered carbonara ,irish cream jelly , i tried their sardines pasta , my husband ordered clubhouse sandwich and latte .the interior is very nice cold staff are polite rest room is clean you must try their other menu price "
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
                     android:textColor="@color/white"
                     android:layout_marginBottom="15dp"
                     />
+
                 <TextView
-                    android:id="@+id/n6"
+                    android:id="@+id/n2"
+                    android:text="Kimmy Bernardo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -225,7 +438,8 @@ Great for a quick stop in a bustling area which is near a TV network station."
                     />
 
                 <TextView
-                    android:id="@+id/cm6"
+                    android:id="@+id/cm2"
+                    android:text="Super chill vibes. I loved the interiors as it sure looks so fancy! Menu prices were a little bit expensive for it's taste. It was past midnight when we got here so the place was not that crowded. Great place to chill and have some talk with your friends."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -233,7 +447,8 @@ Great for a quick stop in a bustling area which is near a TV network station."
                     android:layout_marginBottom="15dp"
                     />
                 <TextView
-                    android:id="@+id/n7"
+                    android:id="@+id/n1"
+                    android:text="Kim Manods"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -246,225 +461,14 @@ Great for a quick stop in a bustling area which is near a TV network station."
                     />
 
                 <TextView
-                    android:id="@+id/cm7"
+                    android:id="@+id/cm1"
+                    android:text="Love the design of this place. Very Instagramable. Its my first time trying their cheesecake and it was okay. Kind of pricey tho and the coffee was just okay. Nothing special."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
                     android:textColor="@color/white"
                     android:layout_marginBottom="15dp"
                     />
-                <TextView
-                    android:id="@+id/n8"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:background="@drawable/customborder"
-                    android:backgroundTint="#E6EA963E"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_gravity="left"
-                    android:gravity="left"
-                    />
-
-                <TextView
-                    android:id="@+id/cm8"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="@color/white"
-                    android:layout_marginBottom="15dp"
-                    />
-                <TextView
-                    android:id="@+id/n9"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:background="@drawable/customborder"
-                    android:backgroundTint="#E6EA963E"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_gravity="left"
-                    android:gravity="left"
-                    />
-
-                <TextView
-                    android:id="@+id/cm9"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="@color/white"
-                    android:layout_marginBottom="15dp"
-                    />
-                <TextView
-                    android:id="@+id/n10"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:background="@drawable/customborder"
-                    android:backgroundTint="#E6EA963E"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_gravity="left"
-                    android:gravity="left"
-                    />
-
-                <TextView
-                    android:id="@+id/cm10"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="@color/white"
-                    android:layout_marginBottom="15dp"
-                    />
-                <TextView
-                    android:id="@+id/n11"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:background="@drawable/customborder"
-                    android:backgroundTint="#E6EA963E"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_gravity="left"
-                    android:gravity="left"
-                    />
-
-                <TextView
-                    android:id="@+id/cm11"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="@color/white"
-                    android:layout_marginBottom="15dp"
-                    />
-                <TextView
-                    android:id="@+id/n12"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:background="@drawable/customborder"
-                    android:backgroundTint="#E6EA963E"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_gravity="left"
-                    android:gravity="left"
-                    />
-
-                <TextView
-                    android:id="@+id/cm12"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="@color/white"
-                    android:layout_marginBottom="15dp"
-                    />
-                <TextView
-                    android:id="@+id/n13"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:background="@drawable/customborder"
-                    android:backgroundTint="#E6EA963E"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_gravity="left"
-                    android:gravity="left"
-                    />
-
-                <TextView
-                    android:id="@+id/cm13"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="@color/white"
-                    android:layout_marginBottom="15dp"
-                    />
-                <TextView
-                    android:id="@+id/n14"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:background="@drawable/customborder"
-                    android:backgroundTint="#E6EA963E"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_gravity="left"
-                    android:gravity="left"
-                    />
-
-                <TextView
-                    android:id="@+id/cm14"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="@color/white"
-                    android:layout_marginBottom="15dp"
-                    />
-                <TextView
-                    android:id="@+id/n15"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:background="@drawable/customborder"
-                    android:backgroundTint="#E6EA963E"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_gravity="left"
-                    android:gravity="left"
-                    />
-
-                <TextView
-                    android:id="@+id/cm15"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="@color/white"
-                    android:layout_marginBottom="15dp"
-                    />
-                <TextView
-                    android:id="@+id/n16"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:background="@drawable/customborder"
-                    android:backgroundTint="#E6EA963E"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_gravity="left"
-                    android:gravity="left"
-                    />
-
-                <TextView
-                    android:id="@+id/cm16"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="@color/white"
-                    android:layout_marginBottom="15dp"
-                    />
-                <TextView
-                    android:id="@+id/n17"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:background="@drawable/customborder"
-                    android:backgroundTint="#E6EA963E"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_gravity="left"
-                    android:gravity="left"
-                    />
-
-                <TextView
-                    android:id="@+id/cm17"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="@color/white"
-                    android:layout_marginBottom="15dp"
-                    />
-
-
 
             </LinearLayout>
         </ScrollView>

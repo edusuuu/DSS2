@@ -9,7 +9,7 @@
 
     <LinearLayout
         android:layout_width="409dp"
-        android:layout_height="729dp"
+        android:layout_height="840dp"
         android:orientation="vertical"
 
         app:layout_constraintBottom_toBottomOf="parent"
@@ -98,8 +98,7 @@
                     android:layout_gravity="center"
                     />
                 <TextView
-                    android:id="@+id/n1"
-                    android:text="Marc Kevin"
+                    android:id="@+id/n17"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -112,13 +111,313 @@
                     />
 
                 <TextView
-                    android:id="@+id/cm1"
-                    android:text="Many people wants to eat in the Jollibee because
- the food is very delicious and the amount of the
-food is not expensive. As I observe their employees
-is well-groomed,the place is clean and the food is
-presentable.And I think Jollibee is one of the
-best fast food restaurant in the Bataan."
+                    android:id="@+id/cm17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="15dp"
+                    />
+                <TextView
+                    android:id="@+id/n16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/cm16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="15dp"
+                    />
+
+                <TextView
+                    android:id="@+id/n15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/cm15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="15dp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/n14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/cm14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="15dp"
+                    />
+                <TextView
+                    android:id="@+id/n13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/cm13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="15dp"
+                    />
+                <TextView
+                    android:id="@+id/n12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/cm12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="15dp"
+                    />
+                <TextView
+                    android:id="@+id/n11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/cm11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="15dp"
+                    />
+                <TextView
+                    android:id="@+id/n10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/cm10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="15dp"
+                    />
+                <TextView
+                    android:id="@+id/n9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/cm9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="15dp"
+                    />
+                <TextView
+                    android:id="@+id/n8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/cm8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="15dp"
+                    />
+                <TextView
+                    android:id="@+id/n7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/cm7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="15dp"
+                    />
+                <TextView
+                    android:id="@+id/n6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/cm6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="15dp"
+                    />
+                <TextView
+                    android:id="@+id/n5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/cm5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="15dp"
+                    />
+                <TextView
+                    android:id="@+id/n4"
+                    android:text="Annette"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/cm4"
+                    android:text="The food is kid-friendly and filling. The chicken joy is the best seller for
+this place, and it is known for this product. I also like the combination of
+pasta and chicken with pineapple juice. I will always have a Jollibee meal whenever I visit the Bataan Philippines"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="15dp"
+                    />
+
+                <TextView
+                    android:id="@+id/n3"
+                    android:text="Nathalia Mendoza"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/cm3"
+                    android:text="Jollibee brands are known for their customer service. The staffs here
+are nice and efficient. The Filipino brand food chains offer not only foods
+but the good service itself."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -152,8 +451,8 @@ This is great Filipino fast food - go Jollibee!"
                     android:layout_marginBottom="15dp"
                     />
                 <TextView
-                    android:id="@+id/n3"
-                    android:text="Nathalia Mendoza"
+                    android:id="@+id/n1"
+                    android:text="Marc Kevin"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -166,316 +465,19 @@ This is great Filipino fast food - go Jollibee!"
                     />
 
                 <TextView
-                    android:id="@+id/cm3"
-                    android:text="Jollibee brands are known for their customer service. The staffs here
-are nice and efficient. The Filipino brand food chains offer not only foods
-but the good service itself."
+                    android:id="@+id/cm1"
+                    android:text="Many people wants to eat in the Jollibee because
+ the food is very delicious and the amount of the
+food is not expensive. As I observe their employees
+is well-groomed,the place is clean and the food is
+presentable.And I think Jollibee is one of the
+best fast food restaurant in the Bataan."
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
                     android:textColor="@color/white"
                     android:layout_marginBottom="15dp"
                     />
-                <TextView
-                    android:id="@+id/n4"
-                    android:text="Annette"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:background="@drawable/customborder"
-                    android:backgroundTint="#E6EA963E"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_gravity="left"
-                    android:gravity="left"
-                    />
-
-                <TextView
-                    android:id="@+id/cm4"
-                    android:text="The food is kid-friendly and filling. The chicken joy is the best seller for
-this place, and it is known for this product. I also like the combination of
-pasta and chicken with pineapple juice. I will always have a Jollibee meal whenever I visit the Bataan Philippines"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="@color/white"
-                    android:layout_marginBottom="15dp"
-                    />
-                <TextView
-                    android:id="@+id/n5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:background="@drawable/customborder"
-                    android:backgroundTint="#E6EA963E"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_gravity="left"
-                    android:gravity="left"
-                    />
-
-                <TextView
-                    android:id="@+id/cm5"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="@color/white"
-                    android:layout_marginBottom="15dp"
-                    />
-                <TextView
-                    android:id="@+id/n6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:background="@drawable/customborder"
-                    android:backgroundTint="#E6EA963E"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_gravity="left"
-                    android:gravity="left"
-                    />
-
-                <TextView
-                    android:id="@+id/cm6"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="@color/white"
-                    android:layout_marginBottom="15dp"
-                    />
-                <TextView
-                    android:id="@+id/n7"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:background="@drawable/customborder"
-                    android:backgroundTint="#E6EA963E"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_gravity="left"
-                    android:gravity="left"
-                    />
-
-                <TextView
-                    android:id="@+id/cm7"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="@color/white"
-                    android:layout_marginBottom="15dp"
-                    />
-                <TextView
-                    android:id="@+id/n8"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:background="@drawable/customborder"
-                    android:backgroundTint="#E6EA963E"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_gravity="left"
-                    android:gravity="left"
-                    />
-
-                <TextView
-                    android:id="@+id/cm8"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="@color/white"
-                    android:layout_marginBottom="15dp"
-                    />
-                <TextView
-                    android:id="@+id/n9"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:background="@drawable/customborder"
-                    android:backgroundTint="#E6EA963E"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_gravity="left"
-                    android:gravity="left"
-                    />
-
-                <TextView
-                    android:id="@+id/cm9"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="@color/white"
-                    android:layout_marginBottom="15dp"
-                    />
-                <TextView
-                    android:id="@+id/n10"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:background="@drawable/customborder"
-                    android:backgroundTint="#E6EA963E"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_gravity="left"
-                    android:gravity="left"
-                    />
-
-                <TextView
-                    android:id="@+id/cm10"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="@color/white"
-                    android:layout_marginBottom="15dp"
-                    />
-                <TextView
-                    android:id="@+id/n11"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:background="@drawable/customborder"
-                    android:backgroundTint="#E6EA963E"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_gravity="left"
-                    android:gravity="left"
-                    />
-
-                <TextView
-                    android:id="@+id/cm11"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="@color/white"
-                    android:layout_marginBottom="15dp"
-                    />
-                <TextView
-                    android:id="@+id/n12"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:background="@drawable/customborder"
-                    android:backgroundTint="#E6EA963E"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_gravity="left"
-                    android:gravity="left"
-                    />
-
-                <TextView
-                    android:id="@+id/cm12"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="@color/white"
-                    android:layout_marginBottom="15dp"
-                    />
-                <TextView
-                    android:id="@+id/n13"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:background="@drawable/customborder"
-                    android:backgroundTint="#E6EA963E"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_gravity="left"
-                    android:gravity="left"
-                    />
-
-                <TextView
-                    android:id="@+id/cm13"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="@color/white"
-                    android:layout_marginBottom="15dp"
-                    />
-                <TextView
-                    android:id="@+id/n14"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:background="@drawable/customborder"
-                    android:backgroundTint="#E6EA963E"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_gravity="left"
-                    android:gravity="left"
-                    />
-
-                <TextView
-                    android:id="@+id/cm14"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="@color/white"
-                    android:layout_marginBottom="15dp"
-                    />
-                <TextView
-                    android:id="@+id/n15"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:background="@drawable/customborder"
-                    android:backgroundTint="#E6EA963E"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_gravity="left"
-                    android:gravity="left"
-                    />
-
-                <TextView
-                    android:id="@+id/cm15"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="@color/white"
-                    android:layout_marginBottom="15dp"
-                    />
-                <TextView
-                    android:id="@+id/n16"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:background="@drawable/customborder"
-                    android:backgroundTint="#E6EA963E"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_gravity="left"
-                    android:gravity="left"
-                    />
-
-                <TextView
-                    android:id="@+id/cm16"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="@color/white"
-                    android:layout_marginBottom="15dp"
-                    />
-                <TextView
-                    android:id="@+id/n17"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:background="@drawable/customborder"
-                    android:backgroundTint="#E6EA963E"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_gravity="left"
-                    android:gravity="left"
-                    />
-
-                <TextView
-                    android:id="@+id/cm17"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="@color/white"
-                    android:layout_marginBottom="15dp"
-                    />
-
-
 
             </LinearLayout>
         </ScrollView>

@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black"
+    android:background="@drawable/bg12"
     tools:context=".LogInPage">
 
     <LinearLayout
@@ -15,7 +15,7 @@
         android:layout_marginRight="15dp"
         android:layout_marginBottom="15dp"
         android:background="@drawable/customborder"
-        android:backgroundTint="#9E474646"
+        android:backgroundTint="#E62B2929"
         android:orientation="vertical"
         android:padding="10dp">
 

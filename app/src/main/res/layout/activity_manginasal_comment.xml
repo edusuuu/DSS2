@@ -9,7 +9,7 @@
 
     <LinearLayout
         android:layout_width="409dp"
-        android:layout_height="729dp"
+        android:layout_height="840dp"
         android:orientation="vertical"
 
         app:layout_constraintBottom_toBottomOf="parent"
@@ -97,9 +97,9 @@
                     android:text="Submit"
                     android:layout_gravity="center"
                     />
+
                 <TextView
-                    android:id="@+id/n1"
-                    android:text="Elmer198"
+                    android:id="@+id/n17"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -112,312 +112,7 @@
                     />
 
                 <TextView
-                    android:id="@+id/cm1"
-                    android:text="Grilled chicken is the main food served but there was plenty of ethnic food from which to choose. We were always looking for one to eat at."
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="@color/white"
-                    android:layout_marginBottom="15dp"
-                    />
-                <TextView
-                    android:id="@+id/n2"
-                    android:text="Thur542"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:background="@drawable/customborder"
-                    android:backgroundTint="#E6EA963E"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_gravity="left"
-                    android:gravity="left"
-                    />
-
-                <TextView
-                    android:id="@+id/cm2"
-                    android:text="Loved the chicken so much. But the sizes of the chicken differ between branches. The sinigang soup that comes with every meal
-complements the dish. The halo halo was exactly how I wanted it, lots of toppings. Leche flan was creamy and not too sweet. Will definitely be back."
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="@color/white"
-                    android:layout_marginBottom="15dp"
-                    />
-                <TextView
-                    android:id="@+id/n3"
-                    android:text="Joanne P"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:background="@drawable/customborder"
-                    android:backgroundTint="#E6EA963E"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_gravity="left"
-                    android:gravity="left"
-                    />
-
-                <TextView
-                    android:id="@+id/cm3"
-                    android:text="It's lunch time and didn't know where to eat. My sister told me to try this fast food place. I ordered grilled bangus with unli rice and had haluhalo for dessert, it was so good. But my
-sister tried the sisig bangus, it was so little ! I think it was just two spoons full but she it taste good."
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="@color/white"
-                    android:layout_marginBottom="15dp"
-                    />
-                <TextView
-                    android:id="@+id/n4"
-                    android:text="Tonitons34"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:background="@drawable/customborder"
-                    android:backgroundTint="#E6EA963E"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_gravity="left"
-                    android:gravity="left"
-                    />
-
-                <TextView
-                    android:id="@+id/cm4"
-                    android:text="Tasty juicy inasal chicken. I found it at mang inasal. At first every one was talking about this fast food chain opened in the metro.
-I was just ignoring it knowing its just the usual fast food store. But one day my friend celebrated his birthday at mang inasal. So as a treat he order bunch of chicken for us. He thought me how to make sawsawan for the chicken and the oil that you will put on your rice.
-It was incredible. The taste of chicken together with the seasonings and oil was so delicious. I recommended it to my friends specially those who are rice lover, because they have unlimited rice offer."
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="@color/white"
-                    android:layout_marginBottom="15dp"
-                    />
-                <TextView
-                    android:id="@+id/n5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:background="@drawable/customborder"
-                    android:backgroundTint="#E6EA963E"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_gravity="left"
-                    android:gravity="left"
-                    />
-
-                <TextView
-                    android:id="@+id/cm5"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="@color/white"
-                    android:layout_marginBottom="15dp"
-                    />
-                <TextView
-                    android:id="@+id/n6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:background="@drawable/customborder"
-                    android:backgroundTint="#E6EA963E"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_gravity="left"
-                    android:gravity="left"
-                    />
-
-                <TextView
-                    android:id="@+id/cm6"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="@color/white"
-                    android:layout_marginBottom="15dp"
-                    />
-                <TextView
-                    android:id="@+id/n7"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:background="@drawable/customborder"
-                    android:backgroundTint="#E6EA963E"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_gravity="left"
-                    android:gravity="left"
-                    />
-
-                <TextView
-                    android:id="@+id/cm7"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="@color/white"
-                    android:layout_marginBottom="15dp"
-                    />
-                <TextView
-                    android:id="@+id/n8"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:background="@drawable/customborder"
-                    android:backgroundTint="#E6EA963E"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_gravity="left"
-                    android:gravity="left"
-                    />
-
-                <TextView
-                    android:id="@+id/cm8"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="@color/white"
-                    android:layout_marginBottom="15dp"
-                    />
-                <TextView
-                    android:id="@+id/n9"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:background="@drawable/customborder"
-                    android:backgroundTint="#E6EA963E"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_gravity="left"
-                    android:gravity="left"
-                    />
-
-                <TextView
-                    android:id="@+id/cm9"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="@color/white"
-                    android:layout_marginBottom="15dp"
-                    />
-                <TextView
-                    android:id="@+id/n10"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:background="@drawable/customborder"
-                    android:backgroundTint="#E6EA963E"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_gravity="left"
-                    android:gravity="left"
-                    />
-
-                <TextView
-                    android:id="@+id/cm10"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="@color/white"
-                    android:layout_marginBottom="15dp"
-                    />
-                <TextView
-                    android:id="@+id/n11"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:background="@drawable/customborder"
-                    android:backgroundTint="#E6EA963E"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_gravity="left"
-                    android:gravity="left"
-                    />
-
-                <TextView
-                    android:id="@+id/cm11"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="@color/white"
-                    android:layout_marginBottom="15dp"
-                    />
-                <TextView
-                    android:id="@+id/n12"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:background="@drawable/customborder"
-                    android:backgroundTint="#E6EA963E"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_gravity="left"
-                    android:gravity="left"
-                    />
-
-                <TextView
-                    android:id="@+id/cm12"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="@color/white"
-                    android:layout_marginBottom="15dp"
-                    />
-                <TextView
-                    android:id="@+id/n13"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:background="@drawable/customborder"
-                    android:backgroundTint="#E6EA963E"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_gravity="left"
-                    android:gravity="left"
-                    />
-
-                <TextView
-                    android:id="@+id/cm13"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="@color/white"
-                    android:layout_marginBottom="15dp"
-                    />
-                <TextView
-                    android:id="@+id/n14"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:background="@drawable/customborder"
-                    android:backgroundTint="#E6EA963E"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_gravity="left"
-                    android:gravity="left"
-                    />
-
-                <TextView
-                    android:id="@+id/cm14"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textColor="@color/white"
-                    android:layout_marginBottom="15dp"
-                    />
-                <TextView
-                    android:id="@+id/n15"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:background="@drawable/customborder"
-                    android:backgroundTint="#E6EA963E"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_gravity="left"
-                    android:gravity="left"
-                    />
-
-                <TextView
-                    android:id="@+id/cm15"
+                    android:id="@+id/cm17"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -446,7 +141,7 @@ It was incredible. The taste of chicken together with the seasonings and oil was
                     android:layout_marginBottom="15dp"
                     />
                 <TextView
-                    android:id="@+id/n17"
+                    android:id="@+id/n15"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
@@ -459,7 +154,28 @@ It was incredible. The taste of chicken together with the seasonings and oil was
                     />
 
                 <TextView
-                    android:id="@+id/cm17"
+                    android:id="@+id/cm15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="15dp"
+                    />
+                <TextView
+                    android:id="@+id/n14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/cm14"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
@@ -468,6 +184,296 @@ It was incredible. The taste of chicken together with the seasonings and oil was
                     />
 
 
+
+                <TextView
+                    android:id="@+id/n13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/cm13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="15dp"
+                    />
+                <TextView
+                    android:id="@+id/n12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/cm12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="15dp"
+                    />
+                <TextView
+                    android:id="@+id/n11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/cm11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="15dp"
+                    />
+                <TextView
+                    android:id="@+id/n10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/cm10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="15dp"
+                    />
+                <TextView
+                    android:id="@+id/n9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/cm9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="15dp"
+                    />
+                <TextView
+                    android:id="@+id/n8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/cm8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="15dp"
+                    />
+                <TextView
+                    android:id="@+id/n7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/cm7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="15dp"
+                    />
+                <TextView
+                    android:id="@+id/n6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/cm6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="15dp"
+                    />
+                <TextView
+                    android:id="@+id/n5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/cm5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="15dp"
+                    />
+
+                <TextView
+                    android:id="@+id/n4"
+                    android:text="Tonitons34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/cm4"
+                    android:text="Tasty juicy inasal chicken. I found it at mang inasal. At first every one was talking about this fast food chain opened in the metro.
+I was just ignoring it knowing its just the usual fast food store. But one day my friend celebrated his birthday at mang inasal. So as a treat he order bunch of chicken for us. He thought me how to make sawsawan for the chicken and the oil that you will put on your rice.
+It was incredible. The taste of chicken together with the seasonings and oil was so delicious. I recommended it to my friends specially those who are rice lover, because they have unlimited rice offer."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="15dp"
+                    />
+
+                <TextView
+                    android:id="@+id/n3"
+                    android:text="Joanne P"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/cm3"
+                    android:text="It's lunch time and didn't know where to eat. My sister told me to try this fast food place. I ordered grilled bangus with unli rice and had haluhalo for dessert, it was so good. But my
+sister tried the sisig bangus, it was so little ! I think it was just two spoons full but she it taste good."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="15dp"
+                    />
+
+                <TextView
+                    android:id="@+id/n2"
+                    android:text="Thur542"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/cm2"
+                    android:text="Loved the chicken so much. But the sizes of the chicken differ between branches. The sinigang soup that comes with every meal
+complements the dish. The halo halo was exactly how I wanted it, lots of toppings. Leche flan was creamy and not too sweet. Will definitely be back."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="15dp"
+                    />
+
+                <TextView
+                    android:id="@+id/n1"
+                    android:text="Elmer198"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:background="@drawable/customborder"
+                    android:backgroundTint="#E6EA963E"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    />
+
+                <TextView
+                    android:id="@+id/cm1"
+                    android:text="Grilled chicken is the main food served but there was plenty of ethnic food from which to choose. We were always looking for one to eat at."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="15dp"
+                    />
 
             </LinearLayout>
         </ScrollView>
