@@ -17,7 +17,16 @@ public class MainPage extends AppCompatActivity {
 
             Button btnFast = findViewById(R.id.btnFast);
             Button btnResto = findViewById(R.id.btnResto);
+            Button btnAbout = findViewById(R.id.btnAbout);
             Intent intent =getIntent();
+
+            btnAbout.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent i = new Intent(MainPage.this , AboutUs.class);
+                    startActivity(i);
+                }
+            });
 
             btnFast.setOnClickListener(new View.OnClickListener() {
                 @Override

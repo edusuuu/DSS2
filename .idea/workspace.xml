@@ -2,9 +2,7 @@
 <project version="4">
   <component name="AndroidLayouts">
     <shared>
-      <config>
-        <device id="_device_class_phone" />
-      </config>
+      <config />
     </shared>
   </component>
   <component name="AutoImportSettings">
@@ -13,31 +11,16 @@
   <component name="ChangeListManager">
     <list default="true" id="6c2dae61-36ac-44f6-96f5-f77800db761d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_amarahs_corner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_amarahs_corner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_burger_king.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_burger_king.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_chowking.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_chowking.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_coffee_project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_coffee_project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_dominos.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_dominos.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_greenwich.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_greenwich.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_jollibee_rev_page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_jollibee_rev_page.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_kfc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_kfc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_mang_inasal_rev_page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_mang_inasal_rev_page.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_maxs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_maxs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_mcdo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_mcdo.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_pizzahut.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_pizzahut.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_shakeys.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_shakeys.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_starbucks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_starbucks.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_susies_cuisine.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_susies_cuisine.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_tgifridays.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_tgifridays.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_the_beanery.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_the_beanery.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_yellowcab.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_yellowcab.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/AboutUs.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/AboutUs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_about_us.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_about_us.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\A\.android\avd\ok.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -111,7 +94,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ACER/Documents/GithubFolder/MovieBooking&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/A/AndroidStudioProjects/DSS2&quot;
   }
 }</component>
   <component name="RecentsManager">
