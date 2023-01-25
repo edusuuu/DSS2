@@ -94,7 +94,7 @@ public class BurgerKing_comment extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(BurgerKing_comment.this, AmarahsCorner.class);
+                Intent i = new Intent(BurgerKing_comment.this, BurgerKing.class);
                 Toast.makeText(BurgerKing_comment.this, "Returning...", Toast.LENGTH_SHORT).show();
 
                 startActivity(i);
