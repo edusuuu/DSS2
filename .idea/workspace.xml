@@ -11,23 +11,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6c2dae61-36ac-44f6-96f5-f77800db761d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/BurgerKing_comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/BurgerKing_comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/chowking_comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/chowking_comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/coffeeproject_comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/coffeeproject_comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/dominos_comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/dominos_comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/greenwich_comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/greenwich_comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/jollibee_comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/jollibee_comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/kfc_comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/kfc_comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/manginasal_comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/manginasal_comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/maxs_comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/maxs_comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/mcdo_comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/mcdo_comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/pizzahut_comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/pizzahut_comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/shakeys_comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/shakeys_comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/starbucks_comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/starbucks_comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/susiescuisine_comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/susiescuisine_comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/tgif_comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/tgif_comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/thebeanery_comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/thebeanery_comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/yellowcab_comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/yellowcab_comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/AboutUs.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/AboutUs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dss/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dss/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_about_us.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_about_us.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
