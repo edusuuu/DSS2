@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -18,6 +19,8 @@ public class  LogInPage extends AppCompatActivity {
 
         TextView username = (TextView) findViewById(R.id.username);
         TextView Password = (TextView) findViewById(R.id.Password);
+        ImageView back = findViewById(R.id.btnBack);
+        back.setClickable(true);
 
         Button loginbtn = (Button) findViewById(R.id.loginbtn);
 
@@ -42,6 +45,15 @@ public class  LogInPage extends AppCompatActivity {
                 }
             }
 
+        });
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(LogInPage.this , MainActivity.class);
+                Toast.makeText(LogInPage.this, "Returning...", Toast.LENGTH_SHORT).show();
+
+                startActivity(intent);
+            }
         });
     }
 }
