@@ -9,7 +9,7 @@
     <LinearLayout
         android:id="@+id/linearLayout6"
         android:layout_width="match_parent"
-        android:layout_height="280dp"
+        android:layout_height="300dp"
         android:background="#E6EA963E"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -82,7 +82,7 @@
     <LinearLayout
         android:id="@+id/linearLayout7"
         android:layout_width="match_parent"
-        android:layout_height="280dp"
+        android:layout_height="300dp"
         android:layout_marginTop="4dp"
         android:background="#F21C1C1C"
         android:orientation="horizontal"
